@@ -1,0 +1,2 @@
+api_app.py                  15 INFO     正在初始化app登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+api_app.py                  18 INFO     正在初始化app查询文章url：http://ttapi.research.itcast.cn/app/v1_1/articles

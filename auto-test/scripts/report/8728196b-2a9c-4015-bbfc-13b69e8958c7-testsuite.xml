@@ -1,0 +1,36 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1595314128490" stop="1595314128564">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1595314128490" status="failed" stop="1595314128564">
+      <name>test01_mp.TestMp.test02_mp_article</name>
+      <failure>
+        <message>AttributeError: 'NoneType' object has no attribute 'get'</message>
+        <stack-trace>self = &lt;scripts.test01_mp.TestMp object at 0x000000000463AE80&gt;
+title = 'bj18-0021', content = '今天喝粥！'
+
+    def test02_mp_article(self, title=api.title, content=api.content):
+        # 调用发布文章接口
+        r = self.mp.api_mp_article(title, content)
+        try:
+            # 提取文章id
+&gt;           api.article_id = r.json().get("data").get("id")
+E           AttributeError: 'NoneType' object has no attribute 'get'
+
+test01_mp.py:43: AttributeError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="647a33c7-21c8-4710-bc47-fd25e5e174ed-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="c2356993-ee72-4def-b253-c2016d701bab-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8604-MainThread"/>
+        <label name="host" value="PC-20200417ULTX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

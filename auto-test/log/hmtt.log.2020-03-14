@@ -1,0 +1,64 @@
+2020-03-14 10:43:20,162 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url:http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-03-14 10:43:20,162 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章 url:http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-03-14 10:43:20,162 INFO [test01_mp.py(setup_class:17)] - 正在获取ApiMp对象：<api.api_mp.ApiMp object at 0x10e65e2b0>
+2020-03-14 10:43:20,163 INFO [api_mp.py(api_mp_login:24)] - 正在调用自媒体登录方法，测试数据: {'mobile': '13812345678', 'code': '246810'} 请求头：{'Content-Type': 'application/json'}
+2020-03-14 10:43:21,464 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 10:43:21,464 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 10:43:21,468 INFO [api_mp.py(api_mp_article:39)] - 正在调用自媒体发布文章方法，测试数据: {'title': 'bj18-0021', 'content': '今天喝粥！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}} 请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNjExODgsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.avRirtL6pYWd0kwcd2VkEDHJfv5vDs26gc9JC_Dg2ns'}
+2020-03-14 10:43:21,529 INFO [test01_mp.py(test02_mp_article:42)] - 正在提取发布文章id：1238657715358662656
+2020-03-14 10:43:21,529 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 11:56:54,615 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url:http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-03-14 11:56:54,616 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章 url:http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-03-14 11:56:54,616 INFO [test01_mp.py(setup_class:17)] - 正在获取ApiMp对象：<api.api_mp.ApiMp object at 0x10cc535f8>
+2020-03-14 11:56:54,616 INFO [api_mp.py(api_mp_login:24)] - 正在调用自媒体登录方法，测试数据: {'mobile': '13812345678', 'code': '246810'} 请求头：{'Content-Type': 'application/json'}
+2020-03-14 11:56:54,717 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 11:56:54,717 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 11:56:54,721 INFO [api_mp.py(api_mp_article:39)] - 正在调用自媒体发布文章方法，测试数据: {'title': 'bj18-0021', 'content': '今天喝粥！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}} 请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNjU2MDEsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.4y_WmARpLaD05d8o4x0YI6AfME7dW7A2r6VGfuxfajA'}
+2020-03-14 11:56:54,781 INFO [test01_mp.py(test02_mp_article:42)] - 正在提取发布文章id：1238676226181169152
+2020-03-14 11:56:54,781 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 11:56:54,944 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 11:56:54,945 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 11:56:55,454 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 11:56:55,542 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:14:56,155 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url:http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-03-14 15:14:56,156 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章 url:http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-03-14 15:14:56,157 INFO [test01_mp.py(setup_class:17)] - 正在获取ApiMp对象：<api.api_mp.ApiMp object at 0x10c55fe48>
+2020-03-14 15:14:56,157 INFO [api_mp.py(api_mp_login:24)] - 正在调用自媒体登录方法，测试数据: {'mobile': '13812345678', 'code': '246810'} 请求头：{'Content-Type': 'application/json'}
+2020-03-14 15:14:56,236 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 15:14:56,236 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:14:56,240 INFO [api_mp.py(api_mp_article:39)] - 正在调用自媒体发布文章方法，测试数据: {'title': 'bj18-0021', 'content': '今天喝粥！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}} 请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNzc0ODMsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.eQRqvu9er29lNZ3aC3vDG4F8lfaUNAjpxtx4k7FxjXo'}
+2020-03-14 15:14:56,296 INFO [test01_mp.py(test02_mp_article:42)] - 正在提取发布文章id：1238726061722697728
+2020-03-14 15:14:56,296 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:14:56,453 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 15:14:56,453 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:14:56,960 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:14:57,062 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:14:57,117 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 15:14:57,118 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:14:57,211 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:45:56,938 INFO [api_mp.py(__init__:14)] - 正在初始化自媒体登录url:http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-03-14 15:45:56,938 INFO [api_mp.py(__init__:17)] - 正在初始化自媒体发布文章 url:http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-03-14 15:45:56,938 INFO [test01_mp.py(setup_class:17)] - 正在获取ApiMp对象：<api.api_mp.ApiMp object at 0x1076ddf98>
+2020-03-14 15:45:56,939 INFO [api_mp.py(api_mp_login:24)] - 正在调用自媒体登录方法，测试数据: {'mobile': '13812345678', 'code': '246810'} 请求头：{'Content-Type': 'application/json'}
+2020-03-14 15:45:57,022 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 15:45:57,022 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:45:57,025 INFO [api_mp.py(api_mp_article:39)] - 正在调用自媒体发布文章方法，测试数据: {'title': 'bj18-0021', 'content': '今天喝粥！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}} 请求头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNzkzNDQsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.O78onzV6OeyN5eFV4HbwuoNkDO2RMNDt2VGHBxcsn5U'}
+2020-03-14 15:45:57,084 INFO [test01_mp.py(test02_mp_article:42)] - 正在提取发布文章id：1238733866588438528
+2020-03-14 15:45:57,084 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:45:57,086 INFO [api_mis.py(__init__:14)] - 正在初始化后台登录url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-03-14 15:45:57,086 INFO [api_mis.py(__init__:17)] - 正在初始化后台查询文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-03-14 15:45:57,086 INFO [api_mis.py(__init__:20)] - 正在初始化后台审核文章url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-03-14 15:45:57,086 INFO [api_mis.py(api_mis_login:26)] - 正在调用后台登录接口，请求数据：{'account': 'testid', 'password': 'testpwd123'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNzkzNDQsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.O78onzV6OeyN5eFV4HbwuoNkDO2RMNDt2VGHBxcsn5U'}
+2020-03-14 15:45:57,241 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 15:45:57,242 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:45:57,245 INFO [api_mis.py(api_mis_find:34)] - 正在调用后台查询文章接口，请求数据：{'title': 'bj18-0021', 'channel': '数据库'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNzkzNDMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.2T55l-KnZdBFR-kmx0BO7AlQHR6RrXVVOnKJAMLl31Y'}
+2020-03-14 15:45:57,842 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:45:57,845 INFO [api_mis.py(api_mis_audit:42)] - 正在调用后台审核文章接口，请求数据：{'article_ids': [1238733866588438528], 'status': 2} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNzkzNDMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.2T55l-KnZdBFR-kmx0BO7AlQHR6RrXVVOnKJAMLl31Y'}
+2020-03-14 15:45:57,932 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:45:57,935 INFO [api_app.py(__init__:15)] - 正在初始化app登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+2020-03-14 15:45:57,935 INFO [api_app.py(__init__:18)] - 正在初始化app查询文章url：http://ttapi.research.itcast.cn/app/v1_1/articles
+2020-03-14 15:45:57,936 INFO [api_app.py(api_app_login:25)] - 正在调用app登录接口，请求数据：{'mobile': '13812345678', 'code': '246810'} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNzkzNDMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.2T55l-KnZdBFR-kmx0BO7AlQHR6RrXVVOnKJAMLl31Y'}
+2020-03-14 15:45:57,989 INFO [tools.py(common_token:11)] - 正在调用公共方法提取token
+2020-03-14 15:45:57,989 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言
+2020-03-14 15:45:57,992 INFO [api_app.py(api_app_article:33)] - 正在调用app查询文章接口，请求数据：{'channel_id': '7', 'timestamp': 1584171957, 'with_top': 0} 请求信息头：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODQxNzkzNDUsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.ibrim9jSiqV9I_6_qeElOdZ5cfoueRHHcESJAbfVt9s'}
+2020-03-14 15:45:58,089 INFO [tools.py(common_assert:20)] - 正在调用公共方法断言

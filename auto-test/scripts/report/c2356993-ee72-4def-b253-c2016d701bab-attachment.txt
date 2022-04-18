@@ -1,0 +1,2 @@
+INFO     root:api_mp.py:39 正在调用自媒体发布文章方法，测试数据: {'title': 'bj18-0021', 'content': '今天喝粥！', 'channel_id': '7', 'cover': {'type': 0, 'images': []}} 请求头：{'Content-Type': 'application/json'}
+ERROR    root:test01_mp.py:49 'NoneType' object has no attribute 'get'
