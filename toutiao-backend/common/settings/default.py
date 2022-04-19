@@ -12,13 +12,13 @@ class DefaultConfig(object):
     LOGGING_FILE_BACKUP = 10
 
     # flask-sqlalchemy使用的参数
-    # SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@127.0.0.1/toutiao'  # 数据库
+    # SQLALCHEMY_DATABASE_URI = 'mysql://root:pwd@127.0.0.1/toutiao'  # 数据库
     SQLALCHEMY_BINDS = {
-        'bj-m1': 'mysql://root:mysql@127.0.0.1:3306/toutiao',
-        'bj-s1': 'mysql://root:mysql@127.0.0.1:8306/toutiao',
-        'masters': ['bj-m1'],
-        'slaves': ['bj-s1'],
-        'default': 'bj-m1'
+        'sz-m1': 'mysql://root:root@172.17.0.2:3306/toutiao',
+        'sz-s1': 'mysql://root:root@172.17.0.3:3307/toutiao',
+        'masters': ['sz-m1'],
+        'slaves': ['sz-s1'],
+        'default': 'sz-m1'
     }
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False  # 追踪数据的修改信号
@@ -26,22 +26,22 @@ class DefaultConfig(object):
 
     # redis 哨兵
     REDIS_SENTINELS = [
-        ('127.0.0.1', '26380'),
-        ('127.0.0.1', '26381'),
-        ('127.0.0.1', '26382'),
+        ('172.17.0.4', '26379'),
+        ('172.17.0.5', '26381'),
+        ('172.17.0.6', '26380'),
     ]
     REDIS_SENTINEL_SERVICE_NAME = 'mymaster'
 
     # redis 集群
     REDIS_CLUSTER = [
-        {'host': '127.0.0.1', 'port': '7000'},
-        {'host': '127.0.0.1', 'port': '7001'},
-        {'host': '127.0.0.1', 'port': '7002'},
+        {'host': '172.17.0.5', 'port': '6381'},
+        {'host': '172.17.0.4', 'port': '6379'},
+        {'host': '172.17.0.6', 'port': '6380'},
     ]
 
     # 限流服务redis
     # RATELIMIT_STORAGE_URL = 'redis://127.0.0.1:6379/0'
-    RATELIMIT_STORAGE_URL = 'redis+sentinel://127.0.0.1:26380,127.0.0.1:26381,127.0.0.1:26382/mymaster'
+    RATELIMIT_STORAGE_URL = 'redis+sentinel://127.0.0.1:26379,127.0.0.1:26380,127.0.0.1:26381/mymaster'
     RATELIMIT_STRATEGY = 'moving-window'
     # RATELIMIT_DEFAULT = ['200/hour;1000/day']
 

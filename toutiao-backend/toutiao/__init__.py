@@ -57,22 +57,22 @@ def create_app(config, enable_config_file=False):
     app.redis_master = _sentinel.master_for(app.config['REDIS_SENTINEL_SERVICE_NAME'])
     app.redis_slave = _sentinel.slave_for(app.config['REDIS_SENTINEL_SERVICE_NAME'])
 
-    from rediscluster import StrictRedisCluster
-    app.redis_cluster = StrictRedisCluster(startup_nodes=app.config['REDIS_CLUSTER'])
+    # from rediscluster import RedisCluster
+    # app.redis_cluster = RedisCluster(startup_nodes=app.config['REDIS_CLUSTER'])
 
     # rpc
     # app.rpc_reco = grpc.insecure_channel(app.config['RPC'].RECOMMEND)
 
     # Elasticsearch
-    app.es = Elasticsearch(
-        app.config['ES'],
-        # sniff before doing anything
-        sniff_on_start=True,
-        # refresh nodes after a node fails to respond
-        sniff_on_connection_fail=True,
-        # and also every 60 seconds
-        sniffer_timeout=60
-    )
+    # app.es = Elasticsearch(
+    #     app.config['ES'],
+    #     # sniff before doing anything
+    #     sniff_on_start=True,
+    #     # refresh nodes after a node fails to respond
+    #     sniff_on_connection_fail=True,
+    #     # and also every 60 seconds
+    #     sniffer_timeout=60
+    # )
 
     # socket.io
     # app.sio = socketio.KombuManager(app.config['RABBITMQ'], write_only=True)
