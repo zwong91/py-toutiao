@@ -1,6 +1,6 @@
 #! /bin/bash
-source ~/.bash_profile
+source ~/.bashrc
 export FLASK_ENV=production
-cd /home/python/toutiao-backend/
+cd /home/wz/hm-toutiao/toutiao-backend/
 workon toutiao
-exec gunicorn -b 0.0.0.0:8000 --access-logfile /home/python/logs/access_app.log --error-logfile /home/python/logs/error_app.log toutiao.main:app
+exec gunicorn -b 0.0.0.0:8000 --access-logfile /home/wz/logs/access_app.log --error-logfile /home/wz/logs/error_app.log toutiao.main:app

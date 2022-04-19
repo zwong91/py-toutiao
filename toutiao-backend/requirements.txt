@@ -17,8 +17,8 @@ Flask-Limiter==1.0.1
 Flask-RESTful==0.3.6
 Flask-SQLAlchemy==2.3.2
 greenlet==0.4.15
-grpcio==1.16.1
-grpcio-tools==1.16.1
+grpcio==1.44.0
+grpcio-tools==1.44.0
 gunicorn==19.9.0
 idna==2.8
 itsdangerous==1.1.0
