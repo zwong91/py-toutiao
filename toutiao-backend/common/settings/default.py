@@ -4,10 +4,10 @@ class DefaultConfig(object):
 
     """
     ERROR_404_HELP = False
-    
+
     # 日志
     LOGGING_LEVEL = 'DEBUG'
-    LOGGING_FILE_DIR = '/home/wz/logs'
+    LOGGING_FILE_DIR = './logs'
     LOGGING_FILE_MAX_BYTES = 300 * 1024 * 1024
     LOGGING_FILE_BACKUP = 10
 
