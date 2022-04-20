@@ -5,6 +5,10 @@
 ### 开发模式
 
 ```shell
+
+# 生成pb文件
+python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I. *.proto
+
 export FLASK_ENV=development
 export TOUTIAO_WEB_SETTINGS=/path/to/config/file
 ```

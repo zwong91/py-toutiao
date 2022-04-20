@@ -1,7 +1,4 @@
 # 1 User Cache
-
-
-
 hash 还是序列化。。。
 
 用户资料
@@ -69,3 +66,5 @@ hash 还是序列化。。。
 | announce                   | zset   |      | [{'pickle data', announcement_id}] |
 | announce:{announcement_id} | string |      | 'pickle data'                      |
 
+# 5 手机短信验证码  hash
+app:code:139xxxx0720
