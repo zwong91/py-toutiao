@@ -3,7 +3,7 @@ from redis.exceptions import RedisError
 from sqlalchemy.exc import SQLAlchemyError
 import grpc
 from elasticsearch import Elasticsearch
-# import socketio
+import socketio
 
 # 导入定时任务模块
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -67,18 +67,19 @@ def create_app(config, enable_config_file=False):
     app.rpc_reco = grpc.insecure_channel(app.config['RPC'].RECOMMEND)
 
     # Elasticsearch
-    # app.es = Elasticsearch(
-    #     app.config['ES'],
-    #     # sniff before doing anything
-    #     sniff_on_start=True,
-    #     # refresh nodes after a node fails to respond
-    #     sniff_on_connection_fail=True,
-    #     # and also every 60 seconds
-    #     sniffer_timeout=60
-    # )
+    app.es = Elasticsearch(
+        app.config['ES'],
+        # sniff before doing anything
+        sniff_on_start=True,
+        # refresh nodes after a node fails to respond
+        sniff_on_connection_fail=True,
+        # and also every 60 seconds
+        sniffer_timeout=60
+    )
 
     # socket.io
-    # app.sio = socketio.KombuManager(app.config['RABBITMQ'], write_only=True)
+    app.sio_mgr = socketio.KombuManager(
+        app.config['RABBITMQ'], write_only=True)
 
     # MySQL数据库连接初始化
     from models import db

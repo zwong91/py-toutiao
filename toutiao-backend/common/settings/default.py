@@ -57,7 +57,7 @@ class DefaultConfig(object):
 
     # ES
     ES = [
-        '127.0.0.1:9200'
+        'http://127.0.0.1:9200'
     ]
 
     QINIU_ACCESS_KEY = 'SmdtGrstU8mkcHcfLIpY-C_lHIa8brda55Qz4j30'
