@@ -19,19 +19,20 @@ count:user:arts   score(文章数量)   value(用户id)
 
 """
 
+
 class Count(object):
 
     key = ''
 
     @classmethod
-    def get(cls,user_id):
+    def get(cls, user_id):
         # 因为是主从数据备份，主机器取不到数据，可以从从机器取数据
         # zscore count:user:arts wang
         try:
-            ret = current_app.redis_master.zscore(cls.key,user_id)
+            ret = current_app.redis_master.zscore(cls.key, user_id)
         except Exception as e:
             current_app.logger.error(e)
-            ret = current_app.redis_slave.zscore(cls.key,user_id)
+            ret = current_app.redis_slave.zscore(cls.key, user_id)
         if ret:
             return int(ret)
         else:
@@ -39,22 +40,19 @@ class Count(object):
 
     # 文章数量增量，用户新发布一个文章，可以调用该功能
     @classmethod
-    def incr(cls,user_id,increment=1):
+    def incr(cls, user_id, increment=1):
         # zincrby count:user:arts 1 wang
-        current_app.redis_master.zincrby(cls.key,increment,user_id)
+        current_app.redis_master.zincrby(cls.key, increment, user_id)
 
     @classmethod
-    def reset(cls,result):
+    def reset(cls, result):
         # 2、删除redis
         r = current_app.redis_master
         r.delete(cls.key)
         # 3、把mysql查询结果写入redis
-        data_list = []
         for user_id, count in result:
-            data_list.append(count)
-            data_list.append(user_id)
-        # *表示拆包，*args表示元祖和列表，**kwargs表示字典
-        r.zadd(cls.key, *data_list)
+            # *表示拆包，*args表示元祖和列表，**kwargs表示字典
+            r.zadd(cls.key, mapping={"user_id": user_id, "count": count})
 
     @staticmethod
     def query():
@@ -76,10 +74,11 @@ class CountUserFollowings(Count):
     key = 'count:user:followings'
 
 # 用户粉丝
+
+
 class CountUserFans(Count):
     key = 'count:user:fans'
 
     @staticmethod
     def query():
-        return db.session.query(Relation.user_id,func.count(Relation.target_user_id)).filter(Relation.relation==Relation.RELATION.FOLLOW).group_by(Relation.user_id).all()
-
+        return db.session.query(Relation.user_id, func.count(Relation.target_user_id)).filter(Relation.relation == Relation.RELATION.FOLLOW).group_by(Relation.user_id).all()
