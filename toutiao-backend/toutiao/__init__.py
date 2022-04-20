@@ -64,7 +64,7 @@ def create_app(config, enable_config_file=False):
     # app.redis_cluster = RedisCluster(startup_nodes=app.config['REDIS_CLUSTER'])
 
     # rpc
-    # app.rpc_reco = grpc.insecure_channel(app.config['RPC'].RECOMMEND)
+    app.rpc_reco = grpc.insecure_channel(app.config['RPC'].RECOMMEND)
 
     # Elasticsearch
     # app.es = Elasticsearch(
