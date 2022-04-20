@@ -6,7 +6,8 @@ from flask_restful.reqparse import RequestParser
 from utils.decorators import login_required
 from models.article import Comment, Article
 from models.user import User
-from app import db
+# 导入数据库会话对象db
+from models import db
 
 
 class CommentsResource(Resource):
@@ -17,11 +18,12 @@ class CommentsResource(Resource):
         parser = RequestParser()
         parser.add_argument('target', type=int, required=True, location='json')
         parser.add_argument('content', required=True, location='json')
-        parser.add_argument('parent_id', default=0, type=natural, location='json')
+        parser.add_argument('parent_id', default=0,
+                            type=natural, location='json')
         args = parser.parse_args()
         target = args.target   # 文章id
         content = args.content  # 评论内容
-        parent_id = args.parent_id if args.parent_id is not None else 0 # 父评论id 0表示的是一级评论
+        parent_id = args.parent_id if args.parent_id is not None else 0  # 父评论id 0表示的是一级评论
 
         # 发布评论数据(评论-回复)
         comment = Comment(
@@ -34,10 +36,12 @@ class CommentsResource(Resource):
 
         if parent_id > 0:
             # 评论的回复数加1
-            Comment.query.filter(Comment.id==parent_id).update({'reply_count': Comment.reply_count + 1})
+            Comment.query.filter(Comment.id == parent_id).update(
+                {'reply_count': Comment.reply_count + 1})
         else:
             # 文章的评论数加1
-            Article.query.filter_by(id=target).update({'comment_count': Article.comment_count + 1})
+            Article.query.filter_by(id=target).update(
+                {'comment_count': Article.comment_count + 1})
 
         # 提交事务
         db.session.commit()
@@ -51,7 +55,8 @@ class CommentsResource(Resource):
         parser.add_argument('source', type=int, required=True, location='args')
         parser.add_argument('offset', type=int, default=0, location='args')
         parser.add_argument('limit', type=int, default=10, location='args')
-        parser.add_argument('type', required=True, location='args', type=regex(r'[ac]'))
+        parser.add_argument('type', required=True,
+                            location='args', type=regex(r'[ac]'))
         args = parser.parse_args()
 
         type = args.type  # 如果type = a，source就表示文章id type=c, source表示评论的id
@@ -73,7 +78,8 @@ class CommentsResource(Resource):
             ).order_by(Comment.id.asc()).limit(limit).all()
 
             # 评论的总数量
-            total_count = Comment.query.filter(Comment.article_id==source, Comment.parent_id==0).count()
+            total_count = Comment.query.filter(
+                Comment.article_id == source, Comment.parent_id == 0).count()
 
             # 最后一条评论的id, 前端用于判断是否剩余评论, 无值返回None
             end_comment = Comment.query.filter(
@@ -88,11 +94,12 @@ class CommentsResource(Resource):
                 User.name, User.profile_photo
             ).join(User, User.id == Comment.user_id).filter(
                 Comment.id > offset,
-                Comment.parent_id == source # source是评论id
+                Comment.parent_id == source  # source是评论id
             ).order_by(Comment.id.asc()).limit(limit).all()
 
             # 回复的总数量
-            total_count = Comment.query.filter(Comment.parent_id == source).count()
+            total_count = Comment.query.filter(
+                Comment.parent_id == source).count()
 
             # 最后一条评论的id, 前端用于判断是否剩余评论, 无值返回None
             end_comment = Comment.query.filter(
@@ -124,4 +131,3 @@ class CommentsResource(Resource):
             'end_id': end_id,
             'results': comment_list,
         }
-

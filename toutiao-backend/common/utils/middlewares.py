@@ -1,4 +1,4 @@
-from flask import request,g
+from flask import request, g
 from .jwt_util import verify_jwt
 
 # 需求：在每次请求前，尝试获取用户信息
@@ -8,7 +8,7 @@ from .jwt_util import verify_jwt
 # - 对于所有视图，无论是否强制要求用户登录，都可以在视图中尝试获取用户认证后的身份信息
 
 
-# 在每次请求前，尝试用户用户信息
+# 在每次请求前，尝试获取用户信息
 # @app.before_request
 
 def jwt_authentication():
@@ -23,6 +23,3 @@ def jwt_authentication():
         if payload:
             g.user_id = payload.get('user_id')
             g.refresh = payload.get('refresh')
-
-
-

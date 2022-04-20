@@ -1,4 +1,5 @@
-from app import db
+# 导入数据库会话对象db
+from models import db
 from utils.decorators import login_required
 from models.article import UserChannel, Channel
 from flask import g, request

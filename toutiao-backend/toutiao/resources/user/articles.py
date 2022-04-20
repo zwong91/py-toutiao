@@ -4,7 +4,8 @@ from flask_restful.reqparse import RequestParser
 
 from datetime import datetime
 
-from app import db
+# 导入数据库会话对象db
+from models import db
 from models.article import Article
 from models.article import ArticleContent
 from models.article import Attitude
@@ -19,8 +20,10 @@ from cache.user import UserFansCache
 class ArticleListResource(Resource):
     def get(self):
         parser = RequestParser()
-        parser.add_argument('channel_id', required=True, type=int, location='args')
-        parser.add_argument('timestamp', required=True, type=int, location='args')
+        parser.add_argument('channel_id', required=True,
+                            type=int, location='args')
+        parser.add_argument('timestamp', required=True,
+                            type=int, location='args')
         args = parser.parse_args()
 
         # 获取参数
@@ -83,7 +86,7 @@ class ArticleDetailResource(Resource):
 
         # 文章详情数据
         article_dict = {
-            'art_id':data.id,
+            'art_id': data.id,
             'title': data.title,
             'pubdate': data.ctime.isoformat(),
             'aut_id': data.user_id,
@@ -91,7 +94,7 @@ class ArticleDetailResource(Resource):
             'aut_photo': data.profile_photo,
             'content': data.content,
             'is_followed': False,
-            'attitude': -1, # 不喜欢0 喜欢1 无态度-1
+            'attitude': -1,  # 不喜欢0 喜欢1 无态度-1
             'is_collected': False,
         }
 
@@ -103,7 +106,8 @@ class ArticleDetailResource(Resource):
             #     Relation.relation == Relation.RELATION.FOLLOW
             # ).first()
 
-            article_dict['is_followed'] = True if UserFansCache(data.user_id).has_fans(g.userid) else False
+            article_dict['is_followed'] = True if UserFansCache(
+                data.user_id).has_fans(g.userid) else False
 
             # 用户对文章的态度
             at = Attitude.query.filter(
@@ -129,6 +133,3 @@ class ArticleDetailResource(Resource):
             article_dict['is_collected'] = True if cl else False
 
         return article_dict
-
-
-

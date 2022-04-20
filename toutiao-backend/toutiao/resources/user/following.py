@@ -5,7 +5,8 @@ from datetime import datetime
 
 from utils.decorators import login_required
 from models.user import Relation, User
-from app import db
+# 导入数据库会话对象db
+from models import db
 from cache.user import UserFollowingCache, UserCache, UserFansCache
 
 

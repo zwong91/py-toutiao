@@ -60,8 +60,8 @@ def create_app(config, enable_config_file=False):
     app.redis_slave = _sentinel.slave_for(
         app.config['REDIS_SENTINEL_SERVICE_NAME'])
 
-    # from rediscluster import RedisCluster
-    # app.redis_cluster = RedisCluster(startup_nodes=app.config['REDIS_CLUSTER'])
+    # from rediscluster import StrictRedisCluster
+    # app.redis_cluster = StrictRedisCluster(startup_nodes=app.config['REDIS_CLUSTER'])
 
     # rpc
     app.rpc_reco = grpc.insecure_channel(app.config['RPC'].RECOMMEND)
