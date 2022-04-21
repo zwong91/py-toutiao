@@ -46,6 +46,9 @@ rmvirtualenv toutiao
 
 pip install -r  requirements.txt 
 
+docker 部署redis-cluster 集群
+https://www.cnblogs.com/chenchuxin/p/8404699.html
+
 docker搭建redis一主二从三哨兵
 https://blog.csdn.net/weixin_41672684/article/details/122411917?share_token=336d7a4d-61c3-4e8f-9cce-0d735f1d6ad0
 https://blog.csdn.net/qq_33067315/article/details/114995533
