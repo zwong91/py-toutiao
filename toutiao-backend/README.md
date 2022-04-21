@@ -38,7 +38,7 @@ export VIRTUALENVWRAPPER_PYTHON="/usr/bin/python3"
 source $HOME/.local/bin/virtualenvwrapper.sh
 
 mkvirtualenv toutiao  -p  python3
-pip  install  flask
+
 pip list
 
 workon
@@ -93,6 +93,5 @@ Axsure  RP  浏览器插件
 
 # 生成pb文件
 python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I. *.proto
-
 
 ```

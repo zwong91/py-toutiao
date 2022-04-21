@@ -1,10 +1,11 @@
-import grpc,time
+import grpc
+import time
 
 import reco_pb2_grpc
 import reco_pb2
 
 
-# 模拟请求(喂养),
+# 模拟请求
 def feed_articles(stub):
     # 构建请求信息
     req = reco_pb2.UserRequest()
@@ -16,6 +17,8 @@ def feed_articles(stub):
     print('resp={}'.format(resp))
 
 # rpc客户端构建步骤：
+
+
 def run():
     # 1.使用上下文管理器，指定连接的rpc服务器的主机和端口，创建channel对象
     with grpc.insecure_channel('127.0.0.1:8888') as channel:
@@ -24,12 +27,6 @@ def run():
         # 3.定义方法，传入stub工具，用来发送请求，解析响应
         feed_articles(stub)
 
+
 if __name__ == '__main__':
     run()
-
-
-
-
-
-
-
