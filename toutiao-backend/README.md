@@ -67,6 +67,18 @@ docker logs -f -t --tail 100 redis-master
 docker搭建MySQL主从  bin-log
 https://www.cnblogs.com/nijunyang/p/14990169.html
 
+MyIsam  插入查询， InnoDB事务ACID
+读写分离对事务的影响
+对于写操作包括开启事务和提交或回滚是要在一台机器上执行, 分散到多台master执行后数据库原生的单机事务失效了。
+对于事务中同时包含读写操作, 与事务的隔离级别设置有关，如果事务隔离级别为read-uncommitted或read-committed，读写分离无影响;
+如果事务隔离级别为repeateable-read, serializeable 读写分离有影响, 在slave上会看到新数据， 而正在进行事务中的master看不到新数据。
+
+redis事务+watch命令 乐观锁，  redis cluster不支持事务，不支持多键操作如mset
+failover  自动故障转移
+6台redis,  cluster
+官方复制集和分布式分片方案 slot槽位16384
+
+
 docker 搭建RabbitMQ
 docker pull rabbitmq:management
 docker run -p 15672:15672  -p  5672:5672 -d --hostname dnmp-rabbitmq --name dnmp-rabbitmq -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin rabbitmq:management
