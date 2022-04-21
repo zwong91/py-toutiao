@@ -1,4 +1,4 @@
-from app import db
+from . import db
 from datetime import datetime
 from sqlalchemy.dialects.mysql import DATETIME
 
@@ -105,10 +105,8 @@ class Comment(db.Model):
     id = db.Column(db.Integer, primary_key=True, doc='评论ID')
     user_id = db.Column(db.Integer, doc='用户ID')
     article_id = db.Column(db.Integer, doc='文章ID')
-    parent_id = db.Column(db.Integer, doc='被评论的评论id') # parent_id=0，一级评论
+    parent_id = db.Column(db.Integer, doc='被评论的评论id')  # parent_id=0，一级评论
     reply_count = db.Column(db.Integer, default=0, doc='回复数')
     ctime = db.Column(db.DateTime, default=datetime.now, doc='创建时间')
     like_count = db.Column(db.Integer, default=0, doc='点赞数')
     content = db.Column(db.String(200), doc='评论内容')
-
-

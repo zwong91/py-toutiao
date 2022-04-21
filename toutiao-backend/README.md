@@ -24,6 +24,8 @@ export TOUTIAO_CELERY_SETTINGS=/path/to/config/file
 python虚拟环境安装
 
 伟大的程序员必备三个优点：懒惰、暴躁和自负。
+One Dark Pro
+Material Icon Theme
 
 pip install virtualenv
 pip install virtualenvwrapper

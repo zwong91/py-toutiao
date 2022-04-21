@@ -7,7 +7,7 @@ from .session import RoutingSession
 
 class RoutingSQLAlchemy(SQLAlchemy):
     """
-    自定补充数据库路由的SQLAlchemy
+    自定义补充数据库路由的SQLAlchemy
     """
     master_binds = []
     slave_binds = []

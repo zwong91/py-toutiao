@@ -15,19 +15,23 @@ class LegalizeLog(db.Model):
 
     class STATUS:
         PROCESSING = 1  # 处理中
-        APPROVED = 2 # 通过审核
-        REJECT = 3 # 驳回
+        APPROVED = 2  # 通过审核
+        REJECT = 3  # 驳回
 
     id = db.Column('legalize_id', db.Integer, primary_key=True, doc='认证申请ID')
-    user_id = db.Column(db.Integer, db.ForeignKey('user_basic.user_id'), doc='用户ID')
+    user_id = db.Column(db.Integer, db.ForeignKey(
+        'user_basic.user_id'), doc='用户ID')
     user = db.relationship('User', uselist=False)
     type = db.Column(db.Integer, doc='认证类型')
     status = db.Column(db.Integer, doc='申请状态')
     reject_reason = db.Column(db.String, doc='驳回原因')
-    qualification_id = db.Column(db.Integer, db.ForeignKey('user_qualification.qualification_id'), doc='资质认证材料ID')
+    qualification_id = db.Column(db.Integer, db.ForeignKey(
+        'user_qualification.qualification_id'), doc='资质认证材料ID')
     qualification = db.relationship('Qualification', uselist=False)
-    ctime = db.Column('create_time', db.DateTime, default=datetime.now, doc='创建时间')
-    utime = db.Column('update_time', db.DateTime, default=datetime.now, doc='更新时间')
+    ctime = db.Column('create_time', db.DateTime,
+                      default=datetime.now, doc='创建时间')
+    utime = db.Column('update_time', db.DateTime,
+                      default=datetime.now, doc='更新时间')
 
 
 class Qualification(db.Model):
@@ -36,7 +40,8 @@ class Qualification(db.Model):
     """
     __tablename__ = 'user_qualification'
 
-    id = db.Column('qualification_id', db.Integer, primary_key=True, doc='资质认证材料ID')
+    id = db.Column('qualification_id', db.Integer,
+                   primary_key=True, doc='资质认证材料ID')
     user_id = db.Column(db.Integer, doc='用户ID')
     name = db.Column(db.String, doc='姓名')
     id_number = db.Column(db.String, doc='身份证号')
@@ -48,8 +53,10 @@ class Qualification(db.Model):
     id_card_back = db.Column(db.String, doc='身份证背面')
     id_card_handheld = db.Column(db.String, doc='手持身份证')
     qualification_img = db.Column(db.String, doc='证明资料')
-    ctime = db.Column('create_time', db.DateTime, default=datetime.now, doc='创建时间')
-    utime = db.Column('update_time', db.DateTime, default=datetime.now, doc='更新时间')
+    ctime = db.Column('create_time', db.DateTime,
+                      default=datetime.now, doc='创建时间')
+    utime = db.Column('update_time', db.DateTime,
+                      default=datetime.now, doc='更新时间')
 
 
 class User(db.Model):
@@ -105,15 +112,18 @@ class UserProfile(db.Model):
     id_card_front = db.Column(db.String, doc='身份证正面')
     id_card_back = db.Column(db.String, doc='身份证背面')
     id_card_handheld = db.Column(db.String, doc='手持身份证')
-    ctime = db.Column('create_time', db.DateTime, default=datetime.now, doc='创建时间')
-    utime = db.Column('update_time', db.DateTime, default=datetime.now, onupdate=datetime.now, doc='更新时间')
+    ctime = db.Column('create_time', db.DateTime,
+                      default=datetime.now, doc='创建时间')
+    utime = db.Column('update_time', db.DateTime,
+                      default=datetime.now, onupdate=datetime.now, doc='更新时间')
     register_media_time = db.Column(db.DateTime, doc='注册自媒体时间')
 
     area = db.Column(db.String, doc='地区')
     company = db.Column(db.String, doc='公司')
     career = db.Column(db.String, doc='职业')
 
-    followings = db.relationship('Relation', foreign_keys='Relation.user_id')
+    followings = db.relationship(
+        'Relation', foreign_keys='Relation.user_id', overlaps='followings')
 
 
 class Relation(db.Model):
@@ -128,11 +138,15 @@ class Relation(db.Model):
         BLACKLIST = 2
 
     id = db.Column('relation_id', db.Integer, primary_key=True, doc='主键ID')
-    user_id = db.Column(db.Integer, db.ForeignKey('user_basic.user_id'), db.ForeignKey('user_profile.user_id'), doc='用户ID')
-    target_user_id = db.Column(db.Integer, db.ForeignKey('user_basic.user_id'), doc='目标用户ID')
+    user_id = db.Column(db.Integer, db.ForeignKey(
+        'user_basic.user_id'), db.ForeignKey('user_profile.user_id'), doc='用户ID')
+    target_user_id = db.Column(db.Integer, db.ForeignKey(
+        'user_basic.user_id'), doc='目标用户ID')
     relation = db.Column(db.Integer, doc='关系')
-    ctime = db.Column('create_time', db.DateTime, default=datetime.now, doc='创建时间')
-    utime = db.Column('update_time', db.DateTime, default=datetime.now, onupdate=datetime.now, doc='更新时间')
+    ctime = db.Column('create_time', db.DateTime,
+                      default=datetime.now, doc='创建时间')
+    utime = db.Column('update_time', db.DateTime,
+                      default=datetime.now, onupdate=datetime.now, doc='更新时间')
 
 
 class Search(db.Model):
@@ -145,9 +159,11 @@ class Search(db.Model):
     id = db.Column('search_id', db.Integer, primary_key=True, doc='主键ID')
     user_id = db.Column(db.Integer, doc='用户ID')
     keyword = db.Column(db.String, doc='关键词')
-    ctime = db.Column('create_time', db.DateTime, default=datetime.now, doc='创建时间')
+    ctime = db.Column('create_time', db.DateTime,
+                      default=datetime.now, doc='创建时间')
     is_deleted = db.Column(db.Boolean, default=False, doc='是否删除')
-    utime = db.Column('update_time', db.DateTime, default=datetime.now, onupdate=datetime.now, doc='更新时间')
+    utime = db.Column('update_time', db.DateTime,
+                      default=datetime.now, onupdate=datetime.now, doc='更新时间')
 
 
 class Material(db.Model):
@@ -172,15 +188,11 @@ class Material(db.Model):
     type = db.Column(db.Integer, default=0, doc='素材类型')
     hash = db.Column(db.String, doc='素材指纹')
     url = db.Column(db.String, doc='素材链接地址')
-    ctime = db.Column('create_time', db.DateTime, default=datetime.now, doc='创建时间')
+    ctime = db.Column('create_time', db.DateTime,
+                      default=datetime.now, doc='创建时间')
     status = db.Column(db.Integer, default=0, doc='状态')
     reviewer_id = db.Column(db.Integer, doc='审核人员ID')
     review_time = db.Column(db.DateTime, doc='审核时间')
     is_collected = db.Column(db.Boolean, default=False, doc='是否收藏')
-    utime = db.Column('update_time', db.DateTime, default=datetime.now, onupdate=datetime.now, doc='更新时间')
-
-
-
-
-
-
+    utime = db.Column('update_time', db.DateTime,
+                      default=datetime.now, onupdate=datetime.now, doc='更新时间')
