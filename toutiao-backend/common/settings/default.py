@@ -34,9 +34,9 @@ class DefaultConfig(object):
 
     # redis 集群
     REDIS_CLUSTER = [
-        {'host': '172.17.0.5', 'port': '6381'},
-        {'host': '172.17.0.4', 'port': '6379'},
-        {'host': '172.17.0.6', 'port': '6380'},
+        {'host': '127.0.0.1', 'port': '7000'},
+        {'host': '127.0.0.1', 'port': '7001'},
+        {'host': '127.0.0.1', 'port': '7002'},
     ]
 
     # 限流服务redis
