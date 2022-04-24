@@ -38,3 +38,5 @@ def on_disconnect(sid):
     rooms = sio.rooms(sid)
     for room in rooms:
         sio.leave_room(sid, room)
+
+    print('disconnect: {}'.format(sid))
