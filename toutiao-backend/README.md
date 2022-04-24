@@ -90,6 +90,8 @@ https://blog.csdn.net/qq_40942490/article/details/111594267
 
 socket.io  Firecamp ws调试工具 浏览器插件
 Axsure  RP  浏览器插件
+gunicorn 线上部署运行服务器
+supervisor 进程守护工具
 
 # 生成pb文件
 python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I. *.proto
