@@ -93,7 +93,8 @@ Axsure  RP  浏览器插件
 gunicorn 线上部署运行服务器
 supervisor 进程守护工具
 
-# 生成pb文件
-python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I. *.proto
-
+# 生成pb文件  ***使用相对路径, 在上层路径下执行***
+python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I.  protos/*.proto
+python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I.  rpc/*.proto
+python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I.  recommend/*.proto
 ```

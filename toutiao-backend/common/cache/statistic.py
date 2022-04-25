@@ -1,6 +1,7 @@
 from flask import current_app
 from sqlalchemy import func
 from redis.exceptions import RedisError, ConnectionError
+from models import user
 
 from models.news import Article, Collection, Attitude, CommentLiking, Comment
 from models.user import Relation
@@ -125,16 +126,15 @@ class CountStorageBase(object):
         #     pl.zadd(cls.key, count, user_id)
 
         # 方式二
-        redis_data = []
+        pipe = pl.pipeline()
         for user_id, count in db_query_ret:
-            redis_data.append(count)
-            redis_data.append(user_id)
+            pipe.zadd(cls.key, mapping={user_id: count})
 
+        pipe.execute()
         # redis_data = [count1, user_id1, count2, user_id2, ..]
-        pl.zadd(cls.key, *redis_data)
+        # pl.zadd(cls.key, *redis_data)
         # pl.zadd(cls.key, count1, user_id1, count2, user_id2, ..]
-
-        pl.execute()
+        # pl.execute()
 
 
 class UserArticlesCountStorage(CountStorageBase):

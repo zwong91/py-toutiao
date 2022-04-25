@@ -94,9 +94,9 @@ def create_app(config, enable_config_file=False):
 
     app.scheduler = BackgroundScheduler(executor=exe)
     # 凌晨3点执行定时任务
-    from .apscheduler.aps_statistic import fix_statistic
-    # app.scheduler.add_job(fix_statistic,'cron',hour=3)
-    app.scheduler.add_job(fix_statistic, 'date', args=[app])
+    from .apscheduler.aps_statistic import fix_statistics
+    # app.scheduler.add_job(fix_statistics,'cron',hour=3)
+    app.scheduler.add_job(fix_statistics, 'date', args=[app])
     # 启动定时任务
     app.scheduler.start()
 

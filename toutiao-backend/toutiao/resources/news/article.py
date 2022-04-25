@@ -11,7 +11,7 @@ from redis.exceptions import ConnectionError
 from sqlalchemy.exc import SQLAlchemyError
 
 from models.news import Article, ArticleContent, Attitude
-# from rpc.recommend import user_reco_pb2, user_reco_pb2_grpc
+
 from . import constants
 from utils import parser
 from cache import article as cache_article
@@ -27,6 +27,7 @@ class ArticleListResource(Resource):
     """
     获取推荐文章列表数据
     """
+
     def _feed_articles(self, channel_id, timestamp, feed_count):
         """
         获取推荐文章
@@ -55,21 +56,25 @@ class ArticleListResource(Resource):
         获取文章列表
         """
         qs_parser = RequestParser()
-        qs_parser.add_argument('channel_id', type=parser.channel_id, required=True, location='args')
-        qs_parser.add_argument('timestamp', type=inputs.positive, required=True, location='args')
+        qs_parser.add_argument(
+            'channel_id', type=parser.channel_id, required=True, location='args')
+        qs_parser.add_argument(
+            'timestamp', type=inputs.positive, required=True, location='args')
         args = qs_parser.parse_args()
         channel_id = args.channel_id
         timestamp = args.timestamp
         per_page = constants.DEFAULT_ARTICLE_PER_PAGE_MIN
         try:
-            feed_time = time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime(time.time()))
+            feed_time = time.strftime(
+                '%Y-%m-%dT%H:%M:%S', time.localtime(time.time()))
         except Exception:
             return {'message': 'timestamp param error'}, 400
 
         results = []
 
         # 获取推荐文章列表
-        feeds, pre_timestamp = self._feed_articles(channel_id, timestamp, per_page)
+        feeds, pre_timestamp = self._feed_articles(
+            channel_id, timestamp, per_page)
 
         # 查询文章
         for feed in feeds:
@@ -115,7 +120,8 @@ class ArticleResource(Resource):
         """
         # 写入埋点日志
         qs_parser = RequestParser()
-        qs_parser.add_argument('Trace', type=inputs.regex(r'^.+$'), required=False, location='headers')
+        qs_parser.add_argument('Trace', type=inputs.regex(
+            r'^.+$'), required=False, location='headers')
         args = qs_parser.parse_args()
 
         user_id = g.user_id
@@ -145,18 +151,21 @@ class ArticleResource(Resource):
 
             # 查询关注
             # article['is_followed'] = cache_user.UserFollowingCache(user_id).determine_follows_target(article['aut_id'])
-            article['is_followed'] = cache_user.UserRelationshipCache(user_id).determine_follows_target(article['aut_id'])
+            article['is_followed'] = cache_user.UserRelationshipCache(
+                user_id).determine_follows_target(article['aut_id'])
 
             # 查询登录用户对文章的态度（点赞or不喜欢）
             try:
                 # article['attitude'] = cache_article.ArticleUserAttitudeCache(user_id, article_id).get()
-                article['attitude'] = cache_user.UserArticleAttitudeCache(user_id).get_article_attitude(article_id)
+                article['attitude'] = cache_user.UserArticleAttitudeCache(
+                    user_id).get_article_attitude(article_id)
             except SQLAlchemyError as e:
                 current_app.logger.error(e)
                 article['attitude'] = -1
 
             # 增加用户是否收藏了文章
-            article['is_collected'] = cache_user.UserArticleCollectionsCache(g.user_id).determine_collect_target(article_id)
+            article['is_collected'] = cache_user.UserArticleCollectionsCache(
+                g.user_id).determine_collect_target(article_id)
 
         # 获取相关文章推荐
         article['recomments'] = []
@@ -191,7 +200,8 @@ class UserArticleListResource(Resource):
         if not exist:
             return {'message': 'Invalid request.'}, 400
         qs_parser = RequestParser()
-        qs_parser.add_argument('page', type=inputs.positive, required=False, location='args')
+        qs_parser.add_argument('page', type=inputs.positive,
+                               required=False, location='args')
         qs_parser.add_argument('per_page', type=inputs.int_range(constants.DEFAULT_ARTICLE_PER_PAGE_MIN,
                                                                  constants.DEFAULT_ARTICLE_PER_PAGE_MAX,
                                                                  'per_page'),
@@ -202,7 +212,8 @@ class UserArticleListResource(Resource):
 
         results = []
 
-        total_count, page_articles = cache_user.UserArticlesCache(user_id).get_page(page, per_page)
+        total_count, page_articles = cache_user.UserArticlesCache(
+            user_id).get_page(page, per_page)
 
         for article_id in page_articles:
             article = cache_article.ArticleInfoCache(article_id).get()
@@ -223,7 +234,8 @@ class CurrentUserArticleListResource(Resource):
         获取当前用户的文章列表
         """
         qs_parser = RequestParser()
-        qs_parser.add_argument('page', type=inputs.positive, required=False, location='args')
+        qs_parser.add_argument('page', type=inputs.positive,
+                               required=False, location='args')
         qs_parser.add_argument('per_page', type=inputs.int_range(constants.DEFAULT_ARTICLE_PER_PAGE_MIN,
                                                                  constants.DEFAULT_ARTICLE_PER_PAGE_MAX,
                                                                  'per_page'),
@@ -234,14 +246,16 @@ class CurrentUserArticleListResource(Resource):
 
         results = []
 
-        total_count, page_articles = cache_user.UserArticlesCache(g.user_id).get_page(page, per_page)
+        total_count, page_articles = cache_user.UserArticlesCache(
+            g.user_id).get_page(page, per_page)
 
-        user_article_attitude_cache = cache_user.UserArticleAttitudeCache(g.user_id)
+        user_article_attitude_cache = cache_user.UserArticleAttitudeCache(
+            g.user_id)
         for article_id in page_articles:
             article = cache_article.ArticleInfoCache(article_id).get()
             if article:
-                article['is_liking'] = user_article_attitude_cache.determine_liking_article(article_id)
+                article['is_liking'] = user_article_attitude_cache.determine_liking_article(
+                    article_id)
                 results.append(article)
 
         return {'total_count': total_count, 'page': page, 'per_page': per_page, 'results': results}
-
