@@ -83,14 +83,15 @@ class DefaultConfig(object):
 class CeleryConfig(object):
     """
     Celery默认配置
+    broker_url: 指定消息队列的位置
     """
-    broker_url = 'amqp://python:rabbitmqpwd@localhost:5672/toutiao'
+    broker_url = 'amqp://admin:admin@localhost:5672/toutiao'
 
     task_routes = {
         'sms.*': {'queue': 'sms'},
     }
 
-    # 阿里短信服务
+    # 阿里大鱼短信服务
     DYSMS_ACCESS_KEY_ID = ''
     DYSMS_ACCESS_KEY_SECRET = ''
 
