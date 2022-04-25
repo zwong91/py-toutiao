@@ -1,5 +1,5 @@
 #! /bin/bash
-source ~/.bashrc
+source ~/.bash_profile
 export PYTHONPATH=/root/config:$PYTHONPATH
 export FLASK_ENV=production
 export TOUTIAO_WEB_SETTINGS=/root/config/web_deploy.py

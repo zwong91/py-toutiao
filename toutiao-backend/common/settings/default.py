@@ -7,7 +7,7 @@ class DefaultConfig(object):
 
     # 日志
     LOGGING_LEVEL = 'DEBUG'
-    LOGGING_FILE_DIR = 'toutiao/logs'
+    LOGGING_FILE_DIR = '/opt/toutiao/logs'
     LOGGING_FILE_MAX_BYTES = 300 * 1024 * 1024
     LOGGING_FILE_BACKUP = 10
 
