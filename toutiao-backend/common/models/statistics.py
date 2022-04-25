@@ -25,7 +25,7 @@ class StatisticsType:
     ACCESS = 2  # 访问
     ACCESS_IP = 3  # 访问IP
     NEW_USER = 4  # 新增用户
-    SEARCH_USER = 5 # 搜索用户
+    SEARCH_USER = 5  # 搜索用户
     SEARCH = 6  # 搜索
     # 内容统计
     ARTICLE = 7  # 文章
@@ -109,6 +109,7 @@ class StatisticsReadSourceTotal(db.Model):
     阅读来源统计-总数
     """
     __tablename__ = 'statistics_read_source_total'
+
     class SOURCE:
         RECOMMEND = 1  # 推荐
         CHANNEL = 2  # 频道
@@ -129,5 +130,3 @@ class StatisticsReadSourceTotal(db.Model):
     count_20_down = db.Column(db.Integer, doc='完成度在20%以下的数量')
     count_20_80 = db.Column(db.Integer, doc='完成度在20%-80%的数量')
     count_80_up = db.Column(db.Integer, doc='完成度在80%以上的数量')
-
-

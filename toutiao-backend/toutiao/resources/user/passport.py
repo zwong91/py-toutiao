@@ -43,29 +43,26 @@ class AuthorizationResource(Resource):
     """
     认证
     """
-    method_decorators = {
-        'post': [set_db_to_write],
-        'put': [set_db_to_read]
-    }
-
-    def _generate_tokens(self, user_id,is_refresh=False):
+    def _generate_tokens(self, user_id, refresh=True):
         """
         生成token 和refresh_token
         :param user_id: 用户id
-        :return: token2小时, refresh_token14天
+        :return: token, refresh_token
         """
-        # 生成当前时间，使用时间差模块，计算出token的有效期。
-        now = datetime.utcnow()
-        exp = now + timedelta(hours=current_app.config['JWT_EXPIRY_HOURS'])
-        token = generate_jwt({'user_id':user_id,'refresh':False},expiry=exp)
-        # 定义标记
-        # is_refresh = False
-        refresh_token = None
-        if is_refresh is False:
-            refresh_exp = now + timedelta(days=current_app.config['JWT_REFRESH_DAYS'])
-            refresh_token = generate_jwt({'user_id': user_id,'refresh':True}, expiry=refresh_exp)
+        # 颁发JWT
+        secret = current_app.config['JWT_SECRET']
+        # 生成调用token， refresh_token
+        expiry = datetime.utcnow() + timedelta(hours=current_app.config['JWT_EXPIRY_HOURS'])
 
-        return token,refresh_token
+        token = generate_jwt({'user_id': user_id}, expiry, secret)
+
+        if refresh:
+            exipry = datetime.utcnow() + timedelta(days=current_app.config['JWT_REFRESH_DAYS'])
+            refresh_token = generate_jwt({'user_id': user_id, 'is_refresh': True}, exipry, secret)
+        else:
+            refresh_token = None
+
+        return token, refresh_token
 
     def post(self):
         """
@@ -99,6 +96,9 @@ class AuthorizationResource(Resource):
 
         if user is None:
             # 用户不存在，注册用户
+            # 采用雪花算法生成分布式id
+            # 其他会用到雪花算法生成id的地方：文章id 评论id
+            # 这三个id在代码中直接操作数据库使用，所以要全局唯一，使用雪花算法生成
             user_id = current_app.id_worker.get_id()
             user = User(id=user_id, mobile=mobile, name=mobile, last_login=datetime.now())
             db.session.add(user)
@@ -109,20 +109,29 @@ class AuthorizationResource(Resource):
             if user.status == User.STATUS.DISABLE:
                 return {'message': 'Invalid user.'}, 403
 
+        # 生成用户的jwt token
+        # 在payload 保存用户的什么信息
+        # user_id  一定
+        #
+        # 当需要从token取出数据 不需要查询数据库时候
+        # mobile 不一定
+        # user_name  不一定
+
         token, refresh_token = self._generate_tokens(user.id)
 
         return {'token': token, 'refresh_token': refresh_token}, 201
 
-
     def put(self):
-        # token的刷新：必须携带refresh_token,需要区分token和refresh_token！！！
-        # 需要在生成token时，不同的token进行标记。
-        # 返回一个新token
-        if g.user_id and g.refresh is True:
-            token,refresh_token = self._generate_tokens(g.user_id,is_refresh=True)
-            return {'token':token},201
+        """
+        刷新token
+        :return:
+        """
+        if g.user_id is not None and g.is_refresh is True:
+            token, refresh_token = self._generate_tokens(g.user_id, refresh=False)
+            return {'token': token}
         else:
-            return {'message':'authorized error'},401
+            return {'message': 'Invalid refresh token'}, 403
+
 
 
 

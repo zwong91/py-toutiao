@@ -10,9 +10,15 @@ from .jwt_util import verify_jwt
 
 # 在每次请求前，尝试获取用户信息
 # @app.before_request
+# def jwt_authentication():
+#     pass
+
+# app.before_request(jwt_authentication)
 
 def jwt_authentication():
     # 从请求头中提取token，从token提取payload中存储的用户信息
+    # Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb21lIjoicGF5bG9hZCJ9.4twF
+    # t5NiznN84AWoo1d7KO1T_yoc0Z6XOpOVswacPZg
     token = request.headers.get('Authorization')
     g.user_id = None
     g.refresh = None

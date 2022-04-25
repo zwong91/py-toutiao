@@ -5,7 +5,12 @@ from qiniu import Auth, put_file, etag, put_data
 import qiniu.config
 
 
-def upload(data):
+def upload(file_data):
+    """
+    上传到七牛云服务
+    :param file_data: 视图接收到的图片二进制数据
+    :return:
+    """
     # 需要填写你的 Access Key 和 Secret Key，使用自己的ak和sk
     access_key = current_app.config.get("QINIU_ACCESS_KEY")
     secret_key = current_app.config.get("QINIU_SECRET_KEY")
@@ -15,12 +20,16 @@ def upload(data):
 
     # 要上传的空间,需要手动创建
     bucket_name = current_app.config.get("QINIU_BUCKET_NAME")
-
+    print('ak={}'.format(access_key))
+    print('sk={}'.format(secret_key))
+    print('bn={}'.format(bucket_name))
     # 上传后保存的文件名
+    # key = 'my-python-logo.png'
     key = None
 
     # 生成上传 Token，可以指定过期时间等,有效期单位秒
     token = q.upload_token(bucket_name, key, 360000)
+    print('token={}'.format(token))
 
     # 要上传文件的本地路径
     # localfile = './sync/bbb.jpg'
@@ -35,6 +44,9 @@ def upload(data):
     # data = f.read()
 
     # data是需要上传的文件的二进制流
-    ret, info = put_data(token, key, data)
-    print("info=={}".format(info))
+    ret, info = put_data(token, key, file_data)
+    print('ret={}'.format(ret))
+    print('info={}'.format(info))
+    # ret={'hash': 'Fv9NW-O8Ysg0ytgK6uggLaJjfk6z', 'key': 'Fv9NW-O8Ysg0ytgK6uggLaJjfk6z'}
+    # info=_ResponseInfo__response:<Response [200]>,
     return ret['key']
