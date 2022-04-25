@@ -15,14 +15,18 @@ class SearchResource(Resource):
     """
     搜索结果
     """
+
     def get(self):
         """
         获取搜索结果
         """
         qs_parser = RequestParser()
-        qs_parser.add_argument('q', type=inputs.regex(r'^.{1,50}$'), required=True, location='args')
-        qs_parser.add_argument('page', type=inputs.positive, required=False, location='args')
-        qs_parser.add_argument('per_page', type=inputs.int_range(constants.DEFAULT_SEARCH_PER_PAGE_MIN, constants.DEFAULT_SEARCH_PER_PAGE_MAX, 'per_page'), required=False, location='args')
+        qs_parser.add_argument('q', type=inputs.regex(
+            r'^.{1,50}$'), required=True, location='args')
+        qs_parser.add_argument('page', type=inputs.positive,
+                               required=False, location='args')
+        qs_parser.add_argument('per_page', type=inputs.int_range(constants.DEFAULT_SEARCH_PER_PAGE_MIN,
+                               constants.DEFAULT_SEARCH_PER_PAGE_MAX, 'per_page'), required=False, location='args')
         args = qs_parser.parse_args()
         q = args.q
         page = 1 if args.page is None else args.page
@@ -44,7 +48,8 @@ class SearchResource(Resource):
                 }
             }
         }
-        ret = current_app.es.search(index='articles', doc_type='article', body=query)
+        ret = current_app.es.search(
+            index='articles', doc_type='article', body=query)
 
         total_count = ret['hits']['total']
 
@@ -69,14 +74,16 @@ class SearchResource(Resource):
 
 class SuggestionResource(Resource):
     """
-    联想建议
+    自动补全建议
     """
+
     def get(self):
         """
-        获取联想建议
+        获取自动补全建议
         """
         qs_parser = RequestParser()
-        qs_parser.add_argument('q', type=inputs.regex(r'^.{1,50}$'), required=True, location='args')
+        qs_parser.add_argument('q', type=inputs.regex(
+            r'^.{1,50}$'), required=True, location='args')
         args = qs_parser.parse_args()
         q = args.q
 
@@ -113,7 +120,8 @@ class SuggestionResource(Resource):
                     }
                 }
             }
-            ret = current_app.es.search(index='articles', doc_type='article', body=query)
+            ret = current_app.es.search(
+                index='articles', doc_type='article', body=query)
             options = ret['suggest']['word-phrase'][0]['options']
 
         results = []
