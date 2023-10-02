@@ -104,11 +104,11 @@ def create_app(config, enable_config_file=False):
     from utils.middlewares import jwt_authentication
     app.before_request(jwt_authentication)
 
-    # 注册用户模块蓝图
+    # 注册用户模块
     from .resources.user import user_bp
     app.register_blueprint(user_bp)
 
-    # 注册新闻模块蓝图
+    # 注册新闻模块
     from .resources.news import news_bp
     app.register_blueprint(news_bp)
 
@@ -116,7 +116,7 @@ def create_app(config, enable_config_file=False):
     from .resources.notice import notice_bp
     app.register_blueprint(notice_bp)
 
-    # 搜索
+    # 注册搜索模块
     from .resources.search import search_bp
     app.register_blueprint(search_bp)
 

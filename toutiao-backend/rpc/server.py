@@ -9,7 +9,6 @@ import reco_pb2
 
 # 可以自定义服务类，继承自reco_pb2_grpc里的UserRecommendServicer
 
-
 class UserRecommendServicer(object):
     def user_recommend(self, request, context):
         # 接收请求，request不是Flask请求上下文对象

@@ -4,7 +4,6 @@ import time
 # 构建即时通讯聊天事件的客户端
 # 1、连接后默认的执行的事件
 
-
 @sio.on('connect')
 def on_connect(sid, environ):
     """

@@ -7,18 +7,17 @@
 伟大的程序员必备三个优点：懒惰、暴躁和自负。
 ```shell
 python虚拟环境安装
-pip install virtualenv
-pip install virtualenvwrapper
+pip3 install virtualenv virtualenvwrapper
 sudo apt install --reinstall virtualenv
 # ~/.bashrc 添加如下:
-#virtualenvwrapper存放虚拟环境目录
-export WORKON_HOME="~/.virtualenvs"
+```sh
+# virtualenvwrapper存放虚拟环境目录
+export WORKON_HOME="/opt/toutiao/.virtualenvs"
 export PROJECT_HOME=$HOME/py-toutiao
 export VIRTUALENVWRAPPER_PYTHON="/usr/bin/python3"
-
-#bin/virtualenvwrapper.sh
-source $HOME/.local/bin/virtualenvwrapper.sh
-
+# bin/virtualenvwrapper.sh
+source /opt/toutiao/.local/bin/virtualenvwrapper.sh
+```
 lsvirtualenv
 mkvirtualenv toutiao  -p python3
 rmvirtualenv toutiao
@@ -80,14 +79,23 @@ docker run -p 15672:15672  -p  5672:5672 -d --hostname dnmp-rabbitmq --name dnmp
 + docker 搭建ES
 https://blog.csdn.net/qq_40942490/article/details/111594267
 
-+ 常用工具
-socket.io  Firecamp ws调试工具 浏览器插件
-Axsure  RP  浏览器插件
-gunicorn 线上部署运行服务器
-supervisor 进程守护工具
-
 + 生成pb文件  ***使用相对路径, 在上层路径下执行***
 python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I.  protos/*.proto
 python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I.  rpc/*.proto
 python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I.  recommend/*.proto
 ```
+
++ 常用工具
+socket.io  Firecamp 浏览器插件
+Excalidraw 在线白板工具
+gunicorn 21 线上部署运行服务器
+supervisor 4.2.5  fork/exec进程守护工具，自动添加到systemd, 用Systemd管Supervisord
+```
+vim /usr/lib/systemd/system/supervisor.service
+# systemctl daemon-reload 
+# systemctl start supervisor.service 
+# systemctl status supervisor.service 
+# systemctl enable supervisor.service
+
+```
+

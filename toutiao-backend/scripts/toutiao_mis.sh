@@ -1,9 +1,14 @@
-#! /bin/bash
-source ~/.bash_profile
-export PYTHONPATH=/root/config:$PYTHONPATH
+#!/bin/bash
+
+source /home/wang/.bashrc
+
+export PYTHONPATH=/home/wang/config:$PYTHONPATH
 export FLASK_ENV=production
-export TOUTIAO_WEB_SETTINGS=/root/config/web_deploy.py
+export TOUTIAO_WEB_SETTINGS=/home/wang/config/web_deploy.py
 export TOUTIAO_CELERY_SETTINGS=celery_deploy.CeleryConfig
-cd /root/toutiao-backend/
+cd /home/wang/py-toutiao/toutiao-backend/
 workon toutiao
-exec gunicorn -b 0.0.0.0:8003 --access-logfile /root/logs/access_mis.log --error-logfile /root/logs/error_mis.log mis.main:app
+exec gunicorn -b 0.0.0.0:8003\
+    --access-logfile /home/wang/py-toutiao/logs/access_mis.log\
+    --error-logfile /home/wang/py-toutiao/logs/error_mis.log\
+    mis.main:app

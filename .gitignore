@@ -14,4 +14,4 @@ __pycache__
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
-toutiao-backend/toutiao/logs/*
+**/logs/*

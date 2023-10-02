@@ -1,6 +1,16 @@
-#! /bin/bash
-source ~/.bash_profile
+#!/bin/bash
+# load virtualenvwrapper for python (after custom PATHs)
+venvwrap="virtualenvwrapper.sh"
+/usr/bin/which -a $venvwrap
+if [ $? -eq 0 ]; then
+    venvwrap=`/usr/bin/which $venvwrap`
+    source $venvwrap
+fi
+
 export FLASK_ENV=production
-cd $HOME/py-toutiao/toutiao-backend/
+cd  /home/wang/py-toutiao/toutiao-backend/
 workon toutiao
-exec gunicorn -b 0.0.0.0:8000 --access-logfile $HOME/py-toutiao/toutiao-backend/toutiao/logs/access_app.log --error-logfile $HOME/py-toutiao/toutiao-backend/toutiao/logs/error_app.log toutiao.main:app
+exec gunicorn -b 0.0.0.0:8000\
+    --access-logfile /home/wang/py-toutiao/toutiao-backend/logs/access_app.log\
+    --error-logfile /home/wang/py-toutiao/toutiao-backend/logs/error_app.log\
+    toutiao.main:app
