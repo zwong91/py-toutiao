@@ -5,9 +5,6 @@
 ### 开发模式
 ***Guido van Rossumm***
 伟大的程序员必备三个优点：懒惰、暴躁和自负。
-One Dark Pro
-Material Icon Theme
-
 ```shell
 python虚拟环境安装
 pip install virtualenv
