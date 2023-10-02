@@ -1,13 +1,26 @@
 ## docker 搭建 redis-sentinel 架构 (1 主 2 从 3 哨兵)
 
+**_安装 docker/docker-compose_**
+
 - 配置文件 \*.conf 读写分离
+
+```sh
+mkdir -p /opt/redis/redis-master/data
+mkdir -p /opt/redis/redis-master/logs
+
+mkdir -p /opt/redis/redis-slave-1/data
+mkdir -p /opt/redis/redis-slave-1/logs
+
+mkdir -p /opt/redis/redis-slave-2/data
+mkdir -p /opt/redis/redis-slave-2/logs
+```
 
 ### docker run 方式启动
 
 - 启动 redis-master 容器, 同时启动 redis-server
 
 ```sh
-docker run -d -p 6379:6379 -p 26379:26379 --restart always -v ./redis-master.conf:/data/redis.conf -v ./sentinel.conf:/data/sentinel.conf --name redis-master redis:latest redis-server redis.conf
+docker run -d -p 6379:6379 -p 26379:26379 --restart always -v ./redis-master.conf:/data/redis.conf -v ./sentinel-main.conf:/data/sentinel.conf --name redis-master redis:latest redis-server redis.conf
 
 docker exec -it redis-master bash
 ```
@@ -15,7 +28,7 @@ docker exec -it redis-master bash
 - 启动 redis-slave-1 容器 同时启动 redis-server
 
 ```sh
-docker run -d -p 6380:6380 -p 26380:26380 -v ./redis-slave-1.conf:/data/redis.conf -v ./sentinel2.conf:/data/sentinel.conf --name redis-slave-1 redis:latest redis-server redis.conf
+docker run -d -p 6380:6380 -p 26380:26380 -v ./redis-slave-1.conf:/data/redis.conf -v ./sentinel-slave-1.conf:/data/sentinel.conf --name redis-slave-1 redis:latest redis-server redis.conf
 
 docker exec -it redis-slave-1 /bin/bash
 
@@ -31,7 +44,7 @@ master_link_status:down  # 表明从节点没有连接到主节点
 - 启动 redis-slave-2 容器 同时启动 redis-server
 
 ```sh
-docker run -d -p 6381:6381 -p 26381:26381 -v ./redis-slave-2.conf:/data/redis.conf -v ./sentinel3.conf:/data/sentinel.conf --name redis-slave-2 redis:latest redis-server redis.conf
+docker run -d -p 6381:6381 -p 26381:26381 -v ./redis-slave-2.conf:/data/redis.conf -v ./sentinel-slave-2.conf:/data/sentinel.conf --name redis-slave-2 redis:latest redis-server redis.conf
 
 docker exec -it redis-slave-2 /bin/bash
 ```
@@ -39,8 +52,9 @@ docker exec -it redis-slave-2 /bin/bash
 ### docker-compose 方式启动
 
 ```sh
-docker compose up -d
+docker-compose up -d
 docker ps
+docker stop $(docker ps -a -q)
 ```
 
 ### 开启 redis sentinel
@@ -66,10 +80,10 @@ redis-sentinel sentinel.conf
 
 ##两个从哨兵
 docker exec -it redis-slave-1 bash
-redis-sentinel sentinel.conf  <path> /usr/local/etc/redis/redis-sentinel.conf
+redis-sentinel [sentinel.conf] /usr/local/etc/redis/redis-sentinel.conf
 
 docker exec -it redis-slave-2 bash
-redis-sentinel sentinel.conf  <path> /usr/local/etc/redis/redis-sentinel.conf
+redis-sentinel [sentinel.conf] /usr/local/etc/redis/redis-sentinel.conf
 
 Running in sentinel mode
 ```
