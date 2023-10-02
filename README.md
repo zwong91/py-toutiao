@@ -1,7 +1,7 @@
 # 说明
-* reco-service 推荐系统服务, 用户画像, 数据分析 bigdata
-* toutiao-service 业务后端服务, 接口api
+* backend-service 业务后端服务, 接口api
 * chat-service 聊天机器人, NLP处理
+* reco-service 推荐系统服务, 用户画像, 数据分析 bigdata hadoop/hdfs/map-reduce/flink/hbase
 
 ## 启动设置
 
@@ -46,7 +46,9 @@ export TOUTIAO_CELERY_SETTINGS=/path/to/config/file
 
 ### docker-compose 管理所有实例服务
 + docker 部署redis-cluster 集群
+docker搭建redis三主三从
 https://www.cnblogs.com/chenchuxin/p/8404699.html
+
 docker搭建redis一主二从三哨兵
 https://blog.csdn.net/weixin_41672684/article/details/122411917?share_token=336d7a4d-61c3-4e8f-9cce-0d735f1d6ad0
 https://blog.csdn.net/qq_33067315/article/details/114995533

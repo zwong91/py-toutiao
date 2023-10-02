@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# She-Bang format
 /root/bigdata/kafka/bin/zookeeper-server-start.sh -daemon /root/bigdata/kafka/config/zookeeper.properties
 
 /root/bigdata/kafka/bin/kafka-server-start.sh /root/bigdata/kafka/config/server.properties
