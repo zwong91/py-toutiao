@@ -1,5 +1,5 @@
 {
     "python.analysis.extraPaths": [
-        "./toutiao-backend/common"
+        "./backend-service/common"
     ]
 }

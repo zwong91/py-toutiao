@@ -1,4 +1,7 @@
 # 说明
+* reco-service 推荐系统服务, 用户画像, 数据分析 bigdata
+* toutiao-service 业务后端服务, 接口api
+* chat-service 聊天机器人, NLP处理
 
 ## 启动设置
 
@@ -41,6 +44,7 @@ export TOUTIAO_WEB_SETTINGS=/path/to/config/file
 export TOUTIAO_CELERY_SETTINGS=/path/to/config/file
 ```
 
+### docker-compose 管理所有实例服务
 + docker 部署redis-cluster 集群
 https://www.cnblogs.com/chenchuxin/p/8404699.html
 docker搭建redis一主二从三哨兵
@@ -57,15 +61,15 @@ docker run -d -p 6381:6381 -p 26381:26381 -v ~/redis/redis_conf/redis-slave-2.co
 docker exec -it redis-master bash
 docker inspect --format='{{.NetworkSettings.IPAddress}}'  redis-master
 docker logs -f -t --tail 100 redis-master
-redis事务+watch命令 乐观锁，  redis cluster不支持事务，不支持多键操作如mset
+
+redis事务+watch命令实现乐观锁，redis cluster不支持事务，不支持多键操作如mset
 failover  自动故障转移
 6台redis,  cluster
 官方多副本冗余和分布式分片方案 slot槽位16384
 
 + docker搭建MySQL主从  bin-log
 https://www.cnblogs.com/nijunyang/p/14990169.html
-
-MyIsam  插入查询， InnoDB事务ACID
+MyIsam 快速插入查询，InnoDB事务ACID
 读写分离对事务的影响
 对于写操作包括开启事务和提交或回滚是要在一台机器上执行, 分散到多台master执行后数据库原生的单机事务失效了。
 对于事务中同时包含读写操作, 与事务的隔离级别设置有关，如果事务隔离级别为read-uncommitted或read-committed，读写分离无影响;
@@ -89,7 +93,8 @@ python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I.  recommend/*
 socket.io  Firecamp 浏览器插件
 Excalidraw 在线白板工具
 gunicorn 21 线上部署运行服务器
-supervisor 4.2.5  fork/exec进程守护工具，自动添加到systemd, 用Systemd管Supervisord
+
+supervisor 4.2.5  fork/exec***前端***进程子进程守护工具，自动添加到systemd, 用Systemd管Supervisord
 ```
 vim /usr/lib/systemd/system/supervisor.service
 # systemctl daemon-reload 
