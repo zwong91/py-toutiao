@@ -143,3 +143,9 @@ sudo docker-compose up -d
 ```sh
 sh 3-set-cluster-redis.sh
 ```
+
+- 进入容器
+
+```
+docker exec -it redis-cluster-7001 /bin/bash
+```
