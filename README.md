@@ -55,11 +55,6 @@ export TOUTIAO_CELERY_SETTINGS=/path/to/config/file
 * docker-compose 三主三从
 * docker run 一主二从三哨兵
 
-redis 事务+watch 命令实现乐观锁，redis cluster 不支持事务，不支持多键操作如 mset
-failover 自动故障转移
-6 台 redis, cluster
-官方多副本冗余和分布式分片方案 slot 槽位 16384
-
 - docker 搭建 MySQL 主从 bin-log
   https://www.cnblogs.com/nijunyang/p/14990169.html
   MyIsam 快速插入查询，InnoDB 事务 ACID

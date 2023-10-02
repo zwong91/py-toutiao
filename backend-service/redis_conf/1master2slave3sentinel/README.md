@@ -103,5 +103,5 @@ docker logs -f -t --tail 100 redis-master
 
 * redis 启动和 sentinel 启动 都放在 docker-compose.yml 之中, 做不了
 * sentinel 的启动必须要进入到容器里面，手动启动, 而且如果主节点挂掉之后重启，sentinel 也需要手动重启一遍
-* 脚本化, 服务化
+* 脚本化, 服务化, 开机自启动
 * docker 没预安装 vim 等基础工具, 费劲

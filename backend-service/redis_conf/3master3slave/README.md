@@ -149,3 +149,8 @@ sh 3-set-cluster-redis.sh
 ```
 docker exec -it redis-cluster-7001 /bin/bash
 ```
+
+- Q & A
+  redis 事务+watch 命令实现乐观锁，redis cluster 不支持事务，不支持多键操作如 mset
+  failover 自动故障转移
+  6 台 redis, cluster 多副本冗余和分布式分片方案 slot 槽位 16384
