@@ -58,11 +58,8 @@ export TOUTIAO_CELERY_SETTINGS=/path/to/config/file
 - docker 搭建 MySQL 主从 bin-log
 
 - docker 搭建 RabbitMQ
-  docker pull rabbitmq:management
-  docker run -p 15672:15672 -p 5672:5672 -d --hostname dnmp-rabbitmq --name dnmp-rabbitmq -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin rabbitmq:management
 
 - docker 搭建 ES + Kibana
-  https://blog.csdn.net/qq_40942490/article/details/111594267
 
 - 生成 pb 文件 **_使用相对路径, 在上层路径下执行_**
   python3 -m grpc*tools.protoc --python_out=. --grpc_python_out=. -I. protos/*.proto

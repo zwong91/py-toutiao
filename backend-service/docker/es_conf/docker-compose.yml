@@ -1,0 +1,38 @@
+# 启动 docker-compose up -d && docker-compose logs -f
+# 关闭 docker-compose down &&  docker-compose rm -vf
+version: "3.8"
+services:
+  mysql-server:
+    image: mysql:5.7.36
+    container_name: mysql-server
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+
+  elasticsearch:
+    image: elasticsearch:8.1.3
+    environment:
+      # 单节点
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    container_name: "elasticsearch"
+    networks:
+      - es_network
+  kibana:
+    image: kibana:8.1.3
+    container_name: "kibana"
+    depends_on:
+      - elasticsearch
+    ports:
+      - "5601:5601"
+    networks:
+      - es_network
+
+networks:
+  es_network:
+    external: true
