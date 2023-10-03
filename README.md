@@ -56,18 +56,12 @@ export TOUTIAO_CELERY_SETTINGS=/path/to/config/file
 * docker run 一主二从三哨兵
 
 - docker 搭建 MySQL 主从 bin-log
-  https://www.cnblogs.com/nijunyang/p/14990169.html
-  MyIsam 快速插入查询，InnoDB 事务 ACID
-  读写分离对事务的影响
-  对于写操作包括开启事务和提交或回滚是要在一台机器上执行, 分散到多台 master 执行后数据库原生的单机事务失效了。
-  对于事务中同时包含读写操作, 与事务的隔离级别设置有关，如果事务隔离级别为 read-uncommitted 或 read-committed，读写分离无影响;
-  如果事务隔离级别为 repeateable-read, serializeable 读写分离有影响, 在 slave 上会看到新数据， 而正在进行事务中的 master 看不到新数据。
 
 - docker 搭建 RabbitMQ
   docker pull rabbitmq:management
   docker run -p 15672:15672 -p 5672:5672 -d --hostname dnmp-rabbitmq --name dnmp-rabbitmq -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin rabbitmq:management
 
-- docker 搭建 ES
+- docker 搭建 ES + Kibana
   https://blog.csdn.net/qq_40942490/article/details/111594267
 
 - 生成 pb 文件 **_使用相对路径, 在上层路径下执行_**

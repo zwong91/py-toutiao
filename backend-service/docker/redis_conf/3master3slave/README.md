@@ -136,6 +136,8 @@ services:
 
 ```sh
 sudo docker-compose up -d
+docker ps
+docker stop $(docker ps -a -q)
 ```
 
 - 部署 cluster
