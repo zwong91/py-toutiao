@@ -6,12 +6,13 @@ services:
     image: mysql:5.7.36
     container_name: mysql-server
     ports:
-      - "3306:3306"
+      - "23306:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=root
     volumes:
       - ./data/mysql:/var/lib/mysql
-
+    networks:
+      - es_network
   elasticsearch:
     image: elasticsearch:8.1.3
     environment:
@@ -35,4 +36,4 @@ services:
 
 networks:
   es_network:
-    external: true
+    driver: bridge
