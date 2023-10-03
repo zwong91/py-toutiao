@@ -54,6 +54,7 @@ class UserRecommend(object):
             options=(),
             channel_credentials=None,
             call_credentials=None,
+            insecure=False,
             compression=None,
             wait_for_ready=None,
             timeout=None,
@@ -62,4 +63,4 @@ class UserRecommend(object):
             rpc_dot_reco__pb2.UserRequest.SerializeToString,
             rpc_dot_reco__pb2.ArticleResponse.FromString,
             options, channel_credentials,
-            call_credentials, compression, wait_for_ready, timeout, metadata)
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)

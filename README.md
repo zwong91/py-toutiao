@@ -18,11 +18,11 @@ sudo apt install --reinstall virtualenv
 # ~/.bashrc 添加如下:
 ```sh
 # virtualenvwrapper存放虚拟环境目录
-export WORKON_HOME="/opt/toutiao/.virtualenvs"
+export WORKON_HOME="~/.virtualenvs"
 export PROJECT_HOME=$HOME/py-toutiao
 export VIRTUALENVWRAPPER_PYTHON="/usr/bin/python3"
 # bin/virtualenvwrapper.sh
-source /opt/toutiao/.local/bin/virtualenvwrapper.sh
+source ~/.local/bin/virtualenvwrapper.sh
 ````
 
 lsvirtualenv
@@ -61,19 +61,22 @@ export TOUTIAO_CELERY_SETTINGS=/path/to/config/file
 
 - docker 搭建 ES + Kibana
 
-- 生成 pb 文件 **_使用相对路径, 在上层路径下执行_**
-  python3 -m grpc*tools.protoc --python_out=. --grpc_python_out=. -I. protos/*.proto
-  python3 -m grpc*tools.protoc --python_out=. --grpc_python_out=. -I. rpc/*.proto
+- 生成 pb 文件 **\*_使用相对路径, 在上层路径下执行_\***
+
+```sh
+  python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I. protos/*.proto
+  python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I. rpc/*.proto
   python3 -m grpc_tools.protoc --python_out=. --grpc_python_out=. -I. recommend/\*.proto
 
 ```
 
-+ 常用工具
-socket.io  Firecamp 浏览器插件
-Excalidraw 在线白板工具
-gunicorn 21 线上部署运行服务器
+- 常用工具
+  socket.io Firecamp 浏览器插件
+  Excalidraw 在线白板工具
+  gunicorn 21 线上部署运行服务器
 
-supervisor 4.2.5  fork/exec***前端***进程子进程守护工具，自动添加到systemd, 用Systemd管Supervisord
+supervisor 4.2.5 fork/exec**_前端_**进程子进程守护工具，自动添加到 systemd, 用 Systemd 管 Supervisord
+
 ```
 
 vim /usr/lib/systemd/system/supervisor.service
@@ -85,7 +88,5 @@ vim /usr/lib/systemd/system/supervisor.service
 # systemctl status supervisor.service
 
 # systemctl enable supervisor.service
-
-```
 
 ```
