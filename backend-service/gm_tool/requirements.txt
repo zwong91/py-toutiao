@@ -1,0 +1,4 @@
+Django==4.2.5
+protobuf==3.12.4
+pymysql==1.1.0
+ptvsd==4.3.2

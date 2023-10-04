@@ -1,0 +1,2900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EquipBaseInfo_Tab>
+<TResHeadAll version="7">
+    <resHead type="TResHead">
+        <Magic>1397052237 </Magic>
+        <Version>7 </Version>
+        <Unit>1140 </Unit>
+        <Count>240 </Count>
+        <MetalibHash>6226d237ac2f9a4edb5141d09ee8dc6a</MetalibHash>
+        <ResVersion>0 </ResVersion>
+        <CreateTime>2015-08-27 10:04:40</CreateTime>
+        <ResEncording>UTF-8</ResEncording>
+        <ContentHash>e84477c9af7386d99b7379b1e1b55937</ContentHash>
+    </resHead>
+    <resHeadExt type="TResHeadExt">
+        <DataOffset>140 </DataOffset>
+        <Buff>0 </Buff>
+    </resHeadExt>
+</TResHeadAll>
+<EquipBaseInfo version="1">
+    <Id>10001 </Id>
+    <Name>浴血战斧</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>能劈开一切拦路之物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00030</Pic>
+    <AdvanceMaterialId>310001 </AdvanceMaterialId>
+    <UpgradeEquipId>10001 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10002 </Id>
+    <Name>浴血甲胄</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>古代兽人战士喜爱的铠甲，坚硬程度堪比秘银矿石。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00020</Pic>
+    <AdvanceMaterialId>310002 </AdvanceMaterialId>
+    <UpgradeEquipId>10002 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10003 </Id>
+    <Name>浴血战盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>头盔的内部是一层柔软的兽皮，穿戴起来十分舒适。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00019</Pic>
+    <AdvanceMaterialId>310003 </AdvanceMaterialId>
+    <UpgradeEquipId>10003 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10004 </Id>
+    <Name>浴血王戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>旧王朝时期象征至高力量的戒指。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00033</Pic>
+    <AdvanceMaterialId>310004 </AdvanceMaterialId>
+    <UpgradeEquipId>10004 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10005 </Id>
+    <Name>浴血脚铠</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>由世上最好的人类铁匠设计，适用于各种地形上的行军。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00040</Pic>
+    <AdvanceMaterialId>310005 </AdvanceMaterialId>
+    <UpgradeEquipId>10005 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10006 </Id>
+    <Name>贵族权杖</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>代表着贵族地位的权杖，其中蕴含的法力可供使用者差遣。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00035</Pic>
+    <AdvanceMaterialId>320001 </AdvanceMaterialId>
+    <UpgradeEquipId>10006 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10007 </Id>
+    <Name>贵族长袍</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>贵族法师身上的长袍，穿戴者的地位可从长袍布料及颜色窥出。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00025</Pic>
+    <AdvanceMaterialId>320002 </AdvanceMaterialId>
+    <UpgradeEquipId>10007 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10008 </Id>
+    <Name>贵族兜帽</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“兜帽长袍之下，通常是一副睿智的躯体。”——落魄法师</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00054</Pic>
+    <AdvanceMaterialId>320003 </AdvanceMaterialId>
+    <UpgradeEquipId>10008 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10009 </Id>
+    <Name>贵族圣戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>这枚圣戒最初属于九个圆桌议员，发展到现在，渐渐成为了所有贵族法师的骄傲与尊严。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00022</Pic>
+    <AdvanceMaterialId>320004 </AdvanceMaterialId>
+    <UpgradeEquipId>10009 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10010 </Id>
+    <Name>贵族布鞋</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>布鞋采用精灵布料所制，鞋底刻有圣纹，能被穿着者的法力激发，使其健步如飞。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00050</Pic>
+    <AdvanceMaterialId>320005 </AdvanceMaterialId>
+    <UpgradeEquipId>10010 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10011 </Id>
+    <Name>精灵猎弓</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>持此弓者，将会把每一个敌人当成是自己的猎物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00029</Pic>
+    <AdvanceMaterialId>330001 </AdvanceMaterialId>
+    <UpgradeEquipId>10011 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10012 </Id>
+    <Name>精灵斗篷</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>精灵族身上轻盈的斗篷，能在月光下隐去穿戴者的气息。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00018</Pic>
+    <AdvanceMaterialId>330002 </AdvanceMaterialId>
+    <UpgradeEquipId>10012 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10013 </Id>
+    <Name>精灵环盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“精灵的长发从环盔散落，流线的美感跃然而出。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00045</Pic>
+    <AdvanceMaterialId>330003 </AdvanceMaterialId>
+    <UpgradeEquipId>10013 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10014 </Id>
+    <Name>精灵秘戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“我的宝贝。”咕噜双眼放光道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00052</Pic>
+    <AdvanceMaterialId>330004 </AdvanceMaterialId>
+    <UpgradeEquipId>10014 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>10015 </Id>
+    <Name>精灵皮靴</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>狮子无法离开狮群，正如一个精灵离不开他的皮靴。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00057</Pic>
+    <AdvanceMaterialId>330005 </AdvanceMaterialId>
+    <UpgradeEquipId>10015 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11001 </Id>
+    <Name>洞察烟斗</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>食人族先知通常用吃剩的骨头来通巨大的烟斗，以至于烟都带有一股血腥味。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00053</Pic>
+    <AdvanceMaterialId>300001 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11002 </Id>
+    <Name>代达罗斯之殇</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“代达罗斯，眼红了吗？哈哈哈哈哈”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00093</Pic>
+    <AdvanceMaterialId>300002 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11003 </Id>
+    <Name>阿哈利姆之杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“没有这把法杖，我就吃不了烤大型科多兽了。”秀逗魔导士望着手上零星的火焰说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00062</Pic>
+    <AdvanceMaterialId>300003 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11004 </Id>
+    <Name>虚灵之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀看来不能长期使用啊。”影魔看着自己的身躯惆怅地说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00099</Pic>
+    <AdvanceMaterialId>300004 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11005 </Id>
+    <Name>雷神之锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>由先知从矮人手中夺走的短柄锤子，善用电系法术的先知如虎添翼。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00079</Pic>
+    <AdvanceMaterialId>300005 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11006 </Id>
+    <Name>刷新球</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我有两个大招，你怕了吗？”——宙斯</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00063</Pic>
+    <AdvanceMaterialId>300006 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11007 </Id>
+    <Name>科勒之匕</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“牛头人盗贼？有趣。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00023</Pic>
+    <AdvanceMaterialId>300007 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11008 </Id>
+    <Name>蝴蝶</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“像蝴蝶般在敌军中起舞的，这世上只能联想到一个人。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00092</Pic>
+    <AdvanceMaterialId>300008 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11009 </Id>
+    <Name>强袭装甲</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>山岭巨人把这件从斯塔克斯河畔深处打捞出来的装甲让矮人铁匠改造得巨大无比。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00066</Pic>
+    <AdvanceMaterialId>300009 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11010 </Id>
+    <Name>辉耀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>辉耀在末日使者手中散发出厄运的味道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00091</Pic>
+    <AdvanceMaterialId>300010 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11011 </Id>
+    <Name>死侍法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>死侍法杖能让水晶室女的冰雕复活，变成她的奴隶。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00065</Pic>
+    <AdvanceMaterialId>300011 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11012 </Id>
+    <Name>死灵书</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>三魂永久，魄无丧倾。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00060</Pic>
+    <AdvanceMaterialId>300012 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11013 </Id>
+    <Name>先祖韧鼓</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>奏响复仇之歌，慰告先祖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00056</Pic>
+    <AdvanceMaterialId>300013 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11014 </Id>
+    <Name>黑皇杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>幻影刺客一生最辉煌的瞬间，就是在黑皇杖的帮助下，取下了大法师的首级。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00068</Pic>
+    <AdvanceMaterialId>300014 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11015 </Id>
+    <Name>紫苑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我允许你说话了吗？”——风行者</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00059</Pic>
+    <AdvanceMaterialId>300015 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11016 </Id>
+    <Name>黯灭</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀的刀柄，也挺好用的嘛。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00084</Pic>
+    <AdvanceMaterialId>300016 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11017 </Id>
+    <Name>散失之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“妖魔鬼怪，全都给我消失！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00087</Pic>
+    <AdvanceMaterialId>300017 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11018 </Id>
+    <Name>勇气勋章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>唯一一个让赏金猎人卖之前会考虑一下的物品。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00055</Pic>
+    <AdvanceMaterialId>300018 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11019 </Id>
+    <Name>洛萨之锋</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“嘿，看我给你变戏法。”——炼金术士</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00098</Pic>
+    <AdvanceMaterialId>300019 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11020 </Id>
+    <Name>达贡之神力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>地穴刺客还在研究怎么顺手地拿起这把长杖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00061</Pic>
+    <AdvanceMaterialId>300020 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11021 </Id>
+    <Name>碎颅锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“什么时候能把它合成蛋刀啊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00094</Pic>
+    <AdvanceMaterialId>300021 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11022 </Id>
+    <Name>狂战斧</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“只要能转起来的武器，我都可以接受。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00095</Pic>
+    <AdvanceMaterialId>300022 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11023 </Id>
+    <Name>恐鳌之心</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>半人马酋长强大生命力的根源。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00067</Pic>
+    <AdvanceMaterialId>300023 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11024 </Id>
+    <Name>厄鲁的神圣法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>先知懂得的法术知识远远超过凡人的想象。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00088</Pic>
+    <AdvanceMaterialId>300024 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11025 </Id>
+    <Name>邪恶镰刀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“怎么样能使你更痛苦呢？变为一只羊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00058</Pic>
+    <AdvanceMaterialId>300025 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11026 </Id>
+    <Name>希瓦的守护</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>站在这件冰甲旁边几秒钟，你就会感到刺骨透心的绝望。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00069</Pic>
+    <AdvanceMaterialId>300026 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11027 </Id>
+    <Name>金箍棒</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>黑暗游侠将它当成匕首使用。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00090</Pic>
+    <AdvanceMaterialId>300027 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11028 </Id>
+    <Name>散夜对剑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>听说只有全能骑士进入疯狂状态时，才会拿出来的武器。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00077</Pic>
+    <AdvanceMaterialId>300028 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11029 </Id>
+    <Name>撒旦之邪力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“鲜血，永远得不到满足！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00078</Pic>
+    <AdvanceMaterialId>300029 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11030 </Id>
+    <Name>食尸鬼臂章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>暗夜魔王至今还保留着这枚臂章，用于提醒自己当食尸鬼时那些任人鱼肉的岁月。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00097</Pic>
+    <AdvanceMaterialId>300030 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11031 </Id>
+    <Name>血精石</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>作为一位宝石收藏家，风暴之灵把最心爱的收藏品随身携带。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00070</Pic>
+    <AdvanceMaterialId>300031 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11032 </Id>
+    <Name>斯嘉蒂之眼</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>卡尔常常与这双冰冷的眼睛独自交流。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00080</Pic>
+    <AdvanceMaterialId>300032 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>11033 </Id>
+    <Name>梅肯斯姆</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>魅惑魔女法力的核心。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00048</Pic>
+    <AdvanceMaterialId>300033 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20001 </Id>
+    <Name>浴血战斧</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>能劈开一切拦路之物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00030</Pic>
+    <AdvanceMaterialId>310001 </AdvanceMaterialId>
+    <UpgradeEquipId>10001 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20002 </Id>
+    <Name>浴血甲胄</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>古代兽人战士喜爱的铠甲，坚硬程度堪比秘银矿石。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00020</Pic>
+    <AdvanceMaterialId>310002 </AdvanceMaterialId>
+    <UpgradeEquipId>10002 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20003 </Id>
+    <Name>浴血战盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>头盔的内部是一层柔软的兽皮，穿戴起来十分舒适。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00019</Pic>
+    <AdvanceMaterialId>310003 </AdvanceMaterialId>
+    <UpgradeEquipId>10003 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20004 </Id>
+    <Name>浴血王戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>旧王朝时期象征至高力量的戒指。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00033</Pic>
+    <AdvanceMaterialId>310004 </AdvanceMaterialId>
+    <UpgradeEquipId>10004 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20005 </Id>
+    <Name>浴血脚铠</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>由世上最好的人类铁匠设计，适用于各种地形上的行军。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00040</Pic>
+    <AdvanceMaterialId>310005 </AdvanceMaterialId>
+    <UpgradeEquipId>10005 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20006 </Id>
+    <Name>贵族权杖</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>代表着贵族地位的权杖，其中蕴含的法力可供使用者差遣。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00035</Pic>
+    <AdvanceMaterialId>320001 </AdvanceMaterialId>
+    <UpgradeEquipId>10006 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20007 </Id>
+    <Name>贵族长袍</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>贵族法师身上的长袍，穿戴者的地位可从长袍布料及颜色窥出。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00025</Pic>
+    <AdvanceMaterialId>320002 </AdvanceMaterialId>
+    <UpgradeEquipId>10007 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20008 </Id>
+    <Name>贵族兜帽</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“兜帽长袍之下，通常是一副睿智的躯体。”——落魄法师</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00054</Pic>
+    <AdvanceMaterialId>320003 </AdvanceMaterialId>
+    <UpgradeEquipId>10008 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20009 </Id>
+    <Name>贵族圣戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>这枚圣戒最初属于九个圆桌议员，发展到现在，渐渐成为了所有贵族法师的骄傲与尊严。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00022</Pic>
+    <AdvanceMaterialId>320004 </AdvanceMaterialId>
+    <UpgradeEquipId>10009 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20010 </Id>
+    <Name>贵族布鞋</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>布鞋采用精灵布料所制，鞋底刻有圣纹，能被穿着者的法力激发，使其健步如飞。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00050</Pic>
+    <AdvanceMaterialId>320005 </AdvanceMaterialId>
+    <UpgradeEquipId>10010 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20011 </Id>
+    <Name>精灵猎弓</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>持此弓者，将会把每一个敌人当成是自己的猎物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00029</Pic>
+    <AdvanceMaterialId>330001 </AdvanceMaterialId>
+    <UpgradeEquipId>10011 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20012 </Id>
+    <Name>精灵斗篷</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>精灵族身上轻盈的斗篷，能在月光下隐去穿戴者的气息。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00018</Pic>
+    <AdvanceMaterialId>330002 </AdvanceMaterialId>
+    <UpgradeEquipId>10012 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20013 </Id>
+    <Name>精灵环盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“精灵的长发从环盔散落，流线的美感跃然而出。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00045</Pic>
+    <AdvanceMaterialId>330003 </AdvanceMaterialId>
+    <UpgradeEquipId>10013 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20014 </Id>
+    <Name>精灵秘戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“我的宝贝。”咕噜双眼放光道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00052</Pic>
+    <AdvanceMaterialId>330004 </AdvanceMaterialId>
+    <UpgradeEquipId>10014 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>20015 </Id>
+    <Name>精灵皮靴</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>狮子无法离开狮群，正如一个精灵离不开他的皮靴。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00057</Pic>
+    <AdvanceMaterialId>330005 </AdvanceMaterialId>
+    <UpgradeEquipId>10015 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21001 </Id>
+    <Name>洞察烟斗</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>食人族先知通常用吃剩的骨头来通巨大的烟斗，以至于烟都带有一股血腥味。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00053</Pic>
+    <AdvanceMaterialId>300001 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21002 </Id>
+    <Name>代达罗斯之殇</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“代达罗斯，眼红了吗？哈哈哈哈哈”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00093</Pic>
+    <AdvanceMaterialId>300002 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21003 </Id>
+    <Name>阿哈利姆之杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“没有这把法杖，我就吃不了烤大型科多兽了。”秀逗魔导士望着手上零星的火焰说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00062</Pic>
+    <AdvanceMaterialId>300003 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21004 </Id>
+    <Name>虚灵之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀看来不能长期使用啊。”影魔看着自己的身躯惆怅地说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00099</Pic>
+    <AdvanceMaterialId>300004 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21005 </Id>
+    <Name>雷神之锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>由先知从矮人手中夺走的短柄锤子，善用电系法术的先知如虎添翼。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00079</Pic>
+    <AdvanceMaterialId>300005 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21006 </Id>
+    <Name>刷新球</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我有两个大招，你怕了吗？”——宙斯</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00063</Pic>
+    <AdvanceMaterialId>300006 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21007 </Id>
+    <Name>科勒之匕</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“牛头人盗贼？有趣。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00023</Pic>
+    <AdvanceMaterialId>300007 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21008 </Id>
+    <Name>蝴蝶</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“像蝴蝶般在敌军中起舞的，这世上只能联想到一个人。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00092</Pic>
+    <AdvanceMaterialId>300008 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21009 </Id>
+    <Name>强袭装甲</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>山岭巨人把这件从斯塔克斯河畔深处打捞出来的装甲让矮人铁匠改造得巨大无比。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00066</Pic>
+    <AdvanceMaterialId>300009 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21010 </Id>
+    <Name>辉耀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>辉耀在末日使者手中散发出厄运的味道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00091</Pic>
+    <AdvanceMaterialId>300010 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21011 </Id>
+    <Name>死侍法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>死侍法杖能让水晶室女的冰雕复活，变成她的奴隶。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00065</Pic>
+    <AdvanceMaterialId>300011 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21012 </Id>
+    <Name>死灵书</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>三魂永久，魄无丧倾。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00060</Pic>
+    <AdvanceMaterialId>300012 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21013 </Id>
+    <Name>先祖韧鼓</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>奏响复仇之歌，慰告先祖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00056</Pic>
+    <AdvanceMaterialId>300013 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21014 </Id>
+    <Name>黑皇杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>幻影刺客一生最辉煌的瞬间，就是在黑皇杖的帮助下，取下了大法师的首级。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00068</Pic>
+    <AdvanceMaterialId>300014 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21015 </Id>
+    <Name>紫苑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我允许你说话了吗？”——风行者</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00059</Pic>
+    <AdvanceMaterialId>300015 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21016 </Id>
+    <Name>黯灭</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀的刀柄，也挺好用的嘛。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00084</Pic>
+    <AdvanceMaterialId>300016 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21017 </Id>
+    <Name>散失之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“妖魔鬼怪，全都给我消失！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00087</Pic>
+    <AdvanceMaterialId>300017 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21018 </Id>
+    <Name>勇气勋章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>唯一一个让赏金猎人卖之前会考虑一下的物品。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00055</Pic>
+    <AdvanceMaterialId>300018 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21019 </Id>
+    <Name>洛萨之锋</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“嘿，看我给你变戏法。”——炼金术士</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00098</Pic>
+    <AdvanceMaterialId>300019 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21020 </Id>
+    <Name>达贡之神力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>地穴刺客还在研究怎么顺手地拿起这把长杖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00061</Pic>
+    <AdvanceMaterialId>300020 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21021 </Id>
+    <Name>碎颅锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“什么时候能把它合成蛋刀啊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00094</Pic>
+    <AdvanceMaterialId>300021 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21022 </Id>
+    <Name>狂战斧</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“只要能转起来的武器，我都可以接受。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00095</Pic>
+    <AdvanceMaterialId>300022 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21023 </Id>
+    <Name>恐鳌之心</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>半人马酋长强大生命力的根源。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00067</Pic>
+    <AdvanceMaterialId>300023 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21024 </Id>
+    <Name>厄鲁的神圣法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>先知懂得的法术知识远远超过凡人的想象。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00088</Pic>
+    <AdvanceMaterialId>300024 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21025 </Id>
+    <Name>邪恶镰刀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“怎么样能使你更痛苦呢？变为一只羊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00058</Pic>
+    <AdvanceMaterialId>300025 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21026 </Id>
+    <Name>希瓦的守护</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>站在这件冰甲旁边几秒钟，你就会感到刺骨透心的绝望。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00069</Pic>
+    <AdvanceMaterialId>300026 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21027 </Id>
+    <Name>金箍棒</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>黑暗游侠将它当成匕首使用。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00090</Pic>
+    <AdvanceMaterialId>300027 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21028 </Id>
+    <Name>散夜对剑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>听说只有全能骑士进入疯狂状态时，才会拿出来的武器。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00077</Pic>
+    <AdvanceMaterialId>300028 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21029 </Id>
+    <Name>撒旦之邪力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“鲜血，永远得不到满足！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00078</Pic>
+    <AdvanceMaterialId>300029 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21030 </Id>
+    <Name>食尸鬼臂章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>暗夜魔王至今还保留着这枚臂章，用于提醒自己当食尸鬼时那些任人鱼肉的岁月。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00097</Pic>
+    <AdvanceMaterialId>300030 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21031 </Id>
+    <Name>血精石</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>作为一位宝石收藏家，风暴之灵把最心爱的收藏品随身携带。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00070</Pic>
+    <AdvanceMaterialId>300031 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21032 </Id>
+    <Name>斯嘉蒂之眼</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>卡尔常常与这双冰冷的眼睛独自交流。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00080</Pic>
+    <AdvanceMaterialId>300032 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>21033 </Id>
+    <Name>梅肯斯姆</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>魅惑魔女法力的核心。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00048</Pic>
+    <AdvanceMaterialId>300033 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30001 </Id>
+    <Name>浴血战斧</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>能劈开一切拦路之物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00030</Pic>
+    <AdvanceMaterialId>310001 </AdvanceMaterialId>
+    <UpgradeEquipId>10001 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30002 </Id>
+    <Name>浴血甲胄</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>古代兽人战士喜爱的铠甲，坚硬程度堪比秘银矿石。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00020</Pic>
+    <AdvanceMaterialId>310002 </AdvanceMaterialId>
+    <UpgradeEquipId>10002 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30003 </Id>
+    <Name>浴血战盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>头盔的内部是一层柔软的兽皮，穿戴起来十分舒适。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00019</Pic>
+    <AdvanceMaterialId>310003 </AdvanceMaterialId>
+    <UpgradeEquipId>10003 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30004 </Id>
+    <Name>浴血王戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>旧王朝时期象征至高力量的戒指。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00033</Pic>
+    <AdvanceMaterialId>310004 </AdvanceMaterialId>
+    <UpgradeEquipId>10004 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30005 </Id>
+    <Name>浴血脚铠</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>由世上最好的人类铁匠设计，适用于各种地形上的行军。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00040</Pic>
+    <AdvanceMaterialId>310005 </AdvanceMaterialId>
+    <UpgradeEquipId>10005 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30006 </Id>
+    <Name>贵族权杖</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>代表着贵族地位的权杖，其中蕴含的法力可供使用者差遣。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00035</Pic>
+    <AdvanceMaterialId>320001 </AdvanceMaterialId>
+    <UpgradeEquipId>10006 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30007 </Id>
+    <Name>贵族长袍</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>贵族法师身上的长袍，穿戴者的地位可从长袍布料及颜色窥出。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00025</Pic>
+    <AdvanceMaterialId>320002 </AdvanceMaterialId>
+    <UpgradeEquipId>10007 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30008 </Id>
+    <Name>贵族兜帽</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“兜帽长袍之下，通常是一副睿智的躯体。”——落魄法师</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00054</Pic>
+    <AdvanceMaterialId>320003 </AdvanceMaterialId>
+    <UpgradeEquipId>10008 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30009 </Id>
+    <Name>贵族圣戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>这枚圣戒最初属于九个圆桌议员，发展到现在，渐渐成为了所有贵族法师的骄傲与尊严。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00022</Pic>
+    <AdvanceMaterialId>320004 </AdvanceMaterialId>
+    <UpgradeEquipId>10009 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30010 </Id>
+    <Name>贵族布鞋</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>布鞋采用精灵布料所制，鞋底刻有圣纹，能被穿着者的法力激发，使其健步如飞。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00050</Pic>
+    <AdvanceMaterialId>320005 </AdvanceMaterialId>
+    <UpgradeEquipId>10010 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30011 </Id>
+    <Name>精灵猎弓</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>持此弓者，将会把每一个敌人当成是自己的猎物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00029</Pic>
+    <AdvanceMaterialId>330001 </AdvanceMaterialId>
+    <UpgradeEquipId>10011 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30012 </Id>
+    <Name>精灵斗篷</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>精灵族身上轻盈的斗篷，能在月光下隐去穿戴者的气息。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00018</Pic>
+    <AdvanceMaterialId>330002 </AdvanceMaterialId>
+    <UpgradeEquipId>10012 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30013 </Id>
+    <Name>精灵环盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“精灵的长发从环盔散落，流线的美感跃然而出。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00045</Pic>
+    <AdvanceMaterialId>330003 </AdvanceMaterialId>
+    <UpgradeEquipId>10013 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30014 </Id>
+    <Name>精灵秘戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“我的宝贝。”咕噜双眼放光道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00052</Pic>
+    <AdvanceMaterialId>330004 </AdvanceMaterialId>
+    <UpgradeEquipId>10014 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>30015 </Id>
+    <Name>精灵皮靴</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>狮子无法离开狮群，正如一个精灵离不开他的皮靴。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00057</Pic>
+    <AdvanceMaterialId>330005 </AdvanceMaterialId>
+    <UpgradeEquipId>10015 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31001 </Id>
+    <Name>洞察烟斗</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>食人族先知通常用吃剩的骨头来通巨大的烟斗，以至于烟都带有一股血腥味。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00053</Pic>
+    <AdvanceMaterialId>300001 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31002 </Id>
+    <Name>代达罗斯之殇</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“代达罗斯，眼红了吗？哈哈哈哈哈”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00093</Pic>
+    <AdvanceMaterialId>300002 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31003 </Id>
+    <Name>阿哈利姆之杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“没有这把法杖，我就吃不了烤大型科多兽了。”秀逗魔导士望着手上零星的火焰说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00062</Pic>
+    <AdvanceMaterialId>300003 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31004 </Id>
+    <Name>虚灵之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀看来不能长期使用啊。”影魔看着自己的身躯惆怅地说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00099</Pic>
+    <AdvanceMaterialId>300004 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31005 </Id>
+    <Name>雷神之锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>由先知从矮人手中夺走的短柄锤子，善用电系法术的先知如虎添翼。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00079</Pic>
+    <AdvanceMaterialId>300005 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31006 </Id>
+    <Name>刷新球</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我有两个大招，你怕了吗？”——宙斯</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00063</Pic>
+    <AdvanceMaterialId>300006 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31007 </Id>
+    <Name>科勒之匕</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“牛头人盗贼？有趣。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00023</Pic>
+    <AdvanceMaterialId>300007 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31008 </Id>
+    <Name>蝴蝶</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“像蝴蝶般在敌军中起舞的，这世上只能联想到一个人。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00092</Pic>
+    <AdvanceMaterialId>300008 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31009 </Id>
+    <Name>强袭装甲</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>山岭巨人把这件从斯塔克斯河畔深处打捞出来的装甲让矮人铁匠改造得巨大无比。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00066</Pic>
+    <AdvanceMaterialId>300009 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31010 </Id>
+    <Name>辉耀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>辉耀在末日使者手中散发出厄运的味道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00091</Pic>
+    <AdvanceMaterialId>300010 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31011 </Id>
+    <Name>死侍法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>死侍法杖能让水晶室女的冰雕复活，变成她的奴隶。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00065</Pic>
+    <AdvanceMaterialId>300011 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31012 </Id>
+    <Name>死灵书</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>三魂永久，魄无丧倾。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00060</Pic>
+    <AdvanceMaterialId>300012 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31013 </Id>
+    <Name>先祖韧鼓</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>奏响复仇之歌，慰告先祖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00056</Pic>
+    <AdvanceMaterialId>300013 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31014 </Id>
+    <Name>黑皇杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>幻影刺客一生最辉煌的瞬间，就是在黑皇杖的帮助下，取下了大法师的首级。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00068</Pic>
+    <AdvanceMaterialId>300014 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31015 </Id>
+    <Name>紫苑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我允许你说话了吗？”——风行者</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00059</Pic>
+    <AdvanceMaterialId>300015 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31016 </Id>
+    <Name>黯灭</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀的刀柄，也挺好用的嘛。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00084</Pic>
+    <AdvanceMaterialId>300016 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31017 </Id>
+    <Name>散失之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“妖魔鬼怪，全都给我消失！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00087</Pic>
+    <AdvanceMaterialId>300017 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31018 </Id>
+    <Name>勇气勋章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>唯一一个让赏金猎人卖之前会考虑一下的物品。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00055</Pic>
+    <AdvanceMaterialId>300018 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31019 </Id>
+    <Name>洛萨之锋</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“嘿，看我给你变戏法。”——炼金术士</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00098</Pic>
+    <AdvanceMaterialId>300019 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31020 </Id>
+    <Name>达贡之神力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>地穴刺客还在研究怎么顺手地拿起这把长杖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00061</Pic>
+    <AdvanceMaterialId>300020 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31021 </Id>
+    <Name>碎颅锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“什么时候能把它合成蛋刀啊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00094</Pic>
+    <AdvanceMaterialId>300021 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31022 </Id>
+    <Name>狂战斧</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“只要能转起来的武器，我都可以接受。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00095</Pic>
+    <AdvanceMaterialId>300022 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31023 </Id>
+    <Name>恐鳌之心</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>半人马酋长强大生命力的根源。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00067</Pic>
+    <AdvanceMaterialId>300023 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31024 </Id>
+    <Name>厄鲁的神圣法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>先知懂得的法术知识远远超过凡人的想象。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00088</Pic>
+    <AdvanceMaterialId>300024 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31025 </Id>
+    <Name>邪恶镰刀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“怎么样能使你更痛苦呢？变为一只羊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00058</Pic>
+    <AdvanceMaterialId>300025 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31026 </Id>
+    <Name>希瓦的守护</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>站在这件冰甲旁边几秒钟，你就会感到刺骨透心的绝望。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00069</Pic>
+    <AdvanceMaterialId>300026 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31027 </Id>
+    <Name>金箍棒</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>黑暗游侠将它当成匕首使用。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00090</Pic>
+    <AdvanceMaterialId>300027 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31028 </Id>
+    <Name>散夜对剑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>听说只有全能骑士进入疯狂状态时，才会拿出来的武器。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00077</Pic>
+    <AdvanceMaterialId>300028 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31029 </Id>
+    <Name>撒旦之邪力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“鲜血，永远得不到满足！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00078</Pic>
+    <AdvanceMaterialId>300029 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31030 </Id>
+    <Name>食尸鬼臂章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>暗夜魔王至今还保留着这枚臂章，用于提醒自己当食尸鬼时那些任人鱼肉的岁月。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00097</Pic>
+    <AdvanceMaterialId>300030 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31031 </Id>
+    <Name>血精石</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>作为一位宝石收藏家，风暴之灵把最心爱的收藏品随身携带。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00070</Pic>
+    <AdvanceMaterialId>300031 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31032 </Id>
+    <Name>斯嘉蒂之眼</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>卡尔常常与这双冰冷的眼睛独自交流。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00080</Pic>
+    <AdvanceMaterialId>300032 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>31033 </Id>
+    <Name>梅肯斯姆</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>魅惑魔女法力的核心。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00048</Pic>
+    <AdvanceMaterialId>300033 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40001 </Id>
+    <Name>浴血战斧</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>能劈开一切拦路之物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00030</Pic>
+    <AdvanceMaterialId>310001 </AdvanceMaterialId>
+    <UpgradeEquipId>10001 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40002 </Id>
+    <Name>浴血甲胄</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>古代兽人战士喜爱的铠甲，坚硬程度堪比秘银矿石。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00020</Pic>
+    <AdvanceMaterialId>310002 </AdvanceMaterialId>
+    <UpgradeEquipId>10002 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40003 </Id>
+    <Name>浴血战盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>头盔的内部是一层柔软的兽皮，穿戴起来十分舒适。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00019</Pic>
+    <AdvanceMaterialId>310003 </AdvanceMaterialId>
+    <UpgradeEquipId>10003 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40004 </Id>
+    <Name>浴血王戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>旧王朝时期象征至高力量的戒指。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00033</Pic>
+    <AdvanceMaterialId>310004 </AdvanceMaterialId>
+    <UpgradeEquipId>10004 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40005 </Id>
+    <Name>浴血脚铠</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>由世上最好的人类铁匠设计，适用于各种地形上的行军。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00040</Pic>
+    <AdvanceMaterialId>310005 </AdvanceMaterialId>
+    <UpgradeEquipId>10005 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40006 </Id>
+    <Name>贵族权杖</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>代表着贵族地位的权杖，其中蕴含的法力可供使用者差遣。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00035</Pic>
+    <AdvanceMaterialId>320001 </AdvanceMaterialId>
+    <UpgradeEquipId>10006 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40007 </Id>
+    <Name>贵族长袍</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>贵族法师身上的长袍，穿戴者的地位可从长袍布料及颜色窥出。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00025</Pic>
+    <AdvanceMaterialId>320002 </AdvanceMaterialId>
+    <UpgradeEquipId>10007 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40008 </Id>
+    <Name>贵族兜帽</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“兜帽长袍之下，通常是一副睿智的躯体。”——落魄法师</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00054</Pic>
+    <AdvanceMaterialId>320003 </AdvanceMaterialId>
+    <UpgradeEquipId>10008 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40009 </Id>
+    <Name>贵族圣戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>这枚圣戒最初属于九个圆桌议员，发展到现在，渐渐成为了所有贵族法师的骄傲与尊严。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00022</Pic>
+    <AdvanceMaterialId>320004 </AdvanceMaterialId>
+    <UpgradeEquipId>10009 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40010 </Id>
+    <Name>贵族布鞋</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>布鞋采用精灵布料所制，鞋底刻有圣纹，能被穿着者的法力激发，使其健步如飞。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00050</Pic>
+    <AdvanceMaterialId>320005 </AdvanceMaterialId>
+    <UpgradeEquipId>10010 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40011 </Id>
+    <Name>精灵猎弓</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>持此弓者，将会把每一个敌人当成是自己的猎物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00029</Pic>
+    <AdvanceMaterialId>330001 </AdvanceMaterialId>
+    <UpgradeEquipId>10011 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40012 </Id>
+    <Name>精灵斗篷</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>精灵族身上轻盈的斗篷，能在月光下隐去穿戴者的气息。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00018</Pic>
+    <AdvanceMaterialId>330002 </AdvanceMaterialId>
+    <UpgradeEquipId>10012 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40013 </Id>
+    <Name>精灵环盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“精灵的长发从环盔散落，流线的美感跃然而出。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00045</Pic>
+    <AdvanceMaterialId>330003 </AdvanceMaterialId>
+    <UpgradeEquipId>10013 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40014 </Id>
+    <Name>精灵秘戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“我的宝贝。”咕噜双眼放光道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00052</Pic>
+    <AdvanceMaterialId>330004 </AdvanceMaterialId>
+    <UpgradeEquipId>10014 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>40015 </Id>
+    <Name>精灵皮靴</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>狮子无法离开狮群，正如一个精灵离不开他的皮靴。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00057</Pic>
+    <AdvanceMaterialId>330005 </AdvanceMaterialId>
+    <UpgradeEquipId>10015 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41001 </Id>
+    <Name>洞察烟斗</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>食人族先知通常用吃剩的骨头来通巨大的烟斗，以至于烟都带有一股血腥味。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00053</Pic>
+    <AdvanceMaterialId>300001 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41002 </Id>
+    <Name>代达罗斯之殇</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“代达罗斯，眼红了吗？哈哈哈哈哈”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00093</Pic>
+    <AdvanceMaterialId>300002 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41003 </Id>
+    <Name>阿哈利姆之杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“没有这把法杖，我就吃不了烤大型科多兽了。”秀逗魔导士望着手上零星的火焰说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00062</Pic>
+    <AdvanceMaterialId>300003 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41004 </Id>
+    <Name>虚灵之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀看来不能长期使用啊。”影魔看着自己的身躯惆怅地说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00099</Pic>
+    <AdvanceMaterialId>300004 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41005 </Id>
+    <Name>雷神之锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>由先知从矮人手中夺走的短柄锤子，善用电系法术的先知如虎添翼。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00079</Pic>
+    <AdvanceMaterialId>300005 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41006 </Id>
+    <Name>刷新球</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我有两个大招，你怕了吗？”——宙斯</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00063</Pic>
+    <AdvanceMaterialId>300006 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41007 </Id>
+    <Name>科勒之匕</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“牛头人盗贼？有趣。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00023</Pic>
+    <AdvanceMaterialId>300007 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41008 </Id>
+    <Name>蝴蝶</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“像蝴蝶般在敌军中起舞的，这世上只能联想到一个人。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00092</Pic>
+    <AdvanceMaterialId>300008 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41009 </Id>
+    <Name>强袭装甲</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>山岭巨人把这件从斯塔克斯河畔深处打捞出来的装甲让矮人铁匠改造得巨大无比。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00066</Pic>
+    <AdvanceMaterialId>300009 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41010 </Id>
+    <Name>辉耀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>辉耀在末日使者手中散发出厄运的味道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00091</Pic>
+    <AdvanceMaterialId>300010 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41011 </Id>
+    <Name>死侍法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>死侍法杖能让水晶室女的冰雕复活，变成她的奴隶。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00065</Pic>
+    <AdvanceMaterialId>300011 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41012 </Id>
+    <Name>死灵书</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>三魂永久，魄无丧倾。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00060</Pic>
+    <AdvanceMaterialId>300012 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41013 </Id>
+    <Name>先祖韧鼓</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>奏响复仇之歌，慰告先祖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00056</Pic>
+    <AdvanceMaterialId>300013 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41014 </Id>
+    <Name>黑皇杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>幻影刺客一生最辉煌的瞬间，就是在黑皇杖的帮助下，取下了大法师的首级。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00068</Pic>
+    <AdvanceMaterialId>300014 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41015 </Id>
+    <Name>紫苑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我允许你说话了吗？”——风行者</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00059</Pic>
+    <AdvanceMaterialId>300015 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41016 </Id>
+    <Name>黯灭</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀的刀柄，也挺好用的嘛。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00084</Pic>
+    <AdvanceMaterialId>300016 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41017 </Id>
+    <Name>散失之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“妖魔鬼怪，全都给我消失！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00087</Pic>
+    <AdvanceMaterialId>300017 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41018 </Id>
+    <Name>勇气勋章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>唯一一个让赏金猎人卖之前会考虑一下的物品。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00055</Pic>
+    <AdvanceMaterialId>300018 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41019 </Id>
+    <Name>洛萨之锋</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“嘿，看我给你变戏法。”——炼金术士</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00098</Pic>
+    <AdvanceMaterialId>300019 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41020 </Id>
+    <Name>达贡之神力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>地穴刺客还在研究怎么顺手地拿起这把长杖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00061</Pic>
+    <AdvanceMaterialId>300020 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41021 </Id>
+    <Name>碎颅锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“什么时候能把它合成蛋刀啊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00094</Pic>
+    <AdvanceMaterialId>300021 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41022 </Id>
+    <Name>狂战斧</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“只要能转起来的武器，我都可以接受。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00095</Pic>
+    <AdvanceMaterialId>300022 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41023 </Id>
+    <Name>恐鳌之心</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>半人马酋长强大生命力的根源。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00067</Pic>
+    <AdvanceMaterialId>300023 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41024 </Id>
+    <Name>厄鲁的神圣法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>先知懂得的法术知识远远超过凡人的想象。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00088</Pic>
+    <AdvanceMaterialId>300024 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41025 </Id>
+    <Name>邪恶镰刀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“怎么样能使你更痛苦呢？变为一只羊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00058</Pic>
+    <AdvanceMaterialId>300025 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41026 </Id>
+    <Name>希瓦的守护</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>站在这件冰甲旁边几秒钟，你就会感到刺骨透心的绝望。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00069</Pic>
+    <AdvanceMaterialId>300026 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41027 </Id>
+    <Name>金箍棒</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>黑暗游侠将它当成匕首使用。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00090</Pic>
+    <AdvanceMaterialId>300027 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41028 </Id>
+    <Name>散夜对剑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>听说只有全能骑士进入疯狂状态时，才会拿出来的武器。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00077</Pic>
+    <AdvanceMaterialId>300028 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41029 </Id>
+    <Name>撒旦之邪力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“鲜血，永远得不到满足！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00078</Pic>
+    <AdvanceMaterialId>300029 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41030 </Id>
+    <Name>食尸鬼臂章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>暗夜魔王至今还保留着这枚臂章，用于提醒自己当食尸鬼时那些任人鱼肉的岁月。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00097</Pic>
+    <AdvanceMaterialId>300030 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41031 </Id>
+    <Name>血精石</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>作为一位宝石收藏家，风暴之灵把最心爱的收藏品随身携带。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00070</Pic>
+    <AdvanceMaterialId>300031 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41032 </Id>
+    <Name>斯嘉蒂之眼</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>卡尔常常与这双冰冷的眼睛独自交流。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00080</Pic>
+    <AdvanceMaterialId>300032 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>41033 </Id>
+    <Name>梅肯斯姆</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>魅惑魔女法力的核心。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00048</Pic>
+    <AdvanceMaterialId>300033 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50001 </Id>
+    <Name>浴血战斧</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>能劈开一切拦路之物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00030</Pic>
+    <AdvanceMaterialId>310001 </AdvanceMaterialId>
+    <UpgradeEquipId>10001 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50002 </Id>
+    <Name>浴血甲胄</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>古代兽人战士喜爱的铠甲，坚硬程度堪比秘银矿石。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00020</Pic>
+    <AdvanceMaterialId>310002 </AdvanceMaterialId>
+    <UpgradeEquipId>10002 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50003 </Id>
+    <Name>浴血战盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>头盔的内部是一层柔软的兽皮，穿戴起来十分舒适。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00019</Pic>
+    <AdvanceMaterialId>310003 </AdvanceMaterialId>
+    <UpgradeEquipId>10003 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50004 </Id>
+    <Name>浴血王戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>旧王朝时期象征至高力量的戒指。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00033</Pic>
+    <AdvanceMaterialId>310004 </AdvanceMaterialId>
+    <UpgradeEquipId>10004 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50005 </Id>
+    <Name>浴血脚铠</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>由世上最好的人类铁匠设计，适用于各种地形上的行军。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00040</Pic>
+    <AdvanceMaterialId>310005 </AdvanceMaterialId>
+    <UpgradeEquipId>10005 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50006 </Id>
+    <Name>贵族权杖</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>代表着贵族地位的权杖，其中蕴含的法力可供使用者差遣。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00035</Pic>
+    <AdvanceMaterialId>320001 </AdvanceMaterialId>
+    <UpgradeEquipId>10006 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50007 </Id>
+    <Name>贵族长袍</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>贵族法师身上的长袍，穿戴者的地位可从长袍布料及颜色窥出。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00025</Pic>
+    <AdvanceMaterialId>320002 </AdvanceMaterialId>
+    <UpgradeEquipId>10007 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50008 </Id>
+    <Name>贵族兜帽</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“兜帽长袍之下，通常是一副睿智的躯体。”——落魄法师</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00054</Pic>
+    <AdvanceMaterialId>320003 </AdvanceMaterialId>
+    <UpgradeEquipId>10008 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50009 </Id>
+    <Name>贵族圣戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>这枚圣戒最初属于九个圆桌议员，发展到现在，渐渐成为了所有贵族法师的骄傲与尊严。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00022</Pic>
+    <AdvanceMaterialId>320004 </AdvanceMaterialId>
+    <UpgradeEquipId>10009 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50010 </Id>
+    <Name>贵族布鞋</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>布鞋采用精灵布料所制，鞋底刻有圣纹，能被穿着者的法力激发，使其健步如飞。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00050</Pic>
+    <AdvanceMaterialId>320005 </AdvanceMaterialId>
+    <UpgradeEquipId>10010 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50011 </Id>
+    <Name>精灵猎弓</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>持此弓者，将会把每一个敌人当成是自己的猎物。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x1 </Slot>
+    <Pic>D00029</Pic>
+    <AdvanceMaterialId>330001 </AdvanceMaterialId>
+    <UpgradeEquipId>10011 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50012 </Id>
+    <Name>精灵斗篷</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>精灵族身上轻盈的斗篷，能在月光下隐去穿戴者的气息。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x2 </Slot>
+    <Pic>D00018</Pic>
+    <AdvanceMaterialId>330002 </AdvanceMaterialId>
+    <UpgradeEquipId>10012 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50013 </Id>
+    <Name>精灵环盔</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“精灵的长发从环盔散落，流线的美感跃然而出。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x3 </Slot>
+    <Pic>D00045</Pic>
+    <AdvanceMaterialId>330003 </AdvanceMaterialId>
+    <UpgradeEquipId>10013 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50014 </Id>
+    <Name>精灵秘戒</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>“我的宝贝。”咕噜双眼放光道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x4 </Slot>
+    <Pic>D00052</Pic>
+    <AdvanceMaterialId>330004 </AdvanceMaterialId>
+    <UpgradeEquipId>10014 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>50015 </Id>
+    <Name>精灵皮靴</Name>
+    <IsExclusive>JUDGE_TYPE_NO </IsExclusive>
+    <Desc>狮子无法离开狮群，正如一个精灵离不开他的皮靴。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x5 </Slot>
+    <Pic>D00057</Pic>
+    <AdvanceMaterialId>330005 </AdvanceMaterialId>
+    <UpgradeEquipId>10015 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51001 </Id>
+    <Name>洞察烟斗</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>食人族先知通常用吃剩的骨头来通巨大的烟斗，以至于烟都带有一股血腥味。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00053</Pic>
+    <AdvanceMaterialId>300001 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51002 </Id>
+    <Name>代达罗斯之殇</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“代达罗斯，眼红了吗？哈哈哈哈哈”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00093</Pic>
+    <AdvanceMaterialId>300002 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51003 </Id>
+    <Name>阿哈利姆之杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“没有这把法杖，我就吃不了烤大型科多兽了。”秀逗魔导士望着手上零星的火焰说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00062</Pic>
+    <AdvanceMaterialId>300003 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51004 </Id>
+    <Name>虚灵之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀看来不能长期使用啊。”影魔看着自己的身躯惆怅地说道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00099</Pic>
+    <AdvanceMaterialId>300004 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51005 </Id>
+    <Name>雷神之锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>由先知从矮人手中夺走的短柄锤子，善用电系法术的先知如虎添翼。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00079</Pic>
+    <AdvanceMaterialId>300005 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51006 </Id>
+    <Name>刷新球</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我有两个大招，你怕了吗？”——宙斯</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00063</Pic>
+    <AdvanceMaterialId>300006 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51007 </Id>
+    <Name>科勒之匕</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“牛头人盗贼？有趣。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00023</Pic>
+    <AdvanceMaterialId>300007 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51008 </Id>
+    <Name>蝴蝶</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“像蝴蝶般在敌军中起舞的，这世上只能联想到一个人。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00092</Pic>
+    <AdvanceMaterialId>300008 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51009 </Id>
+    <Name>强袭装甲</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>山岭巨人把这件从斯塔克斯河畔深处打捞出来的装甲让矮人铁匠改造得巨大无比。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00066</Pic>
+    <AdvanceMaterialId>300009 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51010 </Id>
+    <Name>辉耀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>辉耀在末日使者手中散发出厄运的味道。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00091</Pic>
+    <AdvanceMaterialId>300010 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51011 </Id>
+    <Name>死侍法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>死侍法杖能让水晶室女的冰雕复活，变成她的奴隶。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00065</Pic>
+    <AdvanceMaterialId>300011 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51012 </Id>
+    <Name>死灵书</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>三魂永久，魄无丧倾。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00060</Pic>
+    <AdvanceMaterialId>300012 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51013 </Id>
+    <Name>先祖韧鼓</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>奏响复仇之歌，慰告先祖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00056</Pic>
+    <AdvanceMaterialId>300013 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51014 </Id>
+    <Name>黑皇杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>幻影刺客一生最辉煌的瞬间，就是在黑皇杖的帮助下，取下了大法师的首级。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00068</Pic>
+    <AdvanceMaterialId>300014 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51015 </Id>
+    <Name>紫苑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“我允许你说话了吗？”——风行者</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00059</Pic>
+    <AdvanceMaterialId>300015 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51016 </Id>
+    <Name>黯灭</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“这把刀的刀柄，也挺好用的嘛。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00084</Pic>
+    <AdvanceMaterialId>300016 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51017 </Id>
+    <Name>散失之刃</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“妖魔鬼怪，全都给我消失！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00087</Pic>
+    <AdvanceMaterialId>300017 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51018 </Id>
+    <Name>勇气勋章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>唯一一个让赏金猎人卖之前会考虑一下的物品。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00055</Pic>
+    <AdvanceMaterialId>300018 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51019 </Id>
+    <Name>洛萨之锋</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“嘿，看我给你变戏法。”——炼金术士</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00098</Pic>
+    <AdvanceMaterialId>300019 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51020 </Id>
+    <Name>达贡之神力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>地穴刺客还在研究怎么顺手地拿起这把长杖。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00061</Pic>
+    <AdvanceMaterialId>300020 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51021 </Id>
+    <Name>碎颅锤</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“什么时候能把它合成蛋刀啊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00094</Pic>
+    <AdvanceMaterialId>300021 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51022 </Id>
+    <Name>狂战斧</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“只要能转起来的武器，我都可以接受。”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00095</Pic>
+    <AdvanceMaterialId>300022 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51023 </Id>
+    <Name>恐鳌之心</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>半人马酋长强大生命力的根源。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00067</Pic>
+    <AdvanceMaterialId>300023 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51024 </Id>
+    <Name>厄鲁的神圣法杖</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>先知懂得的法术知识远远超过凡人的想象。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00088</Pic>
+    <AdvanceMaterialId>300024 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51025 </Id>
+    <Name>邪恶镰刀</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“怎么样能使你更痛苦呢？变为一只羊？”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00058</Pic>
+    <AdvanceMaterialId>300025 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51026 </Id>
+    <Name>希瓦的守护</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>站在这件冰甲旁边几秒钟，你就会感到刺骨透心的绝望。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00069</Pic>
+    <AdvanceMaterialId>300026 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51027 </Id>
+    <Name>金箍棒</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>黑暗游侠将它当成匕首使用。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_AGILITY </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00090</Pic>
+    <AdvanceMaterialId>300027 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51028 </Id>
+    <Name>散夜对剑</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>听说只有全能骑士进入疯狂状态时，才会拿出来的武器。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00077</Pic>
+    <AdvanceMaterialId>300028 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51029 </Id>
+    <Name>撒旦之邪力</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>“鲜血，永远得不到满足！”</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00078</Pic>
+    <AdvanceMaterialId>300029 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51030 </Id>
+    <Name>食尸鬼的臂章</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>暗夜魔王至今还保留着这枚臂章，用于提醒自己当食尸鬼时那些任人鱼肉的岁月。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_STRENGTH </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00097</Pic>
+    <AdvanceMaterialId>300030 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51031 </Id>
+    <Name>血精石</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>作为一位宝石收藏家，风暴之灵把最心爱的收藏品随身携带。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00070</Pic>
+    <AdvanceMaterialId>300031 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51032 </Id>
+    <Name>斯嘉蒂之眼</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>卡尔常常与这双冰冷的眼睛独自交流。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00080</Pic>
+    <AdvanceMaterialId>300032 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+<EquipBaseInfo version="1">
+    <Id>51033 </Id>
+    <Name>梅肯斯姆</Name>
+    <IsExclusive>JUDGE_TYPE_YES </IsExclusive>
+    <Desc>魅惑魔女法力的核心。</Desc>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <WearHeroType>RES_HERO_TYPE_MANA </WearHeroType>
+    <Slot>0x6 </Slot>
+    <Pic>D00048</Pic>
+    <AdvanceMaterialId>300033 </AdvanceMaterialId>
+    <UpgradeEquipId>0 </UpgradeEquipId>
+</EquipBaseInfo>
+</EquipBaseInfo_Tab>

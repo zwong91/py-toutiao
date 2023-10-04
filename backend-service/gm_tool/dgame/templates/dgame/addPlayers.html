@@ -1,0 +1,154 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>添加玩家</title>
+<link href="{{ STATIC_URL }}css/css.css" rel="stylesheet" type="text/css" />
+
+<script language=javascript>
+function searchPlayers()
+{
+var obj=document.getElementById('selectSearchType');  
+var index=obj.selectedIndex;
+var character=document.getElementById('character').value
+if(character)
+{
+	if(index == "0")
+	{
+	window.open ("name/"+character, "newwindow", "height=300, width=500, toolbar= no, menubar=no, scrollbars=no, resizable=no, location=no, status=no") 
+	}
+	else
+	{
+	window.open ("ID/"+character, "newwindow", "height=300, width=500, toolbar= no, menubar=no, scrollbars=no, resizable=no, location=no, status=no") 
+	}
+}
+}
+
+//方案2思路:1、服务器发送过来的数据，分成四类：渠道、服务器、编号、名称，分别维护成一个数组,然后将其显示出来
+//			2、用另外4个全局数组保存用户选择的玩家，当点击添加按钮时调用该函数
+//			3、构造cookie
+var recvArray_ID;
+var recvArray_name;
+var selectArray_ID      = new Array();
+var selectArray_name    = new Array();
+
+function searchPlayers2()
+{
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+	xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+	xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+	if (xmlhttp.readyState==4 && xmlhttp.status==200)
+	{
+		var strRes=xmlhttp.responseText;
+		str_tr="<table type='height:200;width:450;' border=1>"
+		var players = strRes.split(";")
+		
+		recvArray_ID      = new Array();
+		recvArray_name    = new Array();
+		for(var i=0; i<players.length-1; i++)
+		{
+			player=players[i].split(":");
+			pID=player[0];			recvArray_ID.push(pID);
+			pName=player[1];		recvArray_name.push(pName);
+			str_tr=str_tr+"<tr height=20><td width=150>"+pID+"</td><td width=150>"+pName+"</td><td width=150><button id='"+pID+"' onclick='addPlayer2(this.id)'>添加</button></td></tr>";
+		}
+		str_tr+="</table>"
+		document.getElementById("trid").innerHTML=str_tr;
+	}
+	}
+	
+	var obj=document.getElementById('selectSearchType');  
+	var index=obj.selectedIndex;
+	var character=document.getElementById('character').value
+	if(index == "0")
+		xmlhttp.open("GET","name/"+character,true);
+	else
+		xmlhttp.open("GET","roleid/"+character,true);
+	xmlhttp.send();
+}
+var str_players=""
+function addPlayer(player)
+{
+	str_players = str_players + player + "*"
+	document.getElementById(player).disabled=true
+}
+
+function addPlayer2(pID)
+{
+	var i=0;
+	for(i=0; i<recvArray_ID.length; i++)
+	{
+		if(recvArray_ID[i] == pID)
+			break;
+	}
+	for(var j=0; j<selectArray_ID.length; j++)
+	{
+		if(recvArray_ID[i] == selectArray_ID[j])
+			if(recvArray_name[i] == selectArray_name[j])
+			{
+				document.getElementById(pID).disabled=true;
+				alert("该项已添加");
+				return;
+			}
+	}
+	selectArray_ID.push(recvArray_ID[i]);
+	selectArray_name.push(recvArray_name[i]);
+	
+	document.getElementById(pID).disabled=true
+}
+window.onbeforeunload = signout2;
+function signout2()
+{
+var date=new Date(); 
+var expiresDays=1; 
+date.setTime(date.getTime()+expiresDays*24*3600*1000);
+document.cookie="selectArray_ID="+selectArray_ID+";expires="+date.toGMTString() + ";path=/"
+document.cookie="selectArray_name="+selectArray_name+";expires="+date.toGMTString() + ";path=/"
+}
+</script>
+
+</head>
+<body>
+<table type="height:200;width:450;" border=1>
+<tr>
+<td colspan="3">
+<li>选择类型
+<select id="selectSearchType">
+<option value=0>角色姓名</option>
+<option value=1>角色ID</option>
+</select>
+<textarea id="character" "rows="1" cols="30"></textarea>
+<button onclick="searchPlayers2()">查询</button>
+</li>
+</td>
+</tr>
+<tr height=20>
+<td width=150>编号
+</td>
+<td width=150>角色名字
+</td>
+<td width=150>操作
+</td>
+</tr>
+<!-- 由views.py穿过来的参数构造玩家数据-->
+{% if playerList %}
+	{% for player in playerList %}
+		<tr>
+		{% for c in player %}
+		<td>{{c}}</td>
+		{% endfor %}
+		<td><button id="{{player}}" onclick="addPlayer(&quot;{{player}}&quot;)">添加</button>
+		</tr>
+	{% endfor %}
+{% endif %}
+</table>
+<div id="trid">
+</div>
+
+</body>

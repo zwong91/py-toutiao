@@ -1,0 +1,158 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>发布公告</title>
+		<style>
+			form {
+				margin: 0;
+			}
+			textarea {
+				display: block;
+			}
+		</style>
+        <link href="{{ STATIC_URL }}css/default.css" rel="stylesheet" type="text/css" />
+        <script charset="utf-8" src="{{ STATIC_URL }}javascript/kindeditor-min.js" type="text/javascript"></script>
+        <script charset="utf-8" src="{{ STATIC_URL }}javascript/zh_CN.js" type="text/javascript"></script>
+        <script src="{{ STATIC_URL }}javascript/JScript.js" type="text/javascript"></script>
+		<script>
+			var editor;
+			KindEditor.ready(function(K) {
+				editor = K.create('textarea[name="content"]', {
+					allowFileManager : true
+				});
+				
+				K('input[name=getHtml]').click(function(e) {
+					alert(editor.html());
+				});
+				K('input[name=getText]').click(function(e) {
+					alert(editor.text());
+				});
+				K('input[name=selectedHtml]').click(function(e) {
+					alert(editor.selectedHtml());
+				});
+			});
+			
+
+function ajaxFileUpload()
+	{
+		$.ajaxFileUpload
+		(
+			{
+				url:'doUpload.aspx',
+				secureuri:false,
+				fileElementId:'fileToUpload',
+				dataType: 'json',
+				success: function (data, status)
+				{				
+					if(typeof(data.error) != 'undefined')
+					{
+						if(data.error != '')
+						{
+							alert(data.error);
+						}else
+						{
+							alert(data.msg);
+						}
+					}
+				},
+				error: function (data, status, e)
+				{
+					alert(e);
+				}
+			}
+		)
+		
+		return false;
+
+	}
+	
+function ReadFiles() 
+{ 
+ //var fso, f1; 
+ //var ForReading=1; 
+ var date=new Date().getTime();
+ //var filePath="D:/testfile_"+date+".txt";
+ var filePath = "./testfile_" + date + ".txt";
+ //fso=new ActiveXObject("Scripting.FileSystemObject"); 
+ //f1=fso.CreateTextFile(filePath,8,true); 
+ //var channelNumber=$('#channelNumber').val();
+ //var subChannelNumber=$('#subChannelNumber').val();
+    //var serverNumber=$('#serverNumber').val();
+
+ var xmlhttp;
+ if (window.XMLHttpRequest)
+ {// code for IE7+, Firefox, Chrome, Opera, Safari
+     xmlhttp=new XMLHttpRequest();
+ }
+ else
+ {// code for IE6, IE5
+     xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ }
+ xmlhttp.onreadystatechange = function ()
+ {
+     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+         alert(xmlhttp.responseText);
+     }
+     document.getElementById("saveRtfGG").disabled = false
+ }
+
+ var obj = document.getElementById('channelNumber');
+ var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+ var channelNumber = obj.options[index].value;
+
+ var obj = document.getElementById('subChannelNumber');
+ var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+ var subChannelNumber = obj.options[index].value;
+
+ var obj = document.getElementById('serverNumber');
+ var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+ var serverNumber = obj.options[index].value;
+ var title = '';
+ var content=editor.text();
+ //alert(content);
+
+ xmlhttp.open("GET", "saveRTFGG/", true);
+ xmlhttp.send();
+
+ //xmlhttp.open("POST", "gg_new/", true);
+ //xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+ //var postdata = "channelNumber=" + channelNumber + "&subChannelNumber=" + subChannelNumber + "&serverNumber=" + serverNumber + "&title=" + title + "&content=" + content;
+ //xmlhttp.send(postdata);
+ document.getElementById("saveRtfGG").disabled = false
+ //f1.WriteLine(channelNumber+','+subChannelNumber+','+serverNumber+','+editNews); 
+ //f1.Close(); 
+
+}
+
+</script>
+	</head>
+	<body>
+		<h3>公告内容编辑</h3>
+		<form>
+		<table width="800px">
+		<tr><td>渠道：</td><td><select name="channelNumber" id="channelNumber"><option value="1">安卓混服</option><option value="2">苹果混服</option></select></td>
+		<td>子渠道：</td><td><select name="subChannelNumber" id="subChannelNumber"><option value="1">UC</option><option value="2">91</option></select></td>
+		<td>服务器：</td><td><select name="serverNumber" id="serverNumber"><option value="1">1区德玛西亚</option><option value="2">2区皮城战警</option></select></td></tr>
+		<tr>
+		<tr><td colspan="6">公告1标题:<input id="title1" name="title1" size="45" name="title1"></td></tr>
+        <tr><td colspan="6">公告2标题:<input id="title2" name="title2" size="45" name="title2"></td></tr>
+        <tr><td colspan="6">公告3标题:<input id="title3" name="title3" size="45" name="title3"></td></tr>
+        <tr><td colspan="6">公告4标题:<input id="title4" name="title4" size="45" name="title4"></td></tr>
+        <tr><td colspan="6">公告5标题:<input id="title5" name="title5" size="45" name="title5"></td></tr>
+		<td colspan="6">
+			<textarea id="editNews" name="content" style="width:800px;height:400px;visibility:hidden;"></textarea>
+		</td>
+		</tr>
+		<tr>
+			<td>
+			<input type="submit" name="button" value="发布" />
+			</td>
+			<td>
+                <button id="saveRtfGG" onclick="ReadFiles()">生成文件(默认在当前目录下testfile_XXX.txt)</button>
+			</td>
+		</tr>
+		</table>
+		</form>
+	</body>
+</html>

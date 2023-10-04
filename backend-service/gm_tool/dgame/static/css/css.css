@@ -1,0 +1,14 @@
+body{text-align:center;}
+td{text-align:center;}
+li{float:left}
+.tabTitlesContainer{text-align:center;font-size:small;cursor:hand;width:1000px;border-width:thin;}
+.tabTitleUnSelected{background-color:Silver;width:100px;}
+.tabTitleUnSelected:hover{background-color:white;}
+.tabTitleSelected{background-color:Gray;width:100px;}
+#tabPagesContainer{text-align:left;font-size:small;font-size:small;width:1000px;}
+.tabPageUnSelected{background-color:white;display: none;}
+.tabPageSelected{background-color: white;display:block;}
+.tabPage{height:800px;}
+.tabPage100px{height:100px;}
+.tabPage200px{height:200px;}
+.tabPage700px{height:700px;}

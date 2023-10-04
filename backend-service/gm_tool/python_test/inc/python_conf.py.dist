@@ -1,0 +1,14 @@
+#encoding = utf-8
+
+#游戏数据库
+_GameDbAddr_ = ""
+_GameDbUser_ = ""
+_GameDbPswd_ = ""
+
+#账号数据库地址
+_AccountDbAddr_ = ""
+_AccountDbUser_ = ""
+_AccountDbPswd_ = ""
+
+#区号
+_ZoneId_ = 

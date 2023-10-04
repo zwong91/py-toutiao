@@ -1,0 +1,5556 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<MaterialBaseInfo_Tab>
+<TResHeadAll version="7">
+    <resHead type="TResHead">
+        <Magic>1397052237 </Magic>
+        <Version>7 </Version>
+        <Unit>1207 </Unit>
+        <Count>346 </Count>
+        <MetalibHash>5f3ddda27ca2d35cdc7c6329117be958</MetalibHash>
+        <ResVersion>0 </ResVersion>
+        <CreateTime>2015-09-09 15:07:16</CreateTime>
+        <ResEncording>UTF-8</ResEncording>
+        <ContentHash>cbe653ec9af77b4f075d1c350e641b55</ContentHash>
+    </resHead>
+    <resHeadExt type="TResHeadExt">
+        <DataOffset>140 </DataOffset>
+        <Buff>0 </Buff>
+    </resHeadExt>
+</TResHeadAll>
+<MaterialBaseInfo version="1">
+    <Id>4100 </Id>
+    <Name>礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>装填着丰富奖励的包裹。</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>1010001 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>baoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4301 </Id>
+    <Name>钻石礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1000钻石，40000金币</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>30090003 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hunshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4302 </Id>
+    <Name>大钻石礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得8888钻石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>30090004 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hunshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4303 </Id>
+    <Name>体力大补给礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得体力药膏10个</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>30090005 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hunshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4304 </Id>
+    <Name>测试礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>测试礼包</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>30090006 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hunshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4305 </Id>
+    <Name>力量装备升阶包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机力量装备升阶材料</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>30090007 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>zhuangbeibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4306 </Id>
+    <Name>敏捷装备升阶包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机敏捷装备升阶材料</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>30090008 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>zhuangbeibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4307 </Id>
+    <Name>智力装备升阶包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机智力装备升阶材料</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>30090009 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>zhuangbeibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4308 </Id>
+    <Name>优秀英雄魂魄包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机[00B0FF]优秀[-]英雄魂魄</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000007 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hunshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4312 </Id>
+    <Name>白色装备宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机白色装备</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>60000033 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>shengjieshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4313 </Id>
+    <Name>升阶石宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>30090012 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>zhuangbeibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4314 </Id>
+    <Name>卓越英雄魂魄包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机[FF00FF]卓越[-]英雄魂魄</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000008 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hunshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4315 </Id>
+    <Name>绿色装备宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机绿色装备</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>60000034 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>shengjieshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4316 </Id>
+    <Name>蓝色装备宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机蓝色装备</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>60000035 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>shengjieshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4317 </Id>
+    <Name>紫色装备宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机紫色装备</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>60000036 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>shengjieshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4318 </Id>
+    <Name>橙色装备宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得1个随机橙色装备</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>60000037 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>shengjieshibaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4319 </Id>
+    <Name>徽章宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量的家族徽章</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000004 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>tongbaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4320 </Id>
+    <Name>经验药水宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量的经验药水</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000005 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>tongbaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4321 </Id>
+    <Name>扫荡券宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量的扫荡券</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000006 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>tongbaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4322 </Id>
+    <Name>白色符文宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机1-2级符文</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>90110001 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4323 </Id>
+    <Name>绿色符文宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机3-4级符文</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>90110002 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4324 </Id>
+    <Name>蓝色符文宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机5-6级符文</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>90110003 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4325 </Id>
+    <Name>紫色符文宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机7-8级符文</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>90110004 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4326 </Id>
+    <Name>橙色符文宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机9-10级符文</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>90110005 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4401 </Id>
+    <Name>食人魔法师宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质食人魔法师魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000001 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_OM</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4402 </Id>
+    <Name>月之女祭司宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质月之女祭司魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000002 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_POM</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4403 </Id>
+    <Name>秀逗魔导士宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质秀逗魔导士魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000003 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_LINA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4404 </Id>
+    <Name>影魔宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质影魔魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000004 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_SF</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4405 </Id>
+    <Name>先知宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质先知魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000005 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_FUR</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4406 </Id>
+    <Name>宙斯宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质宙斯魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000006 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_ZUES</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4407 </Id>
+    <Name>撼地神牛宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质撼地神牛魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000007 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_ES</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4408 </Id>
+    <Name>月之骑士宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质月之骑士魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000008 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_LUNA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4409 </Id>
+    <Name>山岭巨人宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质山岭巨人魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000009 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_TINY</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4410 </Id>
+    <Name>末日使者宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质末日使者魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000010 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_DOOM</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4411 </Id>
+    <Name>水晶室女宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质水晶室女魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000011 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_CM</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4412 </Id>
+    <Name>育母蜘蛛宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质育母蜘蛛魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000012 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_BR</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4413 </Id>
+    <Name>复仇之魂宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质复仇之魂魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000013 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_VS</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4414 </Id>
+    <Name>幻影刺客宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质幻影刺客魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000014 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_PA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4415 </Id>
+    <Name>风行者宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质风行者魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000015 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_WR</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4416 </Id>
+    <Name>圣堂刺客宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质圣堂刺客魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000016 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_TA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4417 </Id>
+    <Name>隐形刺客宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质隐形刺客魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000017 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_SA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4418 </Id>
+    <Name>赏金猎人宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质赏金猎人魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000018 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_BH</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4419 </Id>
+    <Name>炼金术士宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质炼金术士魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000019 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_GA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4420 </Id>
+    <Name>地穴刺客宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质地穴刺客魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000020 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_NA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4421 </Id>
+    <Name>恐怖利刃宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质恐怖利刃魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000021 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_TB</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4422 </Id>
+    <Name>剑圣宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质剑圣魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000022 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_JUGG</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4423 </Id>
+    <Name>半人马酋长宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质半人马酋长魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000023 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_CW</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4424 </Id>
+    <Name>暗影萨满宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质暗影萨满魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000024 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_SS</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4425 </Id>
+    <Name>痛苦女王宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质痛苦女王魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000025 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_QOP</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4426 </Id>
+    <Name>潮汐猎人宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质潮汐猎人魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000026 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_TH</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4427 </Id>
+    <Name>黑暗游侠宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质黑暗游侠魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000027 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_DR</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4428 </Id>
+    <Name>全能骑士宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质全能骑士魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000028 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_OK</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4429 </Id>
+    <Name>地狱领主宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质地狱领主魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000029 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_LOA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4430 </Id>
+    <Name>暗夜魔王宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[00B0FF]优秀[-]品质暗夜魔王魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000030 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_NS</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4431 </Id>
+    <Name>风暴之灵宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质风暴之灵魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000031 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_ST</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4432 </Id>
+    <Name>卡尔宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质卡尔魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000032 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_KAEL</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>4433 </Id>
+    <Name>魅惑魔女宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>开启后获得随机数量[FF00FF]卓越[-]品质魅惑魔女魂石或其专属装备升阶石</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>62000033 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_EH</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>5001 </Id>
+    <Name>白银宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>外表镶嵌着白银的华丽宝箱。</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>1020001 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>baoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>5002 </Id>
+    <Name>黄金宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>外表镶嵌着黄金的华丽宝箱。</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>1020002 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>baoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>5011 </Id>
+    <Name>金宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>包含神秘礼物的宝箱，打开需要消耗一把金钥匙</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000003 </FuncParam>
+    <ExtFuncParam>5021 0 0 </ExtFuncParam>
+    <Pic>jinbaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>5012 </Id>
+    <Name>银宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>包含神秘礼物的宝箱，打开需要消耗一把银钥匙</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000002 </FuncParam>
+    <ExtFuncParam>5022 0 0 </ExtFuncParam>
+    <Pic>yinbaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>5013 </Id>
+    <Name>铜宝箱</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>包含神秘礼物的宝箱，打开需要消耗一把铜钥匙</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000001 </FuncParam>
+    <ExtFuncParam>5023 0 0 </ExtFuncParam>
+    <Pic>tongbaoxiang</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>5021 </Id>
+    <Name>金钥匙</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>可以开启内有神秘礼物的金宝箱</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000003 </FuncParam>
+    <ExtFuncParam>5011 0 0 </ExtFuncParam>
+    <Pic>jinyaoshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>5022 </Id>
+    <Name>银钥匙</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>可以开启内有神秘礼物的银宝箱</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000002 </FuncParam>
+    <ExtFuncParam>5012 0 0 </ExtFuncParam>
+    <Pic>yinyaoshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>5023 </Id>
+    <Name>铜钥匙</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>可以开启内有神秘礼物的铜宝箱</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>61000001 </FuncParam>
+    <ExtFuncParam>5013 0 0 </ExtFuncParam>
+    <Pic>tongyaoshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6001 </Id>
+    <Name>白金药水</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加vip经验</Desc>
+    <FuncId>1004 </FuncId>
+    <FuncParam>100 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6002 </Id>
+    <Name>月卡能量石</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>这块石头充满了狂躁的能量-使用后可充值月卡</Desc>
+    <FuncId>1005 </FuncId>
+    <FuncParam>1 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6003 </Id>
+    <Name>终身卡能量石</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>这块石头充满了狂躁的能量-使用后可充值终身卡</Desc>
+    <FuncId>1005 </FuncId>
+    <FuncParam>2 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6004 </Id>
+    <Name>60钻能量石</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>这块石头充满了狂躁的能量-使用后可充值60钻石</Desc>
+    <FuncId>1005 </FuncId>
+    <FuncParam>3 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6005 </Id>
+    <Name>6480钻能量石</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>这块石头充满了狂躁的能量-使用后可充值6480钻石</Desc>
+    <FuncId>1005 </FuncId>
+    <FuncParam>4 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6006 </Id>
+    <Name>3280钻能量石</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>这块石头充满了狂躁的能量-使用后可充值3280钻石</Desc>
+    <FuncId>1005 </FuncId>
+    <FuncParam>5 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6007 </Id>
+    <Name>1980钻能量石</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>这块石头充满了狂躁的能量-使用后可充值1980钻石</Desc>
+    <FuncId>1005 </FuncId>
+    <FuncParam>6 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6008 </Id>
+    <Name>980钻能量石</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>这块石头充满了狂躁的能量-使用后可充值980钻石</Desc>
+    <FuncId>1005 </FuncId>
+    <FuncParam>7 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>6009 </Id>
+    <Name>300钻能量石</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>这块石头充满了狂躁的能量-使用后可充值300钻石</Desc>
+    <FuncId>1005 </FuncId>
+    <FuncParam>8 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7001 </Id>
+    <Name>微信礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*200、扫荡券*20、金币*10万、绿色装备箱*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000001 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7002 </Id>
+    <Name>微博礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*150、中级经验药水*5、金币*2万、白色符文宝箱*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000002 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7003 </Id>
+    <Name>论坛礼包1</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*88、金币*5万、中级经验药水*5、绿色装备宝箱*5</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000003 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7004 </Id>
+    <Name>论坛礼包2</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*188、金币*10万、中级经验药水*5、凤羽（智）*5</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000004 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaohezi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7005 </Id>
+    <Name>论坛礼包3</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*188、金币*10万、中级经验药水*5、凤羽（力）*5</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000005 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7006 </Id>
+    <Name>论坛礼包4</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*188、金币*10万、中级经验药水*5、凤羽（敏）*5</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000006 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7007 </Id>
+    <Name>媒体礼包1</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*100、金币*5万、水晶室女魂魄*5</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000007 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7008 </Id>
+    <Name>媒体礼包2</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*88、金币*3万、秀逗魔导师魂魄*5</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000008 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7009 </Id>
+    <Name>媒体礼包3</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*150、金币*5万、全能骑士魂魄*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000009 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7010 </Id>
+    <Name>媒体礼包4</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*150、金币*5万、扫荡券*20、白色装备箱*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000010 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaohezi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7011 </Id>
+    <Name>百度新手礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*100、金币*20000、扫荡券*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000011 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7012 </Id>
+    <Name>百度高级礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*200、金币*50000、体力药剂*2</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000012 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7013 </Id>
+    <Name>百度豪华礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*300、金币*100000、体力药剂*2、高级经验药水*2</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000013 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaohezi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7014 </Id>
+    <Name>拇指玩新手礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*100、金币*20000、扫荡券*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000014 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7015 </Id>
+    <Name>拇指玩高级礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*300、金币*100000、高级经验药水*2</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000015 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7016 </Id>
+    <Name>360新手礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*100、金币*20000、扫荡券*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000016 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7017 </Id>
+    <Name>360公会礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*100、金币*20000、体力药剂*2</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000017 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7018 </Id>
+    <Name>360特权礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*200、金币*50000、中级经验药水*2</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000018 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7019 </Id>
+    <Name>360独家礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*300、金币*100000、高级经验药水*2</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000019 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaohezi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7020 </Id>
+    <Name>微信专属豪华礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*200、金币*50000、体力药剂*2、高级经验药水*2</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000020 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaohezi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7021 </Id>
+    <Name>88元豪华礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*100、金币*50000、高级经验药水*3、随机装备宝箱*10、扫荡券*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000021 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7022 </Id>
+    <Name>188元豪华礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*200、金币*80000、高级经验药水*6、随机装备宝箱*20、扫荡券*20</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000022 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7023 </Id>
+    <Name>288元豪华礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*300、金币*100000、高级经验药水*8、随机装备宝箱*30、扫荡券*30</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000023 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaohezi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7024 </Id>
+    <Name>388元豪华礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*500、金币*100000、高级经验药水*10、随机装备宝箱*50、扫荡券*50</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000024 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaohezi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7025 </Id>
+    <Name>百度封测体验礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*300、金币*50000、高级经验药水*5、随机装备宝箱*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000025 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaohezi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>7026 </Id>
+    <Name>百度新手礼包</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后获得钻石*100、金币*20000、扫荡券*10</Desc>
+    <FuncId>1001 </FuncId>
+    <FuncParam>70000026 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>libaodaizi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>110000 </Id>
+    <Name>2星进阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x1 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>具备2星品阶之力的石块，一定数量时，能提升1星英雄的星数。</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Rising_starLow</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>120000 </Id>
+    <Name>3星进阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x2 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>具备3星品阶之力的石块，一定数量时，能提升2星英雄的星数。</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Rising_starLow</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>130000 </Id>
+    <Name>4星进阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x3 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>具备4星品阶之力的石块，一定数量时，能提升3星英雄的星数。</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Rising_starLow</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>140000 </Id>
+    <Name>5星进阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x4 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>具备5星品阶之力的石块，一定数量时，能提升4星英雄的星数。</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Rising_starLow</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>150000 </Id>
+    <Name>6星进阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x5 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>具备6星品阶之力的石块，一定数量时，能提升5星英雄的星数。</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Rising_starHigh</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>160000 </Id>
+    <Name>7星进阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x6 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>具备7星品阶之力的石块，一定数量时，能提升6星英雄的星数。</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Rising_starHigh</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210001 </Id>
+    <Name>食人魔法师魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄食人魔法师，另外也是食人魔法师升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110001 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_OM</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210002 </Id>
+    <Name>月之女祭司魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄月之女祭司，另外也是月之女祭司升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110002 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_POM</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210003 </Id>
+    <Name>秀逗魔导士魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄秀逗魔导士，另外也是秀逗魔导士升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110003 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_LINA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210004 </Id>
+    <Name>影魔魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄影魔，另外也是影魔升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110004 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_SF</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210005 </Id>
+    <Name>先知魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄先知，另外也是先知升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110005 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_FUR</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210006 </Id>
+    <Name>宙斯魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄宙斯，另外也是宙斯升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110006 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_ZUES</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210007 </Id>
+    <Name>撼地神牛魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄撼地神牛，另外也是撼地神牛升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110007 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_ES</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210008 </Id>
+    <Name>月之骑士魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄月之骑士，另外也是月之骑士升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110008 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_LUNA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210009 </Id>
+    <Name>山岭巨人魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄山岭巨人，另外也是山岭巨人升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110009 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_TINY</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210010 </Id>
+    <Name>末日使者魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄末日使者，另外也是末日使者升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110010 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_DOOM</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210011 </Id>
+    <Name>水晶室女魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄水晶室女，另外也是水晶室女升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110011 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_CM</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210012 </Id>
+    <Name>育母蜘蛛魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄育母蜘蛛，另外也是育母蜘蛛升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110012 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_BR</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210013 </Id>
+    <Name>复仇之魂魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄复仇之魂，另外也是复仇之魂升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110013 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_VS</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210014 </Id>
+    <Name>幻影刺客魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄幻影刺客，另外也是幻影刺客升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110014 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_PA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210015 </Id>
+    <Name>风行者魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄风行者，另外也是风行者升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110015 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_WR</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210016 </Id>
+    <Name>圣堂刺客魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄圣堂刺客，另外也是圣堂刺客升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110016 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_TA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210017 </Id>
+    <Name>隐形刺客魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄隐形刺客，另外也是隐形刺客升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110017 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_SA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210018 </Id>
+    <Name>赏金猎人魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄赏金猎人，另外也是赏金猎人升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110018 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_BH</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210019 </Id>
+    <Name>炼金术士魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄炼金术士，另外也是炼金术士升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110019 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_GA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210020 </Id>
+    <Name>地穴刺客魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄地穴刺客，另外也是地穴刺客升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110020 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_NA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210021 </Id>
+    <Name>恐怖利刃魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄恐怖利刃，另外也是恐怖利刃升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110021 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_TB</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210022 </Id>
+    <Name>剑圣魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄剑圣，另外也是剑圣升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110022 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_JUGG</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210023 </Id>
+    <Name>半人马酋长魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄半人马酋长，另外也是半人马酋长升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110023 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_CW</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210024 </Id>
+    <Name>暗影萨满魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄暗影萨满，另外也是暗影萨满升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110024 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_SS</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210025 </Id>
+    <Name>痛苦女王魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄痛苦女王，另外也是痛苦女王升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110025 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_QOP</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210026 </Id>
+    <Name>潮汐猎人魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄潮汐猎人，另外也是潮汐猎人升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110026 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_TH</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210027 </Id>
+    <Name>黑暗游侠魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄黑暗游侠，另外也是黑暗游侠升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110027 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_DR</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210028 </Id>
+    <Name>全能骑士魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄全能骑士，另外也是全能骑士升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110028 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_OK</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210029 </Id>
+    <Name>地狱领主魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄地狱领主，另外也是地狱领主升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110029 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_LOA</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210030 </Id>
+    <Name>暗夜魔王魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄暗夜魔王，另外也是暗夜魔王升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110030 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_NS</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210031 </Id>
+    <Name>风暴之灵魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄风暴之灵，另外也是风暴之灵升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110031 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_ST</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210032 </Id>
+    <Name>卡尔魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄卡尔，另外也是卡尔升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110032 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_KAEL</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>210033 </Id>
+    <Name>魅惑魔女魂魄</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>用于召唤英雄魅惑魔女，另外也是魅惑魔女升星的材料</Desc>
+    <FuncId>1007 </FuncId>
+    <FuncParam>110033 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>hero_EH</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300001 </Id>
+    <Name>洞察烟斗升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>食人魔法师专属装备-洞察烟斗升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110001 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00053</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300002 </Id>
+    <Name>大炮升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>月之女祭司专属装备-大炮升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110002 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00093</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300003 </Id>
+    <Name>蓝杖升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>秀逗魔导士专属装备-蓝杖升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110003 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00062</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300004 </Id>
+    <Name>虚灵之刃升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>影魔专属装备-虚灵之刃升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110004 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00099</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300005 </Id>
+    <Name>雷神之锤升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>先知专属装备-雷神之锤升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110005 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00079</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300006 </Id>
+    <Name>刷新球升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>宙斯专属装备-刷新球升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110006 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00063</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300007 </Id>
+    <Name>跳刀升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>撼地神牛专属装备-跳刀升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110007 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00023</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300008 </Id>
+    <Name>蝴蝶升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>月之骑士专属装备-蝴蝶升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110008 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00092</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300009 </Id>
+    <Name>强袭装甲升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>山岭巨人专属装备-强袭装甲升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110009 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00066</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300010 </Id>
+    <Name>辉耀升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>末日使者专属装备-辉耀升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110010 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00091</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300011 </Id>
+    <Name>推推棒升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>水晶室女专属装备-推推棒升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110011 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00065</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300012 </Id>
+    <Name>死灵书升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>育母蜘蛛专属装备-死灵书升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110012 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00060</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300013 </Id>
+    <Name>先祖韧鼓升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>复仇之魂专属装备-先祖韧鼓升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110013 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00056</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300014 </Id>
+    <Name>黑皇杖升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>幻影刺客专属装备-黑皇杖升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110014 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00068</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300015 </Id>
+    <Name>紫苑升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>风行者专属装备-紫苑升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110015 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00059</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300016 </Id>
+    <Name>黯灭升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>圣堂刺客专属装备-黯灭升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110016 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00084</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300017 </Id>
+    <Name>散失之刃升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>隐形刺客专属装备-散失之刃升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110017 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00087</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300018 </Id>
+    <Name>勇气勋章升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>赏金猎人专属装备-勇气勋章升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110018 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00055</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300019 </Id>
+    <Name>洛萨之锋升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>炼金术士专属装备-洛萨之锋升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110019 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00098</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300020 </Id>
+    <Name>红杖升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>地穴刺客专属装备-红杖升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110020 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00061</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300021 </Id>
+    <Name>碎颅锤升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>恐怖利刃专属装备-碎颅锤升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110021 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00094</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300022 </Id>
+    <Name>狂战斧升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>剑圣专属装备-狂战斧升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110022 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00095</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300023 </Id>
+    <Name>恐鳌之心升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>半人马酋长专属装备-恐鳌之心升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110023 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00067</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300024 </Id>
+    <Name>风杖升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>暗影萨满专属装备-风杖升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110024 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00088</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300025 </Id>
+    <Name>邪恶镰刀升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>痛苦女王专属装备-邪恶镰刀升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110025 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00058</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300026 </Id>
+    <Name>冰甲升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>潮汐猎人专属装备-冰甲升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110026 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00069</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300027 </Id>
+    <Name>金箍棒升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>黑暗游侠专属装备-金箍棒升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110027 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00090</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300028 </Id>
+    <Name>散夜对剑升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>全能骑士专属装备-散夜对剑升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110028 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00077</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300029 </Id>
+    <Name>撒旦升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>地狱领主专属装备-撒旦升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110029 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00078</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300030 </Id>
+    <Name>臂章升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>暗夜魔王专属装备-臂章升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110030 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00097</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300031 </Id>
+    <Name>血精石升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>风暴之灵专属装备-血精石升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110031 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00070</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300032 </Id>
+    <Name>冰眼升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>卡尔专属装备-冰眼升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110032 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00080</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>300033 </Id>
+    <Name>梅肯斯姆升阶石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>魅惑魔女专属装备-梅肯斯姆升阶石</Desc>
+    <FuncId>1006 </FuncId>
+    <FuncParam>110033 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>D00048</Pic>
+    <Atlis>zhuangbeiwupin-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>301001 </Id>
+    <Name>龙魂</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>生于魔域，稀少而珍贵的玉石，其精华可提取用于专属装备洗练、合成</Desc>
+    <FuncId>1013 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>xilianshi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>302001 </Id>
+    <Name>铸辉钢石</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>打磨装备所用之石，可用于提升专属装备等级</Desc>
+    <FuncId>1014 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Rising_star</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>303001 </Id>
+    <Name>净蚀魔玉</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>生于魔域，稀少而珍贵的玉石，其精华可提取用于专属装备洗练、合成</Desc>
+    <FuncId>1015 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Jinjie_white</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>310001 </Id>
+    <Name>玄铁(力)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着少量魔法能量的红色石块，用于提升力量型武器装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Xuantie_purple</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>310002 </Id>
+    <Name>凤羽(力)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着凤凰精血的红色羽毛，用于提升力量型衣服装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fengyu_white</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>310003 </Id>
+    <Name>尖刺(力)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>锋利的红色骨刺，用于提升力量型手套装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>jianci_white</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>310004 </Id>
+    <Name>火石(力)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着烈火元素的石块，用于提升力量型戒指装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>huoshi_white</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>310005 </Id>
+    <Name>兽骨(力)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>不知名凶兽的红色骨块，用于提升力量型鞋子装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>shougu_white</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>320001 </Id>
+    <Name>玄铁(智)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着少量魔法能量的蓝色石块，用于提升智力型武器装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Xuantie_blue</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>320002 </Id>
+    <Name>凤羽(智)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着凤凰精血的蓝色羽毛，用于提升智力型衣服装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fengyu_blue</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>320003 </Id>
+    <Name>尖刺(智)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>锋利的蓝色骨刺，用于提升智力型手套装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>jianci_blue</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>320004 </Id>
+    <Name>火石(智)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着寒冰元素的石块，用于提升智力型戒指装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>huoshi_blue</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>320005 </Id>
+    <Name>兽骨(智)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>不知名凶兽的蓝色骨块，用于提升智力型鞋子装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>shougu_blue</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>330001 </Id>
+    <Name>玄铁(敏)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着少量魔法能量的绿色石块，用于提升敏捷型武器装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>Xuantie_green</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>330002 </Id>
+    <Name>凤羽(敏)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着凤凰精血的绿色羽毛，用于提升敏捷型衣服装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fengyu_green</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>330003 </Id>
+    <Name>尖刺(敏)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>锋利的绿色骨刺，用于提升敏捷型手套装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>jianci_green</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>330004 </Id>
+    <Name>火石(敏)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>蕴含着风元素的石块，用于提升敏捷型戒指装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>huoshi_green</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>330005 </Id>
+    <Name>兽骨(敏)</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>1 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>不知名凶兽的绿色骨块，用于提升敏捷型鞋子装备的品阶</Desc>
+    <FuncId>1008 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>shougu_green</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>410001 </Id>
+    <Name>初级经验药水</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>可为英雄提供100点经验。</Desc>
+    <FuncId>1002 </FuncId>
+    <FuncParam>100 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>yaoshuiMin</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>410002 </Id>
+    <Name>中级经验药水</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>可为英雄提供500点经验。</Desc>
+    <FuncId>1002 </FuncId>
+    <FuncParam>500 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>yaoshuiMid</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>410003 </Id>
+    <Name>高级经验药水</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>可为英雄提供2500点经验。</Desc>
+    <FuncId>1002 </FuncId>
+    <FuncParam>2500 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>yaoshuiMax</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>420001 </Id>
+    <Name>扫荡券</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>扫荡所需要的道具，每扫荡一次消耗一张。</Desc>
+    <FuncId>1009 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>saodangquantubiao</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>420002 </Id>
+    <Name>徽章</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>可捐献给家族获得功勋，兑换珍稀道具</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>familyEmblem</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>420003 </Id>
+    <Name>奥义水晶</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>圣堂领域中的矿石，可以用来提升英雄奥义等级。</Desc>
+    <FuncId>1011 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>aoyi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>420004 </Id>
+    <Name>天敌眼</Name>
+    <Type>RES_ITEM_TYPE_MATERIAL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>我已经锁定你了!用于提升英雄克制等级。</Desc>
+    <FuncId>1012 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>tiandi</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>420005 </Id>
+    <Name>动物信使</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>可用于普通召唤</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>jinbichou</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>420006 </Id>
+    <Name>飞行信使</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>可用于神圣召唤</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>zuanshichou</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>430001 </Id>
+    <Name>移魂宝珠</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>英雄移魂的必备材料</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>yihundan</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>440001 </Id>
+    <Name>技能药水</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x0 </CanUseInBag>
+    <Desc>可以增加10点技能点数的药水</Desc>
+    <FuncId>0 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>experience</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501001 </Id>
+    <Name>1级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]16[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501002 </Id>
+    <Name>1级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]16[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501003 </Id>
+    <Name>1级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]16[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501004 </Id>
+    <Name>1级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]16[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501005 </Id>
+    <Name>1级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]16[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501006 </Id>
+    <Name>1级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]16[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501007 </Id>
+    <Name>1级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]16[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501008 </Id>
+    <Name>1级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]16[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501009 </Id>
+    <Name>1级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]320[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501010 </Id>
+    <Name>1级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]7[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501011 </Id>
+    <Name>1级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]7[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>501012 </Id>
+    <Name>1级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]7[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502001 </Id>
+    <Name>2级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]24[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502002 </Id>
+    <Name>2级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]24[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502003 </Id>
+    <Name>2级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]24[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502004 </Id>
+    <Name>2级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]24[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502005 </Id>
+    <Name>2级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]24[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502006 </Id>
+    <Name>2级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]24[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502007 </Id>
+    <Name>2级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]24[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502008 </Id>
+    <Name>2级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]24[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502009 </Id>
+    <Name>2级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]480[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502010 </Id>
+    <Name>2级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]9[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502011 </Id>
+    <Name>2级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]9[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>502012 </Id>
+    <Name>2级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_WHITE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]9[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503001 </Id>
+    <Name>3级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]34[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503002 </Id>
+    <Name>3级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]34[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503003 </Id>
+    <Name>3级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]34[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503004 </Id>
+    <Name>3级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]34[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503005 </Id>
+    <Name>3级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]34[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503006 </Id>
+    <Name>3级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]34[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503007 </Id>
+    <Name>3级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]34[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503008 </Id>
+    <Name>3级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]34[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503009 </Id>
+    <Name>3级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]680[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503010 </Id>
+    <Name>3级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]14[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503011 </Id>
+    <Name>3级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]14[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>503012 </Id>
+    <Name>3级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]14[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504001 </Id>
+    <Name>4级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]50[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504002 </Id>
+    <Name>4级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]50[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504003 </Id>
+    <Name>4级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]50[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504004 </Id>
+    <Name>4级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]50[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504005 </Id>
+    <Name>4级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]50[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504006 </Id>
+    <Name>4级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]50[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504007 </Id>
+    <Name>4级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]50[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504008 </Id>
+    <Name>4级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]50[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504009 </Id>
+    <Name>4级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]1000[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504010 </Id>
+    <Name>4级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]20[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504011 </Id>
+    <Name>4级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]20[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>504012 </Id>
+    <Name>4级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_GREEN </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]20[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505001 </Id>
+    <Name>5级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]72[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505002 </Id>
+    <Name>5级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]72[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505003 </Id>
+    <Name>5级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]72[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505004 </Id>
+    <Name>5级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]72[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505005 </Id>
+    <Name>5级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]72[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505006 </Id>
+    <Name>5级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]72[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505007 </Id>
+    <Name>5级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]72[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505008 </Id>
+    <Name>5级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]72[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505009 </Id>
+    <Name>5级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]1440[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505010 </Id>
+    <Name>5级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]29[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505011 </Id>
+    <Name>5级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]29[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>505012 </Id>
+    <Name>5级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]29[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506001 </Id>
+    <Name>6级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]105[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506002 </Id>
+    <Name>6级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]105[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506003 </Id>
+    <Name>6级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]105[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506004 </Id>
+    <Name>6级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]105[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506005 </Id>
+    <Name>6级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]105[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506006 </Id>
+    <Name>6级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]105[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506007 </Id>
+    <Name>6级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]105[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506008 </Id>
+    <Name>6级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]105[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506009 </Id>
+    <Name>6级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]2100[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506010 </Id>
+    <Name>6级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]42[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506011 </Id>
+    <Name>6级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]42[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>506012 </Id>
+    <Name>6级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_BLUE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]42[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507001 </Id>
+    <Name>7级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]152[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507002 </Id>
+    <Name>7级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]152[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507003 </Id>
+    <Name>7级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]152[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507004 </Id>
+    <Name>7级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]152[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507005 </Id>
+    <Name>7级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]152[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507006 </Id>
+    <Name>7级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]152[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507007 </Id>
+    <Name>7级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]152[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507008 </Id>
+    <Name>7级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]152[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507009 </Id>
+    <Name>7级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]3040[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507010 </Id>
+    <Name>7级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]61[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507011 </Id>
+    <Name>7级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]61[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>507012 </Id>
+    <Name>7级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]61[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508001 </Id>
+    <Name>8级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]220[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508002 </Id>
+    <Name>8级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]220[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508003 </Id>
+    <Name>8级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]220[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508004 </Id>
+    <Name>8级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]220[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508005 </Id>
+    <Name>8级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]220[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508006 </Id>
+    <Name>8级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]220[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508007 </Id>
+    <Name>8级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]220[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508008 </Id>
+    <Name>8级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]220[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508009 </Id>
+    <Name>8级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]4400[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508010 </Id>
+    <Name>8级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]88[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508011 </Id>
+    <Name>8级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]88[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>508012 </Id>
+    <Name>8级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]88[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509001 </Id>
+    <Name>9级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]319[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509002 </Id>
+    <Name>9级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]319[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509003 </Id>
+    <Name>9级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]319[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509004 </Id>
+    <Name>9级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]319[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509005 </Id>
+    <Name>9级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]319[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509006 </Id>
+    <Name>9级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]319[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509007 </Id>
+    <Name>9级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]319[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509008 </Id>
+    <Name>9级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]319[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509009 </Id>
+    <Name>9级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]6380[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509010 </Id>
+    <Name>9级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]128[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509011 </Id>
+    <Name>9级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]128[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>509012 </Id>
+    <Name>9级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]128[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510001 </Id>
+    <Name>10级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]462[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510002 </Id>
+    <Name>10级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]462[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510003 </Id>
+    <Name>10级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]462[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510004 </Id>
+    <Name>10级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]462[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510005 </Id>
+    <Name>10级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]462[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510006 </Id>
+    <Name>10级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]462[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510007 </Id>
+    <Name>10级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]462[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510008 </Id>
+    <Name>10级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]462[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510009 </Id>
+    <Name>10级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]9240[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510010 </Id>
+    <Name>10级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]185[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510011 </Id>
+    <Name>10级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]185[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>510012 </Id>
+    <Name>10级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]185[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511001 </Id>
+    <Name>11级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]670[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511002 </Id>
+    <Name>11级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]670[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511003 </Id>
+    <Name>11级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]670[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511004 </Id>
+    <Name>11级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]670[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511005 </Id>
+    <Name>11级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]670[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511006 </Id>
+    <Name>11级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]670[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511007 </Id>
+    <Name>11级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]670[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511008 </Id>
+    <Name>11级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]670[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511009 </Id>
+    <Name>11级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]13400[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511010 </Id>
+    <Name>11级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]268[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511011 </Id>
+    <Name>11级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]268[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>511012 </Id>
+    <Name>11级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]268[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512001 </Id>
+    <Name>12级抗暴符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]972[-]点暴击抵抗</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen1</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512002 </Id>
+    <Name>12级闪避符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]972[-]点闪避</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen2</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512003 </Id>
+    <Name>12级暴击符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]972[-]点暴击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen3</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512004 </Id>
+    <Name>12级命中符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]972[-]点命中</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen4</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512005 </Id>
+    <Name>12级魔防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]972[-]点魔法防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen5</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512006 </Id>
+    <Name>12级物防符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]972[-]点物理防御</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen6</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512007 </Id>
+    <Name>12级魔攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]972[-]点魔法攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen7</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512008 </Id>
+    <Name>12级物攻符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]972[-]点物理攻击</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen8</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512009 </Id>
+    <Name>12级生命符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]19440[-]点生命</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen9</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512010 </Id>
+    <Name>12级敏捷符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]389[-]点敏捷</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen10</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512011 </Id>
+    <Name>12级智力符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]389[-]点智力</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen11</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>512012 </Id>
+    <Name>12级力量符文</Name>
+    <Type>RES_ITEM_TYPE_RUNE </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_ORANGE </Color>
+    <CanSale>0x0 </CanSale>
+    <Price>0 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>增加[00FF00]389[-]点力量</Desc>
+    <FuncId>1016 </FuncId>
+    <FuncParam>0 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>fuwen12</Pic>
+    <Atlis>Atlas06</Atlis>
+</MaterialBaseInfo>
+<MaterialBaseInfo version="1">
+    <Id>1010001 </Id>
+    <Name>体力药膏</Name>
+    <Type>RES_ITEM_TYPE_TOOL </Type>
+    <Star>0x0 </Star>
+    <Color>RES_ITEM_COLOR_TYPE_PURPLE </Color>
+    <CanSale>0x1 </CanSale>
+    <Price>100 </Price>
+    <CanUseInBag>0x1 </CanUseInBag>
+    <Desc>使用后增加25点体力</Desc>
+    <FuncId>1003 </FuncId>
+    <FuncParam>25 </FuncParam>
+    <ExtFuncParam>0 0 0 </ExtFuncParam>
+    <Pic>experience</Pic>
+    <Atlis>yingxiongtouxiang-1</Atlis>
+</MaterialBaseInfo>
+</MaterialBaseInfo_Tab>

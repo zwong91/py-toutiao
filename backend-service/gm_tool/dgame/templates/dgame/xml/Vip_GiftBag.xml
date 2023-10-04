@@ -1,0 +1,4250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<GiftBag_Tab>
+<TResHeadAll version="7">
+    <resHead type="TResHead">
+        <Magic>1397052237 </Magic>
+        <Version>7 </Version>
+        <Unit>35 </Unit>
+        <Count>282 </Count>
+        <MetalibHash>66969a8acb7ac218c9b5160169f8016b</MetalibHash>
+        <ResVersion>0 </ResVersion>
+        <CreateTime>2015-06-10 16:31:52</CreateTime>
+        <ResEncording>UTF-8</ResEncording>
+        <ContentHash>9849cd5301344fd382041341efb43574</ContentHash>
+    </resHead>
+    <resHeadExt type="TResHeadExt">
+        <DataOffset>140 </DataOffset>
+        <Buff>0 </Buff>
+    </resHeadExt>
+</TResHeadAll>
+<GiftBag version="1">
+    <Line>1 </Line>
+    <Id>30010001 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>2 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410001 </Id>
+        <MinCnt>5 </MinCnt>
+        <MaxCnt>5 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>3 </Line>
+    <Id>30010002 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>4 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>10 </MinCnt>
+        <MaxCnt>10 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>5 </Line>
+    <Id>30010003 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>200000 </MinCnt>
+        <MaxCnt>200000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>6 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>1010001 </Id>
+        <MinCnt>2 </MinCnt>
+        <MaxCnt>2 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>7 </Line>
+    <Id>30010004 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210029 </Id>
+        <MinCnt>180 </MinCnt>
+        <MaxCnt>180 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>8 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410001 </Id>
+        <MinCnt>20 </MinCnt>
+        <MaxCnt>20 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>9 </Line>
+    <Id>30010005 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>10 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>50005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>11 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310005 </Id>
+        <MinCnt>88 </MinCnt>
+        <MaxCnt>88 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>12 </Line>
+    <Id>30010006 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210029 </Id>
+        <MinCnt>540 </MinCnt>
+        <MaxCnt>540 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>13 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>140000 </Id>
+        <MinCnt>10 </MinCnt>
+        <MaxCnt>10 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>14 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410002 </Id>
+        <MinCnt>20 </MinCnt>
+        <MaxCnt>20 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>15 </Line>
+    <Id>30010007 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>16 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>50004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>17 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310004 </Id>
+        <MinCnt>374 </MinCnt>
+        <MaxCnt>374 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>18 </Line>
+    <Id>30010008 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>700000 </MinCnt>
+        <MaxCnt>700000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>19 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>50003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>20 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310003 </Id>
+        <MinCnt>374 </MinCnt>
+        <MaxCnt>374 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>21 </Line>
+    <Id>30010009 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>1100000 </MinCnt>
+        <MaxCnt>1100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>22 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>50002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>23 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310002 </Id>
+        <MinCnt>374 </MinCnt>
+        <MaxCnt>374 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>24 </Line>
+    <Id>30010010 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>1500000 </MinCnt>
+        <MaxCnt>1500000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>25 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>50001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>26 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>374 </MinCnt>
+        <MaxCnt>374 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>27 </Line>
+    <Id>30010011 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>2000000 </MinCnt>
+        <MaxCnt>2000000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>28 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>51029 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>29 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>300029 </Id>
+        <MinCnt>374 </MinCnt>
+        <MaxCnt>374 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>30 </Line>
+    <Id>30010012 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210029 </Id>
+        <MinCnt>1620 </MinCnt>
+        <MaxCnt>1620 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>31 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>150000 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>32 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410003 </Id>
+        <MinCnt>20 </MinCnt>
+        <MaxCnt>20 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>33 </Line>
+    <Id>30010013 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>160001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>34 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410003 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>35 </Line>
+    <Id>30010014 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>3000000 </MinCnt>
+        <MaxCnt>3000000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>36 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GIFT_BAG </Type>
+        <Id>30090014 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>37 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GIFT_BAG </Type>
+        <Id>30090015 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>42 </Line>
+    <Id>30010015 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210001 </Id>
+        <MinCnt>4860 </MinCnt>
+        <MaxCnt>4860 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>43 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>160000 </Id>
+        <MinCnt>200 </MinCnt>
+        <MaxCnt>200 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>44 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410003 </Id>
+        <MinCnt>100 </MinCnt>
+        <MaxCnt>100 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>45 </Line>
+    <Id>30020001 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>46 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>47 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210010 </Id>
+        <MinCnt>3 </MinCnt>
+        <MaxCnt>3 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>48 </Line>
+    <Id>30020002 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>49 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100 </MinCnt>
+        <MaxCnt>100 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>50 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210010 </Id>
+        <MinCnt>4 </MinCnt>
+        <MaxCnt>4 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>51 </Line>
+    <Id>30020003 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>150000 </MinCnt>
+        <MaxCnt>150000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>52 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>150 </MinCnt>
+        <MaxCnt>150 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>53 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210010 </Id>
+        <MinCnt>5 </MinCnt>
+        <MaxCnt>5 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>54 </Line>
+    <Id>30020004 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>200000 </MinCnt>
+        <MaxCnt>200000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>55 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>200 </MinCnt>
+        <MaxCnt>200 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>56 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210010 </Id>
+        <MinCnt>6 </MinCnt>
+        <MaxCnt>6 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>57 </Line>
+    <Id>30020005 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>250000 </MinCnt>
+        <MaxCnt>250000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>58 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>250 </MinCnt>
+        <MaxCnt>250 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>59 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210010 </Id>
+        <MinCnt>7 </MinCnt>
+        <MaxCnt>7 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>60 </Line>
+    <Id>30020006 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>61 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>62 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210010 </Id>
+        <MinCnt>3 </MinCnt>
+        <MaxCnt>3 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>63 </Line>
+    <Id>30020007 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>64 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100 </MinCnt>
+        <MaxCnt>100 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>65 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210010 </Id>
+        <MinCnt>4 </MinCnt>
+        <MaxCnt>4 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>66 </Line>
+    <Id>30030001 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>5 </MinAppearCnt>
+    <MaxAppearCnt>5 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>80000 </MinCnt>
+        <MaxCnt>80000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>67 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410002 </Id>
+        <MinCnt>10 </MinCnt>
+        <MaxCnt>10 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>68 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>5 </MinCnt>
+        <MaxCnt>5 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>69 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310002 </Id>
+        <MinCnt>5 </MinCnt>
+        <MaxCnt>5 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>70 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>130029 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>71 </Line>
+    <Id>30040001 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>10 </MinCnt>
+        <MaxCnt>10 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>72 </Line>
+    <Id>30040002 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>20 </MinCnt>
+        <MaxCnt>20 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>73 </Line>
+    <Id>30040003 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>30 </MinCnt>
+        <MaxCnt>30 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>74 </Line>
+    <Id>30040004 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>40 </MinCnt>
+        <MaxCnt>40 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>75 </Line>
+    <Id>30040005 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>76 </Line>
+    <Id>30040006 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>60 </MinCnt>
+        <MaxCnt>60 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>77 </Line>
+    <Id>30040007 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>70 </MinCnt>
+        <MaxCnt>70 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>78 </Line>
+    <Id>30040008 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>80 </MinCnt>
+        <MaxCnt>80 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>79 </Line>
+    <Id>30040009 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>90 </MinCnt>
+        <MaxCnt>90 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>80 </Line>
+    <Id>30040010 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>100 </MinCnt>
+        <MaxCnt>100 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>81 </Line>
+    <Id>30040011 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>110 </MinCnt>
+        <MaxCnt>110 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>82 </Line>
+    <Id>30040012 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>120 </MinCnt>
+        <MaxCnt>120 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>83 </Line>
+    <Id>30040013 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>130 </MinCnt>
+        <MaxCnt>130 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>84 </Line>
+    <Id>30040014 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>140 </MinCnt>
+        <MaxCnt>140 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>85 </Line>
+    <Id>30040015 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>420001 </Id>
+        <MinCnt>150 </MinCnt>
+        <MaxCnt>150 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>86 </Line>
+    <Id>30090001 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>1888 </MinCnt>
+        <MaxCnt>1888 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>87 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210004 </Id>
+        <MinCnt>20 </MinCnt>
+        <MaxCnt>20 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>88 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>1010001 </Id>
+        <MinCnt>5 </MinCnt>
+        <MaxCnt>5 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>89 </Line>
+    <Id>30090002 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>280 </MinCnt>
+        <MaxCnt>280 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>90 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>1010001 </Id>
+        <MinCnt>2 </MinCnt>
+        <MaxCnt>2 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>91 </Line>
+    <Id>30090003 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>1000 </MinCnt>
+        <MaxCnt>1000 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>92 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>20000 </MinCnt>
+        <MaxCnt>20000 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>93 </Line>
+    <Id>30090004 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>5000 </MinCnt>
+        <MaxCnt>5000 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>94 </Line>
+    <Id>30090005 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>1010001 </Id>
+        <MinCnt>10 </MinCnt>
+        <MaxCnt>10 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>95 </Line>
+    <Id>30090006 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>33 </MinAppearCnt>
+    <MaxAppearCnt>33 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210001 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>96 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210002 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>97 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210003 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>98 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210004 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>99 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210005 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>100 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210006 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>101 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210007 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>102 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210008 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>103 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210009 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>104 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210010 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>105 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210011 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>106 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210012 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>107 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210013 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>108 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210014 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>109 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210015 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>110 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210016 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>111 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210017 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>112 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210018 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>113 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210019 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>114 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210020 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>115 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210021 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>116 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210022 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>117 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210023 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>118 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210024 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>119 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210025 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>120 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210026 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>121 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210027 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>122 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210028 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>123 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210029 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>124 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210030 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>125 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210031 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>126 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210032 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>127 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210033 </Id>
+        <MinCnt>50 </MinCnt>
+        <MaxCnt>50 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>128 </Line>
+    <Id>30090007 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>129 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>130 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>131 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>132 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>133 </Line>
+    <Id>30090008 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>134 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>135 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>136 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>137 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>138 </Line>
+    <Id>30090009 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>139 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>140 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>141 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>142 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>143 </Line>
+    <Id>30090010 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>144 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>145 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>146 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210006 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>147 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210007 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>148 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210009 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>149 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210011 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>150 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210012 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>151 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210014 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>152 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210020 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>153 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210022 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>154 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210023 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>155 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210025 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>156 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210027 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>157 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210030 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>158 </Line>
+    <Id>30090011 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>159 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>160 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>161 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>162 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>163 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10006 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>164 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10007 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>165 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10008 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>166 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10009 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>167 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10010 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>168 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10011 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>169 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10012 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>170 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10013 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>171 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10014 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>172 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10015 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>173 </Line>
+    <Id>30090012 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>174 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>175 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>176 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>177 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>178 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>179 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>180 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>181 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>182 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>330005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>183 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>184 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>185 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>186 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>187 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>320005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>188 </Line>
+    <Id>30090013 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>189 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>190 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>191 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210023 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>192 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210007 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>193 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210009 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>100 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>194 </Line>
+    <Id>30090014 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>6 </MinAppearCnt>
+    <MaxAppearCnt>6 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>195 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>196 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>197 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>198 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>199 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>200 </Line>
+    <Id>30090015 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>6 </MinAppearCnt>
+    <MaxAppearCnt>6 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>201 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>202 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>203 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>204 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>205 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>206 </Line>
+    <Id>30090101 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_DIAMOND </Type>
+        <Id>0 </Id>
+        <MinCnt>200 </MinCnt>
+        <MaxCnt>200 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>207 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>208 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>1010001 </Id>
+        <MinCnt>2 </MinCnt>
+        <MaxCnt>2 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>209 </Line>
+    <Id>30090102 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_DIAMOND </Type>
+        <Id>0 </Id>
+        <MinCnt>300 </MinCnt>
+        <MaxCnt>300 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>210 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>211 </Line>
+    <Id>30090103 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_DIAMOND </Type>
+        <Id>0 </Id>
+        <MinCnt>200 </MinCnt>
+        <MaxCnt>200 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>212 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>213 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>1010001 </Id>
+        <MinCnt>2 </MinCnt>
+        <MaxCnt>2 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>214 </Line>
+    <Id>30090104 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_DIAMOND </Type>
+        <Id>0 </Id>
+        <MinCnt>300 </MinCnt>
+        <MaxCnt>300 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>215 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>216 </Line>
+    <Id>30090105 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_DIAMOND </Type>
+        <Id>0 </Id>
+        <MinCnt>500 </MinCnt>
+        <MaxCnt>500 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>217 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>1010001 </Id>
+        <MinCnt>2 </MinCnt>
+        <MaxCnt>2 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>218 </Line>
+    <Id>30990001 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110001 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>219 </Line>
+    <Id>30990002 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110002 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>220 </Line>
+    <Id>30990003 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>221 </Line>
+    <Id>30990004 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>222 </Line>
+    <Id>30990005 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>223 </Line>
+    <Id>30990006 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110006 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>224 </Line>
+    <Id>30990007 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110007 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>225 </Line>
+    <Id>30990008 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110008 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>226 </Line>
+    <Id>30990009 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110009 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>227 </Line>
+    <Id>30990010 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110010 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>228 </Line>
+    <Id>30990011 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110011 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>229 </Line>
+    <Id>30990012 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110012 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>230 </Line>
+    <Id>30990013 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110013 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>231 </Line>
+    <Id>30990014 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110014 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>232 </Line>
+    <Id>30990015 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110015 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>233 </Line>
+    <Id>30990016 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110016 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>234 </Line>
+    <Id>30990017 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110017 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>235 </Line>
+    <Id>30990018 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110018 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>236 </Line>
+    <Id>30990019 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110019 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>237 </Line>
+    <Id>30990020 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110020 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>238 </Line>
+    <Id>30990021 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110021 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>239 </Line>
+    <Id>30990022 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110022 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>240 </Line>
+    <Id>30990023 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110023 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>241 </Line>
+    <Id>30990024 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110024 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>242 </Line>
+    <Id>30990025 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110025 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>243 </Line>
+    <Id>30990026 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110026 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>244 </Line>
+    <Id>30990027 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110027 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>245 </Line>
+    <Id>30990028 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110028 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>246 </Line>
+    <Id>30990029 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110029 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>247 </Line>
+    <Id>30990030 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110030 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>248 </Line>
+    <Id>30990031 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110031 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>249 </Line>
+    <Id>30990032 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110032 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>250 </Line>
+    <Id>30990033 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_HERO </Type>
+        <Id>110033 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>251 </Line>
+    <Id>30980001 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>1 </MinAppearCnt>
+    <MaxAppearCnt>1 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>252 </Line>
+    <Id>30980002 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>2 </MinAppearCnt>
+    <MaxAppearCnt>2 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>253 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>10001 </Id>
+        <MinCnt>10 </MinCnt>
+        <MaxCnt>10 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>254 </Line>
+    <Id>30980003 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>3 </MinAppearCnt>
+    <MaxAppearCnt>3 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>200000 </MinCnt>
+        <MaxCnt>200000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>255 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>1010001 </Id>
+        <MinCnt>2 </MinCnt>
+        <MaxCnt>2 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>256 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>257 </Line>
+    <Id>30980004 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>4 </MinAppearCnt>
+    <MaxAppearCnt>4 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210029 </Id>
+        <MinCnt>180 </MinCnt>
+        <MaxCnt>180 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>258 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410001 </Id>
+        <MinCnt>20 </MinCnt>
+        <MaxCnt>20 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>259 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>260 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>261 </Line>
+    <Id>30980005 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>5 </MinAppearCnt>
+    <MaxAppearCnt>5 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>262 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>50005 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>263 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310005 </Id>
+        <MinCnt>88 </MinCnt>
+        <MaxCnt>88 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>264 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>265 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>266 </Line>
+    <Id>30980006 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>6 </MinAppearCnt>
+    <MaxAppearCnt>6 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>210029 </Id>
+        <MinCnt>540 </MinCnt>
+        <MaxCnt>540 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>267 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>140000 </Id>
+        <MinCnt>10 </MinCnt>
+        <MaxCnt>10 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>268 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_TOOL </Type>
+        <Id>410002 </Id>
+        <MinCnt>20 </MinCnt>
+        <MaxCnt>20 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>269 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>270 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>271 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>272 </Line>
+    <Id>30980007 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>7 </MinAppearCnt>
+    <MaxAppearCnt>7 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>273 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>50004 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>274 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310004 </Id>
+        <MinCnt>374 </MinCnt>
+        <MaxCnt>374 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>275 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>276 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>277 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>278 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>279 </Line>
+    <Id>30980008 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>8 </MinAppearCnt>
+    <MaxAppearCnt>8 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>700000 </MinCnt>
+        <MaxCnt>700000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>280 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_EQUIP </Type>
+        <Id>50003 </Id>
+        <MinCnt>1 </MinCnt>
+        <MaxCnt>1 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>281 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_MATERIAL </Type>
+        <Id>310003 </Id>
+        <MinCnt>374 </MinCnt>
+        <MaxCnt>374 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x1 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>282 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>50000 </MinCnt>
+        <MaxCnt>50000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>283 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>100000 </MinCnt>
+        <MaxCnt>100000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>284 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>285 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>300000 </MinCnt>
+        <MaxCnt>300000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+<GiftBag version="1">
+    <Line>286 </Line>
+    <Id>0 </Id>
+    <IsProbIndependent>0x0 </IsProbIndependent>
+    <MinAppearCnt>0 </MinAppearCnt>
+    <MaxAppearCnt>0 </MaxAppearCnt>
+    <Item type="RandomItem">
+        <Type>RES_ITEM_TYPE_GOLD </Type>
+        <Id>0 </Id>
+        <MinCnt>700000 </MinCnt>
+        <MaxCnt>700000 </MaxCnt>
+        <Rate>0 </Rate>
+        <IsMustAppear>0x0 </IsMustAppear>
+    </Item>
+</GiftBag>
+</GiftBag_Tab>

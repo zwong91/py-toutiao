@@ -1,0 +1,1589 @@
+<html xmlns="http://www.w3.org/110000/xhtml">
+<head>
+<title>GM后台</title>
+<script src="{{ STATIC_URL }}javascript/JScript.js" type="text/javascript"></script>
+<script charset="utf-8" src="{{ STATIC_URL }}javascript/kindeditor-min.js" type="text/javascript"></script>
+<script charset="utf-8" src="{{ STATIC_URL }}javascript/zh_CN.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript" src="{{ STATIC_URL }}javascript/ajaxfileupload.js"></script>
+<script language=javascript>
+
+	function checkAllPlayer()
+        {
+                var obj=document.getElementById('isAllPlayer');
+                if(window.confirm('确定要发全服邮件吗？')){
+                 //alert("确定");
+                obj.checked = true;
+              }else{
+                 //alert("取消");
+                obj.checked = false;
+             }
+        }
+	function Ajaxsend(para, divid)
+	{
+		var xmlhttp;
+		if (window.XMLHttpRequest)
+		{// code for IE7+, Firefox, Chrome, Opera, Safari
+			xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{// code for IE6, IE5
+			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function()
+		{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			{
+				document.getElementById(divid).innerHTML=xmlhttp.responseText;
+			}
+		}
+		xmlhttp.open("GET",para +"/",true);
+		xmlhttp.send();
+	}
+/*	
+	function openwin() { 
+	var obj=document.getElementById('selectChannel');  
+	var index=obj.selectedIndex; //序号，取当前选中选项的序号  
+	var channel = obj.options[index].value;
+	obj=document.getElementById('selectServer');  
+	index=obj.selectedIndex;
+	var server=obj.options[index].value;
+	
+	window.open ("addPlayers/"+channel+"/"+server, "newwindow", "height=300, width=500, toolbar= no, menubar=no, scrollbars=no, resizable=no, location=no, status=no") 
+	} */
+
+	function selectMailTitleOnchange()
+	{
+		var obj = document.getElementById("select_mailtitle");
+		var index = obj.selectedIndex;
+		var value = obj.options[index].value;
+		if(value != "0")
+			document.getElementById("ta_mailtitle").disabled=true;
+		else
+			document.getElementById("ta_mailtitle").disabled=false;
+	}
+	//方案2 维护2个数组，分别是编号、名称
+	var array_ID      = new Array();
+	var array_name    = new Array();
+	
+	Array.prototype.remove=function(obj){ 
+	for(var i =0;i <this.length;i++){ 
+		var temp = this[i]; 
+		if(!isNaN(obj)){ 
+		temp=i; 
+		} 
+		if(temp == obj){ 
+		for(var j = i;j <this.length;j++){ 
+		this[j]=this[j+1]; 
+		} 
+		this.length = this.length-1; 
+		} 
+	} 
+	} 
+function deletePlayer2(id)	
+{
+	id = id.split("id_player")[1]
+	array_ID.remove(id)
+	array_name.remove(id)
+	var str_div = ""
+	for(var j=0; j<array_ID.length; j++)
+	{
+		str_div= str_div + "<p id='id_player"+j +"'>"+array_ID[j]+"   "+ array_name[j] + "<button onclick = 'deletePlayer2(&apos;id_player"+ j +"&apos;)';>删除</button><pre>";
+	}
+	document.getElementById('showPlayersDiv').innerHTML = str_div
+}
+	
+function addPlayer(id_player)
+{
+	value = document.getElementById(id_player).innerHTML
+	var player = value.split("   ")
+	
+	for(var i=0; i<array_ID.length; i++)
+	{
+		if(player[0] == array_ID[i])
+		{
+			alert("该用户已被添加")
+			document.getElementById("showSrcPlayersDiv").innerHTML =""
+			return
+		}		
+	}
+	
+	array_ID.push(player[0])
+	array_name.push(player[1])
+	var str_div ="";
+	for(var j=0; j<array_ID.length; j++)
+	{
+		str_div= str_div + "<p id='id_player"+j +"'>"+array_ID[j]+"   "+ array_name[j] + "<button onclick = 'deletePlayer2(&apos;id_player"+ j +"&apos;)';>删除</button><pre>";
+	}
+	document.getElementById("showSrcPlayersDiv").innerHTML =""
+	document.getElementById('showPlayersDiv').innerHTML = str_div
+}	
+
+function searchPlayers2()
+{
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+	xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+	xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+	if (xmlhttp.readyState==4 && xmlhttp.status==200)
+	{
+		var strRes=xmlhttp.responseText;
+		var players = strRes.split(";")
+		var str_div=""
+		for(var i=0; i<players.length-1; i++)
+		{
+			player=players[i].split(":");
+			str_div= str_div + "<p id='id_player"+i +"'>"+player[0]+"   "+ player[1] + "</p><button onclick = 'addPlayer(&apos;id_player"+ i +"&apos;)';>添加</button><pre>";
+		}
+		document.getElementById("showSrcPlayersDiv").innerHTML=str_div;
+	}
+	}
+	
+	var obj=document.getElementById('selectSearchType');  
+	var index=obj.selectedIndex;
+	var type = obj.options[index].value
+	
+	var obj=document.getElementById('selectChannel');  
+	var index=obj.selectedIndex; //序号，取当前选中选项的序号  
+	var channel = obj.options[index].value;
+	
+	var obj = document.getElementById('selectServer');
+	var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+	var server = obj.options[index].value;
+
+	var character=document.getElementById('character').value
+	
+	if(type == "0")
+		xmlhttp.open("GET","searchPlayers/name/"+character + "/"+channel+"/"+server,true);
+	else
+		xmlhttp.open("GET","searchPlayers/roleid/"+character + "/"+channel+"/"+server,true);
+	xmlhttp.send();
+}	
+
+	/*function refresh2()
+	{
+		var str = document.cookie.split(";");
+		var selectArray_ID      = new Array();
+		var selectArray_name    = new Array();
+		for(var i=0;i<str.length;i++)
+		{
+			str2=str[i].split("=");
+			if (str2[0] == " selectArray_ID")
+			{
+				ids = str2[1].split(",");
+				for(var z = 0; z<ids.length; z++)
+					selectArray_ID.push(ids[z]);
+			}
+			if (str2[0] == " selectArray_name")
+			{
+				names = str2[1].split(",");
+				for(var z = 0;z<names.length; z++)
+					selectArray_name.push(names[z]);
+			}
+		}
+		var str_div ="";
+		
+		for(var i=0; i<selectArray_ID.length; i++)
+		{
+			var beExistInArray = 0
+			for(var j=0; j<array_ID.length; j++)
+			{
+				if(array_ID[j] == selectArray_ID[i] && array_name[j] == selectArray_name[i])
+				{
+					beExistInArray = 1;
+				}
+			}
+			if(beExistInArray == 0)
+			{
+			array_ID.push(selectArray_ID[i]);
+			array_name.push(selectArray_name[i]);
+			}
+		}
+		for(var j=0; j<array_ID.length; j++)
+		{
+			str_div= str_div + "<p id='id_player"+j +"'>"+array_ID[j]+"   "+ array_name[j] + "<button onclick = 'deletePlayer2(&apos;id_player"+ j +"&apos;)';>删除</button><pre>";
+		}
+		document.getElementById('showPlayersDiv').innerHTML = str_div
+	}*/
+	
+	function AjaxGetInfo(para, divid)
+	{
+	if(para == "RES_COST_TYPE_DIAMOND")
+	{
+		var str_div = "<select id='RewardSelect' > <option value='1'>- - - - -</option></select> ";
+		document.getElementById('RewardSelect').innerHTML = str_div
+		return;
+	}
+	if(para == "RES_COST_TYPE_GOLD")
+	{
+		var str_div = "<select id='RewardSelect'><option value = '0'>- - - - -</option></select>";
+		document.getElementById('RewardSelect').innerHTML = str_div
+		return;
+	}
+	if(para == "RES_ITEM_TYPE_DRAGON_BLOOD")
+        {
+                var str_div = "<select id='RewardSelect'><option value = '5'>- - - - -</option></select>";
+                document.getElementById('RewardSelect').innerHTML = str_div
+                return;
+        }
+	if(para == "RES_ITEM_TYPE_MAGIC_CRYSTAL")
+        {
+                var str_div = "<select id='RewardSelect'><option value = '18'>- - - - -</option></select>";
+                document.getElementById('RewardSelect').innerHTML = str_div
+                return;
+        }
+	if(para == "RES_ITEM_TYPE_TAILSMAN")
+        {
+                var str_div = "<select id='RewardSelect'><option value = '19'>- - - - -</option></select>";
+                document.getElementById('RewardSelect').innerHTML = str_div
+                return;
+        }
+	var xmlhttp;
+	var str_div = "<select  id='RewardSelect'>";
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+	xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+	xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+	if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			var strRes = xmlhttp.responseText
+			var items = strRes.split(";")
+			for(var i=0; i<items.length -1; i++)
+			{
+				op = items[i].split(":");
+				str_div = str_div + "<option value='"+op[0]+"'>"+op[1]+"</option>";
+			}
+			str_div+="</select>"
+			document.getElementById(divid).innerHTML = str_div
+		}
+	}
+	xmlhttp.open("GET","getinfo/"+para +"/",true);
+	xmlhttp.send();
+	}
+	
+	var array_reward_type 	= new Array();
+	var array_reward_id 	= new Array();
+	var array_reward_cnt 	= new Array();
+	var array_reward_name 	= new Array();
+	function deleteReward(id)
+	{
+		id = id.split("id_reward")[1]
+		array_reward_type.remove(id)
+		array_reward_id.remove(id)
+		array_reward_cnt.remove(id)
+		array_reward_name.remove(id)
+		var str_div = ""
+		for(var j=0; j<array_reward_id.length; j++)
+		{
+			str_div= str_div + "<p id='id_reward"+j +"'>"+array_reward_name[j] +" * "+array_reward_cnt[j] + "<button onclick = 'deleteReward(&apos;id_reward"+ j +"&apos;)';>删除</button><pre>";
+		}
+		document.getElementById('showRewardsDiv').innerHTML = str_div
+	}
+	function addReward()
+	{
+		var str_div = ""
+		var obj=document.getElementById('RewardSelect');  
+		var index=obj.selectedIndex; //序号，取当前选中选项的序号  
+		var RewardName = obj.options[index].text;
+		var RewardId = obj.options[index].value;
+		if(RewardId == '0')
+			RewardName = "金币"
+		if(RewardId == '1')
+			RewardName = "钻石"
+		if(RewardId == '5')
+			RewardName = "魔龙之血"
+		if(RewardId == '18')
+			RewardName = "魔晶"
+		if(RewardId == '19')
+			RewardName = "龙核"
+
+		var RewardCount = document.getElementById("RewardCount").value;
+		alert(RewardCount);
+		if(RewardCount == '')
+		{
+			alert("请输入数量");
+			return;
+		}
+		
+		obj = document.getElementById("selectRewardType");
+		index = obj.selectedIndex;
+		var RewardType = obj.options[index].value;
+		
+		array_reward_type.push(RewardType);
+		array_reward_id.push(RewardId);
+		array_reward_cnt.push(RewardCount);
+		array_reward_name.push(RewardName);
+		
+		for(var j=0; j<array_reward_id.length; j++)
+		{
+			str_div= str_div + "<p id='id_reward"+j +"'>"+array_reward_name[j] +" * "+array_reward_cnt[j] + "<button onclick = 'deleteReward(&apos;id_reward"+ j +"&apos;)';>删除</button><pre>";
+		}
+		document.getElementById("showRewardsDiv").innerHTML = str_div
+	}
+
+	function searchPlayerInfo()
+	{
+		var xmlhttp;
+		if (window.XMLHttpRequest)
+		{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function()
+		{
+			if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			{		
+				var str = xmlhttp.responseText;
+				var strs= str.split("$")
+				var cols = strs[0].split("_");
+				if(cols[1] == '-')
+				{
+					alert('can not find the player')
+					return;
+				}
+				var records= strs[1].split("_")
+				var insert_time = cols[5];
+				commonTime = new Date(insert_time*1000);
+				var str_time = commonTime.toLocaleString();
+				
+				var str_record = "<table><tr height=50><td width=500 colspan=4>充值记录</td></tr><tr><td>充值时间</td><td>金额</td><td>是否领取</td><td>所在区</td></tr>"
+				var totolmoney = 0
+				for(var i=0;i< records.length-1;i++)
+				{
+					str_record+="<tr><td>"+records[i]+"</td><td>"+records[++i]+"</td><td>"+records[++i]+"</td><td>"+records[++i]+"</td></tr>";
+					totolmoney +=parseInt(records[i-2])
+				}
+				str_record +="</table>"
+				
+				var str_channel = "-";
+				switch(cols[7])
+				{
+				case "mzw":
+					str_channel = "拇指玩";
+					break;
+				case "tencent":
+					str_channel = "腾讯";
+					break;
+				case "qihu":
+					str_channel = "奇虎";
+					break;
+				case "uc":
+					str_channel = "UC";
+					break;
+				case "xiaomi":
+					str_channel = "小米";
+					break;
+				case "baidu":
+					str_channel = "百度";
+
+				case "huawei":
+					str_channel = "华为";
+					break;
+				}
+				
+				var str_channelId = "-";
+				if(cols[8] != "")
+					str_channelId = cols[8]
+				
+				document.getElementById("showPlayerRecharge").innerHTML=str_record;
+				str_div = "<table><tr height=80><td width=250>角色ID</td><td width=250>"+cols[0]+"</td></tr><tr height=80><td width=250>渠道ID</td><td width=250>"+str_channelId+"</td></tr><tr height=80><td width=250>角色编号</td><td width=250>"+cols[1]+"</td></tr><tr height=80><td width=250>角色名</td><td width=250>"+cols[2]+"</td></tr><tr height=80><td width=250>角色等级</td><td width=250>"+cols[3]+"</td></tr><tr height=80><td width=250>VIP等级</td><td width=250>"+cols[4]+"</td></tr><tr height=80><td width=250>所属渠道</td><td width=250>"+ str_channel+"</td></tr><tr height=80><td width=250>绑定手机</td><td width=250>-</td></tr><tr height=80><td width=250>最后登录</td><td width=250>"+str_time+"</td></tr><tr height=80><td width=250>累计充值</td><td width=250>"+totolmoney+"</td></tr></table>"
+				document.getElementById("div_showPlayerInfo").innerHTML=str_div;
+			}
+		}
+		//获取查询条件
+		var obj = document.getElementById('select_chanel');
+		var index = obj.selectedIndex;
+		var channel = obj.options[index].value;
+		obj = document.getElementById('select_server');
+		index = obj.selectedIndex;
+		var server = obj.options[index].value;
+		obj = document.getElementById('select_type');
+		index = obj.selectedIndex;
+		var type = obj.options[index].value;
+		var para = document.getElementById("ta_para").value
+		
+		
+		xmlhttp.open("POST","searchplayerinfo/",true);
+		xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); 
+		var postdata="channel="+channel+"&server="+server+"&type="+type+"&para="+para;
+		xmlhttp.send(postdata);	
+		
+	}
+	var roleid_BanUser = "";	//用以发送要禁言封禁的roleid
+	var server_BanUser = "";	//用以发送要禁言封禁的server
+	function searchBanInfo()
+	{
+		var xmlhttp;
+		if (window.XMLHttpRequest)
+		{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function()
+		{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{		
+			//responseText = str_roleid+"_"+str_uid+"_"+str_rolename+"_"+statue+"_"+ban_finish_time+"_"+str_banlogintime
+			// 回调函数接口
+			var str = xmlhttp.responseText;
+			var cols = str.split("_");
+			if(cols[1] == '-')
+			{
+				alert('can not find the player')
+				document.getElementById("bt_searchBanInfo").disabled=false
+				return;
+			}
+			roleid_BanUser = cols[0]
+			
+			var temp = cols[4] - parseInt(Math.round(new Date().getTime()/1000))	//是否禁言
+			temp = temp/60;
+			var min = parseInt(temp%60);	temp = temp/60;
+			var hour = parseInt(temp%24);	temp = temp/24;
+			var day = parseInt(temp);
+			
+			var str_statue_chat = cols[3];		//禁言状态
+			if(temp < 0)
+				min = hour = day = 0;
+
+			var temp2 = cols[5]- parseInt(Math.round(new Date().getTime()/1000));	//是否封禁	
+			temp2 = temp2/60;
+			var min2 = parseInt(temp2%60);	temp2 = temp2/60;
+			var hour2 = parseInt(temp2%24);	temp2 = temp2/24;
+			var day2 = parseInt(temp2);
+			
+			var str_statue_login="";
+			if(temp2<=0)
+			{
+				str_statue_login = "正常";
+				min2=hour2=day2=0;
+			}
+			else
+				str_statue_login = "封禁";
+			//	str_statue_login = "禁言状态："+cols[3]+"<p>"+"封禁状态：封禁"
+				
+/*			if(cols[5] != "10001")
+				var str_div = "<table><tr height=200><td width=200>角色ID</td><td width=200>角色名称</td><td width=300>状态</td><td width=300>剩余时间</td></tr><tr height=200><td>"+cols[0]+"</td><td>"+cols[2]+"</td><td>"+str_statue+"</td><td>"+day+"天"+hour+"时"+min+"分<p>"+day2+"天"+hour2+"时"+min2+"分"+"</td></tr></table>"
+			else
+				var str_div = "<table><tr height=200><td width=200>角色ID</td><td width=200>角色名称</td><td width=300>状态</td><td width=300>剩余时间</td></tr><tr height=200><td>"+cols[0]+"</td><td>"+cols[2]+"</td><td>禁言状态："+cols[3]+"<p>"+"封禁状态：永久封禁</td><td>"+day+"天"+hour+"时"+min+"分<p>  -  </p> </td></tr></table>"
+*/
+			var str_statue = "<p>禁言状态:"+str_statue_chat+"<p>封禁状态:"+str_statue_login;
+			var str_div = "<table><tr height=200><td width=200>角色ID</td><td width=200>角色名称</td><td width=300>状态</td><td width=300>剩余时间</td></tr><tr height=200><td>"+cols[0]+"</td><td>"+cols[2]+"</td><td>"+str_statue+"</td><td>"+day+"天"+hour+"时"+min+"分<p>"+day2+"天"+hour2+"时"+min2+"分"+"</td></tr></table>"
+			document.getElementById("div_BanInfo").innerHTML=str_div;	
+			document.getElementById("bt_searchBanInfo").disabled=false
+		}
+		}
+		//获取查询条件
+		var obj = document.getElementById('select_ban_channel');
+		var index = obj.selectedIndex;
+		var channel = obj.options[index].value;
+
+		obj = document.getElementById('select_ban_server');
+		index = obj.selectedIndex;
+		var ban_server = obj.options[index].value;
+		server_BanUser = ban_server;
+		obj = document.getElementById('selectBan_type');
+		index = obj.selectedIndex;
+		var type = obj.options[index].value;
+		var para = document.getElementById("ta_banPara").value;
+		xmlhttp.open("GET","searchbaninfo/"+type+"/"+para + "/" + channel + "/" + ban_server,true);
+		xmlhttp.send();	
+		document.getElementById("bt_searchBanInfo").disabled=true
+	}
+	
+	function SendReward()
+	{
+		
+		var isAllPlayer = "false"
+		obj = document.getElementById("isAllPlayer");
+		if(obj.checked)
+			isAllPlayer = "true";
+			
+		if(array_ID.length == 0 && isAllPlayer == "false")
+		{
+			alert("请选择玩家");
+			return;
+		}
+		
+		var xmlhttp;
+		if (window.XMLHttpRequest)
+		{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function()
+		{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			{
+			alert(xmlhttp.responseText);
+			}
+			document.getElementById("bt_sendReward").disabled=false
+		}
+		var obj = document.getElementById('selectServer');
+		var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+		var server = obj.options[index].value;
+
+		var obj = document.getElementById("select_mailtitle");
+		var index = obj.selectedIndex;
+		var mailtitle = obj.options[index].text;
+
+		if(mailtitle == "其他")
+		{
+			mailtitle = document.getElementById("ta_mailtitle").value;
+			if(mailtitle == "")
+			{
+				alert("请输入标题");
+				return;
+			}
+		}
+		var mailcontent = document.getElementById("ta_mailcontent").value;	
+			
+		var str_reward_type = "";
+		var str_reward_id   = "";
+		var str_reward_cnt  = "";
+		for(var i = 0; i < array_reward_id.length; i++)
+		{
+			str_reward_type +=array_reward_type[i] + "|";
+			str_reward_id +=array_reward_id[i] + "|";
+			str_reward_cnt +=array_reward_cnt[i] + "|";
+		}
+		
+		xmlhttp.open("POST","sendMail/",true);
+		xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); 
+		var postdata = "uidlist="+array_ID+"&server="+server+"&mailtitle="+mailtitle+"&mailcontent="+mailcontent+"&isAllPlayer="+isAllPlayer+"&RewardType="+str_reward_type+"&RewardId="+str_reward_id+"&RewardCount="+str_reward_cnt;
+		xmlhttp.send(postdata);
+		document.getElementById("bt_sendReward").disabled=true;
+	}
+	
+	function selectBanTimeChange(value)
+	{
+		var obj = document.getElementById("selectBanTime")
+		var index = obj.selectedIndex;
+		var value = obj.options[index].value;
+		if(value == "4")
+		{
+			document.getElementById("ta_bantime").disabled = false;
+			document.getElementById("selectTimeType").disabled = false;
+		}
+		else
+		{
+			document.getElementById("ta_bantime").disabled = true;
+			document.getElementById("selectTimeType").disabled = true;
+		}
+	}
+	
+	function Ban()
+	{
+		
+		if(roleid_BanUser == "")
+		{
+			alert("请输入角色")
+			return;
+		}
+		var obj = document.getElementById("selectBanType")
+		var index = obj.selectedIndex;
+		var banType = obj.options[index].value;
+		obj = document.getElementById("selectBanTime");
+		index = obj.selectedIndex;
+		var sBanTime = obj.options[index].value;
+		var banTime = 0;
+		switch(sBanTime)
+		{
+		case "0":
+			banTime = ""+10*60;break;
+		case "1":
+			banTime = ""+1*24*60*60;break;
+		case "2":
+			banTime = ""+10*24*60*60;break;
+		case "3":
+			banTime = ""+10*365*24*60*60;break;
+		case "4":
+			obj = document.getElementById("selectTimeType");
+			index = obj.selectedIndex;
+			var timeType = obj.options[index].value;
+			var timeLong = document.getElementById("ta_bantime").value;
+			timeInt = parseInt(timeLong);
+			switch(timeType)
+			{
+			case "0":
+				banTime = "" + timeInt*60;break;
+			case "1":
+				banTime = "" + timeInt*60*60;break;
+			case "2":
+				banTime = "" + timeInt*24*60*60;break;
+			case "3":
+				banTime = "" + timeInt*365*24*60*60;break;
+			}
+		}
+		
+		var xmlhttp;
+		if (window.XMLHttpRequest)
+		{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+		}
+		else
+		{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange=function()
+		{
+			if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			{
+			alert(xmlhttp.responseText);
+			}
+			document.getElementById("bt_ban").disabled=false;
+		}
+		xmlhttp.open("POST","banPlayer/",true);
+		xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); 
+		var postdata = "banType=" + banType + "&banTime=" + banTime + "&roleid=" + roleid_BanUser + "&server=" + server_BanUser
+		xmlhttp.send(postdata);
+		document.getElementById("bt_ban").disabled=true;		
+	}
+
+var roleid_GmUser = 0;	
+var serverid_GmUser = 0;
+function searchGmInfo()
+{
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{			
+			var str = xmlhttp.responseText;
+			var cols = str.split("_");
+			if(cols[0] == '-')
+			{
+				alert("找不到该玩家");
+				document.getElementById("bt_searchGMInfo").disabled=false;
+				return;
+			}
+			roleid_GmUser = cols[0];
+			var str_div = "<table><tr height=200><td width=300>角色ID</td><td width=400>角色名称</td><td width=300>GM权限等级</td></tr><tr height=200><td>"+cols[0]+"</td><td>"+cols[1]+"</td><td>" + cols[2] + "</td></tr></table>"
+			document.getElementById("div_GmInfo").innerHTML=str_div;	
+			document.getElementById("bt_searchGMInfo").disabled=false
+		}
+	}
+	//获取查询条件
+	var obj = document.getElementById('select_GM_channel');
+	var index = obj.selectedIndex;
+	var channel = obj.options[index].value;
+	
+	obj = document.getElementById('select_Server');
+	index = obj.selectedIndex;
+	var server = obj.options[index].value;
+	serverid_GmUser = server;
+
+	obj = document.getElementById('selectGM_type');
+	index = obj.selectedIndex;
+	var type = obj.options[index].value;
+
+	var para = document.getElementById("ta_gmPara").value;
+	xmlhttp.open("GET","searchgminfo/"+type+"/"+para + "/" + channel +"/"+server,true);
+	xmlhttp.send();	
+	document.getElementById("bt_searchGMInfo").disabled=true
+}
+function SetGm()
+{
+	if(roleid_GmUser == "")
+	{
+		alert("请输入角色")
+		return;
+	}
+	if (serverid_GmUser == "")
+	{
+	    alert("请填写所在服务器")
+	    return;
+	}
+	var obj = document.getElementById("selectPrivilege")
+	var index = obj.selectedIndex;
+	var set_gm_privilege = obj.options[index].value;
+	
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			alert(xmlhttp.responseText);
+		}
+		document.getElementById("bt_gm").disabled=false;
+	}
+	xmlhttp.open("GET","setGmPrivilege/"+roleid_GmUser+"/"+set_gm_privilege+"/"+serverid_GmUser,true);
+	xmlhttp.send();	
+	document.getElementById("bt_gm").disabled=true;
+}
+
+
+var array_reward_type_new = new Array();
+var array_reward_id_new = new Array();
+var array_reward_cnt_new = new Array();
+var array_reward_name_new = new Array();
+function deleteRewardNew(id) {
+    id = id.split("id_reward")[1]
+    array_reward_type_new.remove(id)
+    array_reward_id_new.remove(id)
+    array_reward_cnt_new.remove(id)
+    array_reward_name_new.remove(id)
+    var str_div = ""
+    for (var j = 0; j < array_reward_id_new.length; j++) {
+        str_div = str_div + "<p id='id_reward" + j + "'>" + array_reward_name_new[j] + " * " + array_reward_cnt_new[j] + "<button onclick = 'deleteRewardNew(&apos;id_reward" + j + "&apos;)';>删除</button><pre>";
+    }
+    document.getElementById('showRewardsDivNew').innerHTML = str_div
+}
+function addRewardNew() {
+    var str_div = ""
+    var obj = document.getElementById('RewardSelect');
+    var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+    var RewardName = obj.options[index].text;
+    var RewardId = obj.options[index].value;
+    if (RewardId == '0')
+        RewardName = "金币"
+    if (RewardId == '1')
+        RewardName = "钻石"
+    if (RewardId == '5')
+        RewardName = "魔龙之血"
+    if (RewardId == '18')
+        RewardName = "魔晶"
+    if (RewardId == '19')
+        RewardName = "龙核"
+
+    var RewardCount = document.getElementById("RewardCountNew").value;
+    if (RewardCount == '') {
+        alert("请输入数量");
+        return;
+    }
+
+    obj = document.getElementById("selectRewardType");
+    index = obj.selectedIndex;
+    var RewardType = obj.options[index].value;
+
+    array_reward_type_new.push(RewardType);
+    array_reward_id_new.push(RewardId);
+    array_reward_cnt_new.push(RewardCount);
+    array_reward_name_new.push(RewardName);
+
+    for (var j = 0; j < array_reward_id_new.length; j++) {
+        str_div = str_div + "<p id='id_reward" + j + "'>" + array_reward_name_new[j] + " * " + array_reward_cnt_new[j] + "<button onclick = 'deleteRewardNew(&apos;id_reward" + j + "&apos;)';>删除</button><pre>";
+    }
+    document.getElementById("showRewardsDivNew").innerHTML = str_div
+}
+    // TEMP 测试用
+function SendAllReward() {
+
+    var isAllPlayer = "false"
+
+    var xmlhttp;
+    if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    }
+    else {// code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            alert(xmlhttp.responseText);
+        }
+        document.getElementById("bt_sendAllReward").disabled = false
+    }
+    var server_array_id = new Array();
+    // 勾选的服务器
+    for (i = 0; i < document.all('server').length; i++) {
+        if (document.all('server')[i].checked) {
+            //alert("第" + (i + 1) + "个选中")
+            server_array_id.push(i + 1);
+        }
+    }
+    
+    var mail_start_time = document.getElementById("begin_time").value;
+    var mail_end_time = document.getElementById("end_time").value;
+    if (mail_start_time > mail_end_time) {
+        alert("开始时间大于结束时间!!!");
+        return;
+    }
+    var obj = document.getElementById("select_allmailtitle");
+    var index = obj.selectedIndex;
+    var mailtitle = obj.options[index].text;
+
+    if (mailtitle == "其他") {
+        mailtitle = document.getElementById("ta_allmailtitle").value;
+        if (mailtitle == "") {
+            alert("请输入标题");
+            return;
+        }
+    }
+    var mailcontent = document.getElementById("ta_allmailcontent").value;
+
+    var str_reward_type = "";
+    var str_reward_id = "";
+    var str_reward_cnt = "";
+    for (var i = 0; i < array_reward_id_new.length; i++) {
+        str_reward_type += array_reward_type_new[i] + "|";
+        str_reward_id += array_reward_id_new[i] + "|";
+        str_reward_cnt += array_reward_cnt_new[i] + "|";
+    }
+
+    var mail_limit_lower_level = document.getElementById("lower_level").value;
+    var mail_limit_higher_level = document.getElementById("higher_level").value; lower_vip_level
+    var mail_limit_lower_vip_level = document.getElementById("lower_vip_level").value;
+    var mail_limit_higher_vip_level = document.getElementById("higher_vip_level").value;
+    
+    xmlhttp.open("POST", "sendAllMail/", true);
+    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    var postdata = "ServerList=" + server_array_id + "&MailLimitLowerLevel=" + mail_limit_lower_level + "&MailLimitHigherLevel=" + mail_limit_higher_level + "&MailLimitLowerVipLevel=" + mail_limit_lower_vip_level + "&MailLimitHigherVipLevel=" + mail_limit_higher_vip_level + "&MailStartTime=" + mail_start_time + "&MailEndTime=" + mail_end_time + "&mailtitle=" + mailtitle + "&mailcontent=" + mailcontent + "&isAllPlayer=" + isAllPlayer + "&RewardType=" + str_reward_type + "&RewardId=" + str_reward_id + "&RewardCount=" + str_reward_cnt;
+    xmlhttp.send(postdata);
+    document.getElementById("bt_sendAllReward").disabled = true;
+}
+
+//邮件开始时间和结束时间校验
+function isDate() {
+    //对日期格式进行验证   要求为2000-2099年     格式为   yyyy-mm-dd   并且可以正常转换成正确的日期
+    var pat_hd = /^20\d{2}-((0[1-9]{1})|(1[0-2]{1}))-((0[1-9]{1})|([1-2]{1}[0-9]{1})|(3[0-1]{1}))$/;
+
+    try {
+        if (!pat_hd.test(oStartDate)) { throw "日期非法！ "; return; }
+        var arr_hd = oStartDate.split("-");
+        var dateTmp;
+        dateTmp = new Date(arr_hd[0], parseFloat(arr_hd[1]) - 1, parseFloat(arr_hd[2]));
+        if (dateTmp.getFullYear() != parseFloat(arr_hd[0]) || dateTmp.getMonth() != parseFloat(arr_hd[1]) - 1 || dateTmp.getDate() != parseFloat(arr_hd[2])) {
+            throw "日期非法！ ";
+            return;
+        }
+    }
+    catch (ex) {
+        if (ex.description) {
+            return false;
+        }
+        else {
+            return false;
+        }
+    }
+    return true;
+}
+
+function checkBoxSelected(obj) {
+
+    for (i = 0; i < document.all(obj).length; i++) {
+        if (!document.all(obj)[i].checked)
+            alert("第" + (i + 1) + "个没有选择")
+    }
+}
+
+// gg 
+
+function ajaxFileUpload() {
+    $.ajaxFileUpload
+    (
+        {
+            url: 'doUpload.aspx',
+            secureuri: false,
+            fileElementId: 'fileToUpload',
+            dataType: 'json',
+            success: function (data, status) {
+                if (typeof (data.error) != 'undefined') {
+                    if (data.error != '') {
+                        alert(data.error);
+                    } else {
+                        alert(data.msg);
+                    }
+                }
+            },
+            error: function (data, status, e) {
+                alert(e);
+            }
+        }
+    )
+
+    return false;
+
+}
+
+function ReadFiles() {
+    //var fso, f1; 
+    //var ForReading=1; 
+    //var date = new Date().getTime();
+    //var filePath="D:/testfile_"+date+".txt";
+   // var filePath = "./testfile_" + date + ".txt";
+    //fso=new ActiveXObject("Scripting.FileSystemObject"); 
+    //f1=fso.CreateTextFile(filePath,8,true); 
+    //var channelNumber=$('#channelNumber').val();
+    //var subChannelNumber=$('#subChannelNumber').val();
+    //var serverNumber=$('#serverNumber').val();
+
+    var xmlhttp;
+    if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    }
+    else {// code for IE6, IE5
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            alert(xmlhttp.responseText);
+        }
+        document.getElementById("saveRtfGG").disabled = false
+    }
+
+    var obj = document.getElementById('channelNumber');
+    var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+    var channelNumber = obj.options[index].value;
+
+    var obj = document.getElementById('subChannelNumber');
+    var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+    var subChannelNumber = obj.options[index].value;
+
+    var obj = document.getElementById('serverNumber');
+    var index = obj.selectedIndex; //序号，取当前选中选项的序号  
+    var serverNumber = obj.options[index].value;
+    var title = '';
+    var content = editor.text();
+    //alert(content);
+   
+    xmlhttp.open("POST", "saveRTFGG/", true);
+    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    var postdata = "channelNumber=" + channelNumber + "&subChannelNumber=" + subChannelNumber + "&serverNumber=" + serverNumber + "&title=" + title + "&content=" + content;
+    xmlhttp.send(postdata);
+    document.getElementById("saveRtfGG").disabled = false
+    //f1.WriteLine(channelNumber+','+subChannelNumber+','+serverNumber+','+editNews); 
+    //f1.Close(); 
+
+}
+
+</script>
+
+<link href="{{ STATIC_URL }}css/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<center>
+<table class="tabTitlesContainer">
+<tr id="tabTitles">
+<!--<td class="tabTitleSelected" onclick="tabPageControl(0)">CDKey生成</td>-->
+<td class="tabTitleSelected" onclick="tabPageControl(0)">CDKey查询</td>
+<td class="tabTitleUnSelected" onclick="tabPageControl(1)">奖励发放</td>
+<td class="tabTitleUnSelected" onclick="tabPageControl(2)">玩家信息查询</td>
+<!--<td class="tabTitleUnSelected" onclick="tabPageControl(4)">重置密码</td>-->
+<td class="tabTitleUnSelected" onclick="tabPageControl(3)">封禁解封</td>
+<td class="tabTitleUnSelected" onclick="tabPageControl(4)">GM权限管理</td>
+<td class="tabTitleUnSelected" onclick="tabPageControl(5)">全服奖励</td>
+<!--td class="tabTitleUnSelected" onclick="tabPageControl(6)"><a href="./notice/"> 公告管理 </a></td>-->
+<!--<td class="tabTitleUnSelected" onclick="tabPageControl(6)">系统邮件</td>-->
+</tr>
+</table>
+</center>
+<center>
+<table id="tabPagesContainer" border="1">
+<!--
+<!------------------------------------CDKey生成页面------------------------------------------
+<tbody class="tabPageSelected">
+<tr class="tabPage">
+<td width = 500>
+<p>选择礼包种类</p> 
+<select onchange="Ajaxsend(this.value, 'giftsDiv')"> 
+{% if gift_list %}
+	<ul>
+	{% for gift in gift_list %}
+		<option value={{gift.gift_id}}>{{gift}}</option> 
+	{% endfor %}
+	</ul>
+{% else %}
+	<p>No gift</p>
+{% endif %}
+</select> 
+</td>
+<td width=500 >
+<p>礼包内容说明</p>
+<center>
+<div id="giftsDiv"  style="width:300px; height:200px;overflow:scroll;text-align:center;">
+<!-- 显示礼包内容
+</div>
+</center>
+</td>
+</tr>
+</tbody>
+-->
+<!------------------------------------CDKey查询页面------------------------------------------->
+<tbody class="tabPageSelected">
+<tr class="tabPage">
+<td width=500>
+<p>查看CDKey是否使用过</p>
+<p>输入10位CDKey</p>
+<form method = "post">
+<textarea rows="1" cols="20" id="cdk_input"></textarea>
+<input type="button" onclick="Ajaxsend('search/'+document.getElementById('cdk_input').value, 'cdk_result')" value="查询">
+</form>
+<p>查询结果</p>
+<div id="cdk_result">
+<!--显示CDKey查询结果-->
+</div>
+</td>
+<td width =500>
+<p>查询类别礼包的使用数量</p>
+<P>输入CDKey前两位</p>
+<form method = "post">
+<textarea rows="1" cols="20" id="gifttype_input"></textarea>
+<input type="button" onclick="Ajaxsend('searchtype/'+document.getElementById('gifttype_input').value, 'cdktype_result')" value="查询">
+</form>
+<p>查询结果</p>
+<div id="cdktype_result">
+<!--显示礼包类别查询结果-->
+</div>
+</td>
+</tr>
+</tbody>
+
+<!------------------------------------奖励发放页面------------------------------------------->
+<tbody class="tabPageUnSelected">
+    <tr class="tabPage100px">
+        <td width=200>
+            服务器
+        </td>
+        <td width=800>
+            <p>渠道</p>
+            <select id="selectChannel">
+                <option value="ALL">全部</option>
+                <option value="huawei">华为</option>
+            </select>
+            <p>服务器</p>
+            <select id="selectServer">
+                <option value="ALL">- - -</option>
+                <option value="10000">预发布区</option>
+                <option value="1">1区</option>
+                <option value="2">2区</option>
+                <option value="3">3区</option>
+                <option value="4">4区</option>
+                <option value="5">5区</option>
+                <option value="6">6区</option>
+                <option value="7">7区</option>
+                <option value="8">8区</option>
+                <option value="9">9区</option>
+            </select>
+        </td>
+    </tr>
+    <tr class="tabaPge200px">
+        <td>
+            玩家
+        </td>
+        <td>
+            <table
+                <tr>
+                    <td>
+                        <li>
+                            选择类型
+                            <select id="selectSearchType">
+                                <option value=0>角色姓名</option>
+                                <option value=1>角色ID</option>
+                            </select>
+                            <textarea id="character" "rows=" 1" cols="20"></textarea>
+                            <button onclick="searchPlayers2()">查询</button>
+                        </li>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="checkbox" id="isAllPlayer" onclick="checkAllPlayer()">该区全部玩家
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <div id="showSrcPlayersDiv" style="width:300px; height:150px;overflow:scroll;text-align:center;">
+                                <!-- 显示查询玩家-->
+                            </div>
+                            <center>
+                    </td>
+                    <td>
+                        <center>
+                            <div id="showPlayersDiv" style="width:300px; height:150px;overflow:scroll;text-align:center;">
+                                <!-- 显示该区玩家-->
+                            </div>
+                            <center>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="tabPage200px">
+        <td>
+            奖励
+        </td>
+        <td>
+            <li>
+                <select id="selectRewardType" onchange="AjaxGetInfo(this.value,'div_ObjSelect')">
+                    <option value="RES_COST_TYPE_GOLD">金币</option>
+                    <option value="RES_COST_TYPE_DIAMOND">钻石</option>
+                    <option value="RES_ITEM_TYPE_TOOL">道具</option>
+                    <option value="RES_ITEM_TYPE_MATERIAL">材料</option>
+                    <option value="RES_ITEM_TYPE_EQUIP">装备</option>
+                    <option value="RES_ITEM_TYPE_DRAGON_BLOOD">魔龙之血</option>
+                    <option value="RES_ITEM_TYPE_MAGIC_CRYSTAL">魔晶</option>
+                    <option value="RES_ITEM_TYPE_TAILSMAN">龙核</option>
+                </select>
+            </li>
+            <!-- 由上选择的奖励类型查询配置文件得下面下拉框的值 -->
+            <li>
+                <div id="div_ObjSelect">
+                    <select id="RewardSelect" name=""> <option value='0'>- - - - -</option> </select>
+                </div>
+            </li>
+            <li>
+                数量
+                <textarea id="RewardCount" name="RewardCount" rows="1" cols="10"></textarea>
+            </li>
+            <li>
+                <button onclick="addReward()">添加</button>
+            </li>
+            <li>
+                <div id="showRewardsDiv" style="width:300px; height:150px;overflow:scroll;text-align:center;">
+                    <!-- 显示选择奖励-->
+                </div>
+            </li>
+        </td>
+    </tr>
+    <tr class="tabPage100px">
+        <td>
+            标题
+        </td>
+        <td>
+            <li>
+                <select id="select_mailtitle" name="" onchange="selectMailTitleOnchange()">
+                    <option value="0">其他</option>
+                    <option value="1">提BUG奖励</option>
+                    <option value="2">举报外挂奖励</option>
+                </select>
+            </li>
+            <li>
+                <textarea id="ta_mailtitle" rows="1" cols="70"></textarea>
+            </li>
+        </td>
+    </tr>
+    <tr class="tabPage100px">
+        <td>
+            内容
+        </td>
+        <td>
+            <textarea id="ta_mailcontent" rows="5" cols="50"></textarea>
+        </td>
+    </tr>
+    <tr class="tabPage100px">
+        <td colspan="2">
+            <button id="bt_sendReward" onclick="SendReward()">发送</button>
+        </td>
+    </tr>
+</tbody>
+
+<!------------------------------------玩家信息查询页面------------------------------------------->
+<tbody class="tabPageUnSelected">
+    <tr class="tabPage100px">
+        <td width=1000 colspan=2>
+            <li>
+                渠道
+                <select id="select_chanel">
+                    <option value="ALL">全部</option>
+                    <option value="huawei">华为</option>
+                </select>
+                服务器
+                <select id="select_server">
+                    <option value="ALL">- - -</option>
+                    <option value="10000">预发布区</option>
+                    <option value="1">1区</option>
+                    <option value="2">2区</option>
+                    <option value="3">3区</option>
+                    <option value="4">4区</option>
+                    <option value="5">5区</option>
+                    <option value="6">6区</option>
+                    <option value="7">7区</option>
+                    <option value="8">8区</option>
+                    <option value="9">9区</option>
+                </select>
+                类型
+                <select id="select_type">
+                    <option value='role_name'>角色名</option>
+                    <option value='roleid'>角色ID</option>
+                </select>
+                <textarea id=ta_para rows=1 cols=10></textarea>
+                <button onclick="searchPlayerInfo()">搜索</button>
+            </li>
+        </td>
+    </tr>
+    <tr class="tabPage700px">
+        <td width=500>
+            <div id="div_showPlayerInfo">
+                <table>
+                    <tr height=80><td width=250>角色ID</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>渠道ID</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>角色编号</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>角色名</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>角色等级</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>VIP等级</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>所属渠道</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>绑定手机</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>最后登录</td><td width=250>-</td></tr>
+                    <tr height=80><td width=250>累计充值</td><td width=250>-</td></tr>
+                </table>
+            </div>
+        </td>
+        <td width=500>
+            <div id='showPlayerRecharge' type="text-align:center">
+                <table>
+                    <tr height=50><td width=500 colspan=2></td></tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+</tbody>
+
+<!------------------------------------重置密码页面-----------------------------------------
+
+<tbody class="tabPageUnSelected">
+<tr class="tabPage">
+<td>重置密码</td>
+</tr>
+</tbody>
+-->
+<!------------------------------------封禁解封页面------------------------------------------->
+<tbody class="tabPageUnSelected">
+    <tr class="tabPage100px">
+        <td width=1000 colspan=4>
+            <li>
+                渠道
+                <select id="select_ban_channel">
+                    <option value="ALL">全部</option>
+                    <option value="huawei">华为</option>
+                </select>
+                服务器
+                <select id="select_ban_server">
+                    <option value="ALL">- - -</option>
+                    <option value="10000">预发布区</option>
+                    <option value="1">1区</option>
+                    <option value="2">2区</option>
+                    <option value="3">3区</option>
+                    <option value="4">4区</option>
+                    <option value="5">5区</option>
+                    <option value="6">6区</option>
+                    <option value="7">7区</option>
+                    <option value="8">8区</option>
+                    <option value="9">9区</option>
+                </select>
+                类型
+                <select id="selectBan_type">
+                    <option value='role_name'>角色名称</option>
+                    <option value='roleid'>角色ID</option>
+                </select>
+                <textarea rows=1 cols=10 id="ta_banPara"></textarea>
+                <button id="bt_searchBanInfo" onclick="searchBanInfo()">搜索</button>
+            </li>
+        </td>
+    </tr>
+    <tr class="tabPage200px">
+        <td width=1000 colspan=4>
+            <div id="div_BanInfo">
+                <table>
+                    <tr height=200>
+                        <td width=200>角色ID</td>
+                        <td width=200>角色名称</td>
+                        <td width=300>状态</td>
+                        <td width=300>剩余时间</td>
+                    </tr>
+                    <tr height=200>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    <tr class="tabPage100px">
+        <td width=1000 colspan=4>
+            <li>
+                操作选择
+                <select id="selectBanType">
+                    <option value="0">  禁言  </option>
+                    <option value="1">  封禁  </option>
+                    <option value="2">解除禁言</option>
+                    <option value="3">解除封禁</option>
+                </select>
+                时间
+                <select id="selectBanTime" onchange="selectBanTimeChange(this.value)">
+                    <option value="0">10分钟</option>
+                    <option value="1"> 一天 </option>
+                    <option value="2"> 十天 </option>
+                    <option value="3"> 永久 </option>
+                    <option value="4"> 其他 </option>
+                </select>
+                <textarea id="ta_bantime" rows=1 cols=10 disabled="true"></textarea>
+                <select id="selectTimeType" disabled="true">
+                    <option value="0">  分  </option>
+                    <option value="1">  时  </option>
+                    <option value="2">  天  </option>
+                    <option value="3">  年  </option>
+                </select>
+                <button id="bt_ban" onclick="Ban()">确定</button>
+            </li>
+        </td>
+    </tr>
+    </tr>
+</tbody>
+
+
+<!------------------------------------系统邮件页面------------------------------------------
+
+<tbody class="tabPageUnSelected">
+<tr class="tabPage">
+<td>系统邮件</td>
+</tr>
+</tbody>
+-->
+
+<!------------------------------------GM权限管理页面-------------------------------------------->
+<tbody class="tabPageUnSelected">
+    <tr class="tabPage100px">
+        <td width=1000 colspan=4>
+            <li>
+                渠道
+                <select id="select_GM_channel">
+                    <option value="ALL">全部</option>
+                    <option value="huawei">华为</option>
+                </select>
+                服务器
+                <select id="select_Server">
+                    <option value="ALL">- - -</option>
+                    <option value="10000">预发布区</option>
+                    <option value="1">1区</option>
+                    <option value="2">2区</option>
+                    <option value="3">3区</option>
+                    <option value="4">4区</option>
+                    <option value="5">5区</option>
+                    <option value="6">6区</option>
+                    <option value="7">7区</option>
+                    <option value="8">8区</option>
+                    <option value="9">9区</option>
+                </select>
+                类型
+                <select id="selectGM_type">
+                    <option value='role_name'>角色名称</option>
+                    <option value='roleid'>角色ID</option>
+                </select>
+                <textarea rows=1 cols=10 id="ta_gmPara"></textarea>
+                <button id="bt_searchGMInfo" onclick="searchGmInfo()">搜索</button>
+            </li>
+        </td>
+    </tr>
+    <tr class="tabPage200px">
+        <td width=1000 colspan=4>
+            <div id="div_GmInfo">
+                <table>
+                    <tr height=200>
+                        <td width=300>角色ID</td>
+                        <td width=400>角色名称</td>
+                        <td width=300>GM权限等级</td>
+                    </tr>
+                    <tr height=200>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    <tr class="tabPage100px">
+        <td width=1000 colspan=4>
+            <li>
+                设置GM权限等级
+                <select id="selectPrivilege">
+                    <option value="0">  0  </option>
+                    <option value="1">  1  </option>
+                    <option value="4">  4  </option>
+                    <option value="7">  7  </option>
+                    <option value="10"> 10 </option>
+                </select>
+                <button id="bt_gm" onclick="SetGm()">确定</button>
+            </li>
+        </td>
+    </tr>
+    </tr>
+</tbody>
+
+
+<!------------------------------------全服奖励发放页面------------------------------------------->
+<tbody class="tabPageUnSelected">
+<tr class="tabPage100px">
+    <td width=200>
+        服务器
+    </td>
+    <td width=800>
+        <p>渠道</p>
+        <select id="selectChannel">
+            <option value="ALL">全部</option>
+            <option value="huawei">华为</option>
+        </select>
+        <p>服务器: </p>
+            <label><input name="server" id="server1" type="checkbox" value="" />1区 </label>
+            <label><input name="server" id="server2" type="checkbox" value="" />2区 </label>
+            <label><input name="server" id="server3" type="checkbox" value="" />3区 </label>
+            <label><input name="server" id="server4" type="checkbox" value="" />4区</label>
+            <label><input name="server" id="server1" type="checkbox" value="" />5区 </label>
+            <label><input name="server" id="server2" type="checkbox" value="" />6区 </label></p>
+            <label><input name="server" id="server3" type="checkbox" value="" />7区 </label>
+            <label><input name="server" id="server4" type="checkbox" value="" />8区</label>
+            <label><input name="server" id="server1" type="checkbox" value="" />9区</label>
+            <label><input name="server" id="server2" type="checkbox" value="" />10区 </label>
+            <label><input name="server" id="server3" type="checkbox" value="" />11区 </label>
+            <label><input name="server" id="server4" type="checkbox" value="" />12区</label>
+            <!--input type=button onclick="checkBoxSelected('server')" value="检测是否选中"-->   
+    </td>
+</tr>
+
+<tr class="tabPage200px">
+<td>
+    邮件有效时间段
+</td>
+<td>
+<table>
+<tr>
+    <td>
+        <form>
+            邮件有效日期(格式：2015-10-31 10:00:08): <input type="text" name="begin_time" id="begin_time" onpropertychange="isDate(this)" oninput="isDate(this)" />
+            至: <input type="text" name="end_time" id="end_time" onpropertychange="isDate(this)" oninput="isDate(this)" />
+        </form>
+    </td>
+</tr>
+
+</table>
+</td>
+</tr>
+<tr class="tabPage200px">
+    <td>
+        奖励
+    </td>
+    <td>
+        <li>
+            <select id="selectRewardType" onchange="AjaxGetInfo(this.value,'div_ObjSelectNew')">
+                <option value="RES_COST_TYPE_GOLD">金币</option>
+                <option value="RES_COST_TYPE_DIAMOND">钻石</option>
+                <option value="RES_ITEM_TYPE_TOOL">道具</option>
+                <option value="RES_ITEM_TYPE_MATERIAL">材料</option>
+                <option value="RES_ITEM_TYPE_EQUIP">装备</option>
+                <option value="RES_ITEM_TYPE_DRAGON_BLOOD">魔龙之血</option>
+                <option value="RES_ITEM_TYPE_MAGIC_CRYSTAL">魔晶</option>
+                <option value="RES_ITEM_TYPE_TAILSMAN">龙核</option>
+            </select>
+        </li>
+        <!-- 由上选择的奖励类型查询配置文件得下面下拉框的值 -->
+        <li>
+            <div id="div_ObjSelectNew">
+                <select id="RewardSelect" name=""> <option value='0'>- - - - -</option> </select>
+            </div>
+        </li>
+        <li>
+            数量
+            <textarea id="RewardCountNew" name="RewardCountNew" rows="1" cols="10"></textarea>
+        </li>
+        <li>
+             <button onclick="addRewardNew()">添加</button>
+        </li>
+        <li>
+            <div id="showRewardsDivNew" style="width:300px; height:150px;overflow:scroll;text-align:center;">
+                <!-- 显示选择奖励-->
+            </div>
+        </li>
+    </td>
+</tr>
+<tr class="tabPage100px">
+    <td>
+        标题
+    </td>
+    <td>
+        <li>
+            <select id="select_allmailtitle" name="" onchange="selectMailTitleOnchange()">
+                <option value="0">其他</option>
+                <option value="1">提BUG奖励</option>
+                <option value="2">举报外挂奖励</option>
+            </select>
+        </li>
+        <li>
+            <textarea id="ta_allmailtitle" rows="1" cols="70"></textarea>
+        </li>
+    </td> 
+</tr>
+<tr class="tabPage100px">
+    <td>
+        内容
+    </td>
+    <td>
+        <textarea id="ta_allmailcontent" rows="5" cols="50"></textarea>
+    </td>
+</tr>
+<tr class="tabPage100px">
+<td>
+    限制领取等级区间
+</td>
+<td>
+    <form>
+        等级区间(格式：1--20): <input type="text" name="lower_level" id="lower_level" />
+        至: <input type="text" name="higher_level" id="higher_level" />
+    </form>
+</td>
+</tr>
+<tr class="tabPage100px">
+    <td>
+        限制领取VIP等级区间
+    </td>
+    <td>
+        <form>
+            VIP等级区间(格式：1--20): <input type="text" name="lower_vip_level" id="lower_vip_level" />
+            至: <input type="text" name="higher_vip_level" id="higher_vip_level" />
+        </form>
+    </td>
+</tr>
+
+<tr class="tabPage100px">
+    <td colspan="2">
+        <button id="bt_sendAllReward" onclick="SendAllReward()">发送</button>
+    </td>
+</tr>
+</tbody>
+
+<!------------------------------------公告管理页面------------------------------------------->
+<tbody class="tabPageUnSelected">
+    <!--自动跳转new.html-->
+</tbody>
+</table>
+</center>
+</body>
+</html>
