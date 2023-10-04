@@ -20,7 +20,7 @@ def send_sms(business_id, phone_numbers, sign_name, template_code, template_para
     发送短信
     :param business_id: 业务流水号
     :param phone_numbers: 手机号列表
-    :param sign_name: 短信签名，如"黑马头条"
+    :param sign_name: 短信签名，如"toutiao"
     :param template_code: 短信模板
     :param template_param: 短信模板参数
     :return:

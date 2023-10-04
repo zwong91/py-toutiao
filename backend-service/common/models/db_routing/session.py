@@ -1,13 +1,13 @@
-from flask_sqlalchemy import SignallingSession, get_state
-
-
-class RoutingSession(SignallingSession):
+from flask_sqlalchemy import *
+from sqlalchemy.orm import Session
+# Flask-SQLAlchemy 读写分离
+class RoutingSession(Session):
     """
     补充路由的session
     """
     def __init__(self, db, bind_name=None, autocommit=False, autoflush=True, **options):
         self._name = bind_name
-        SignallingSession.__init__(self, db, autocommit=autocommit, autoflush=autoflush, **options)
+        Session.__init__(self, db, autocommit=autocommit, autoflush=autoflush, **options)
 
     def get_bind(self, mapper=None, clause=None):
         """

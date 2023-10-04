@@ -60,12 +60,20 @@ def create_app(config, enable_config_file=False):
     app.redis_slave = _sentinel.slave_for(
         app.config['REDIS_SENTINEL_SERVICE_NAME'])
 
-    from rediscluster import RedisCluster
+    """
+    https://redis.io/docs/clients/python/
+    https://redis-py.readthedocs.io/en/stable/clustering.html
+    """
+    from redis.cluster import RedisCluster
+    from redis.cluster import ClusterNode
+    nodes = []
+    for node in app.config['REDIS_CLUSTER']:
+        nodes.append(ClusterNode(node['host'], node['port']))
     app.redis_cluster = RedisCluster(
-        startup_nodes=app.config['REDIS_CLUSTER'], password='1234')
+        startup_nodes=nodes, password='1234')
 
     # rpc
-    app.rpc_reco = grpc.insecure_channel(app.config['RPC'].RECOMMEND)
+    app.rpc_reco = grpc.insecure_channel(app.config['RPC_RECOMMEND'])
 
     # Elasticsearch
     app.es = Elasticsearch(
@@ -88,11 +96,11 @@ def create_app(config, enable_config_file=False):
     db.init_app(app)
 
     # 实现定时任务，修正redis和mysql数据的同步问题
-    exe = {
+    exec = {
         'default': ThreadPoolExecutor(max_workers=20)
     }
 
-    app.scheduler = BackgroundScheduler(executor=exe)
+    app.scheduler = BackgroundScheduler(executor=exec)
     # 凌晨3点执行定时任务
     from .apscheduler.aps_statistic import fix_statistics
     # app.scheduler.add_job(fix_statistics,'cron',hour=3)

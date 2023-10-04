@@ -22,6 +22,8 @@ docker network inspect mysql_conf_mynet
 
 docker ps
 docker stop $(docker ps -a -q)
+
+docker inspect -f='{{.Name}} {{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}} {{.HostConfig.PortBindings}}' $(docker ps -aq)
 ```
 
 3. 部署容器
@@ -36,7 +38,7 @@ mysql> show variables like '%server_id%';
 mysql> show master status;
 #分配权限
 mysql> grant replication slave,replication client on *.* to 'slave'@'%' identified by "123456";
-mysql> flush privileges
+mysql> flush privileges;
 
 # 进入slave容器
 docker exec -it mysql-slave bash
@@ -45,7 +47,7 @@ mysql -uroot -p123456
 mysql> show variables like '%server_id%';
 
 # 连接主mysql服务 master_log_file 和 master_log_pos的值要填写主master里查出来的值
-mysql> change master to master_host='172.19.0.3',master_user='slave',master_password='123456',master_port=3306,master_log_file='mysql-bin.000003', master_log_pos=154,master_connect_retry=30;
+mysql> change master to master_host='172.19.0.3',master_user='slave',master_password='123456',master_port=3306,master_log_file='mysql-bin.000003', master_log_pos=25912,master_connect_retry=30;
 
 Query OK, 0 rows affected, 2 warnings (0.04 sec)
 
@@ -57,14 +59,18 @@ mysql> show slave status \G;
             Slave_SQL_Running: Yes
 
 #设置从服务器slave为只读模式
-SHOW VARIABLES LIKE '%read_only%';  #查看只读状态
-SET GLOBAL super_read_only=1;       #super权限的用户只读状态 1.只读 0：可写
-SET GLOBAL read_only=1;             #普通权限用户读状态 1.只读 0：可写
+mysql> SHOW VARIABLES LIKE '%read_only%';  #查看只读状态
+mysql> SET GLOBAL super_read_only=1;       #super权限的用户只读状态 1.只读 0：可写
+mysql> SET GLOBAL read_only=1;             #普通权限用户读状态 1.只读 0：可写
 
 #测试
 stop slave;
 start slave;
-show slave status;
+show slave status\G;
+
+chown -R mysql:mysql /var/lib/mysql
+create database toutiao
+source /home/wang/py-toutiao/backend-service/common/models/init.sql
 ```
 
 4. Q & A

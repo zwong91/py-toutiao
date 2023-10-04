@@ -56,7 +56,7 @@ def create_logger(app):
 
     # 埋点日志
     trace_file_handler = logging.FileHandler(
-        os.path.join(logging_file_dir, 'userClick.log')
+        os.path.join(logging_file_dir, 'user-click.log')
     )
     trace_file_handler.setFormatter(logging.Formatter('%(message)s'))
     log_trace = logging.getLogger('trace')

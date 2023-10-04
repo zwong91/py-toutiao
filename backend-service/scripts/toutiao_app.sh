@@ -1,11 +1,6 @@
 #!/bin/bash
 # load virtualenvwrapper for python (after custom PATHs)
-venvwrap="virtualenvwrapper.sh"
-/usr/bin/which -a $venvwrap
-if [ $? -eq 0 ]; then
-    venvwrap=`/usr/bin/which $venvwrap`
-    source $venvwrap
-fi
+source /home/wang/.local/bin/virtualenvwrapper.sh
 
 export FLASK_ENV=production
 cd  /home/wang/py-toutiao/backend-service/

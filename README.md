@@ -71,22 +71,23 @@ export TOUTIAO_CELERY_SETTINGS=/path/to/config/file
 ```
 
 - 常用工具
-  socket.io Firecamp 浏览器插件
-  Excalidraw 在线白板工具
+  socket.io **_Firecamp 浏览器插件_**
+  Excalidraw **_在线白板工具_**
   gunicorn 21 线上部署运行服务器
 
-supervisor 4.2.5 fork/exec**_前端_**进程子进程守护工具，自动添加到 systemd, 用 Systemd 管 Supervisord
+supervisor 4.2.5 fork/exec**_*前端*_**进程子进程守护工具
 
-```
+```sh
+apt-get install supervisor
+自动添加到 systemd, 用 Systemd 管 Supervisord
+cat /usr/lib/systemd/system/supervisor.service
 
-vim /usr/lib/systemd/system/supervisor.service
+systemctl daemon-reload
+systemctl start supervisor.service
+systemctl status supervisor.service
 
-# systemctl daemon-reload
-
-# systemctl start supervisor.service
-
-# systemctl status supervisor.service
-
-# systemctl enable supervisor.service
+systemctl list-units --type=service
+systemctl list-unit-files | grep enable
+systemctl enable supervisor.service
 
 ```

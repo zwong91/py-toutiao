@@ -16,8 +16,10 @@ services:
   elasticsearch:
     image: elasticsearch:8.1.3
     environment:
-      # 单节点
+      - cluster.name=es
       - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - xpack.security.enabled=false
     ports:
       - "9200:9200"
       - "9300:9300"

@@ -138,6 +138,8 @@ services:
 sudo docker-compose up -d
 docker ps
 docker stop $(docker ps -a -q)
+
+docker inspect -f='{{.Name}} {{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}} {{.HostConfig.PortBindings}}' $(docker ps -aq)
 ```
 
 - 部署 cluster

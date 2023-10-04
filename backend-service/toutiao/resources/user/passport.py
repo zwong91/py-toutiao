@@ -132,11 +132,3 @@ class AuthorizationResource(Resource):
         else:
             return {'message': 'Invalid refresh token'}, 403
 
-
-
-
-
-
-
-
-

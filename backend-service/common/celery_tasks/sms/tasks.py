@@ -12,10 +12,8 @@ logger = get_task_logger(__name__)
 # 定义任务:
 # bind：保证task对象会作为第一个参数自动传入
 # name：异步任务别名
-# retry_backoff：异常自动重试的时间间隔 第n次(retry_backoff×2^(n-1))s
+# retry_backoff：异常自动重试的时间间隔 第n次(retry_backoff × 2^(n-1))s
 # max_retries：异常自动重试次数的上限
-
-
 @app.task(bind=True, name='sms.send_verification_code', retry_backoff=3)
 def send_verification_code(self, mobile, code):
     """

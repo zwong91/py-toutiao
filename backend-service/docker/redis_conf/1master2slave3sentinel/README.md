@@ -75,14 +75,14 @@ slave1:ip=172.18.0.2,port=6381,state=online,offset=4214,lag=1
 
 #分别进入到master和从节点 开启redis sentinel
 ##主哨兵
-docker exec -it redis-master bash
+docker exec -it redis-server-master bash
 redis-sentinel sentinel.conf
 
 ##两个从哨兵
-docker exec -it redis-slave-1 bash
+docker exec -it redis-server-slave-1 bash
 redis-sentinel [sentinel.conf] /usr/local/etc/redis/redis-sentinel.conf
 
-docker exec -it redis-slave-2 bash
+docker exec -it redis-server-slave-2 bash
 redis-sentinel [sentinel.conf] /usr/local/etc/redis/redis-sentinel.conf
 
 Running in sentinel mode
@@ -109,8 +109,11 @@ OK
 role:slave
 
 # sentinel 打印的选举日志
-docker inspect --format='{{.NetworkSettings.IPAddress}}' redis-master
-docker logs -f -t --tail 100 redis-master
+docker inspect redis-server-master | grep IPAddress
+
+docker inspect -f='{{.Name}} {{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}} {{.HostConfig.PortBindings}}' $(docker ps -aq)
+
+docker logs -f -t --tail 100 redis-server-master
 ```
 
 - Q & A
