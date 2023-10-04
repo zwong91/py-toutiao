@@ -19,7 +19,6 @@ def __fix_statistics(cls):
 def fix_statistics():
     """
     修正redis中存储的统计数据 定时任务
-    :return:
     """
     # 查询数据库得到统计数据
     # class UserArticlesCountStorage(CountStorageBase):
