@@ -1,5 +1,5 @@
 #coding=utf-8
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from dgame.models import gift
@@ -43,6 +43,26 @@ PROTOLSERVER    = "127.0.0.1"
 PROTOLSERVERPORT= 10801
 
 white_ip_list = ["14.28.138.201"]
+
+def redirect_index(request):
+	
+	remote_ip = request.META['REMOTE_ADDR'] 
+	logging.info("remote ip : "+ remote_ip)
+	
+	'''
+	is_white = False
+	for ip in white_ip_list:
+		if remote_ip == ip:
+			is_white = True
+	if is_white == False:
+		return HttpResponse("这里没有东西")
+	'''
+	
+	if request.user.is_authenticated == 0:
+		return HttpResponse("请登录")
+	gift_list = gift.objects.all().order_by('gift_id')[:5]
+	context = {'gift_list': gift_list}
+	return redirect('/utils', context)
 
 def index(request):
 	

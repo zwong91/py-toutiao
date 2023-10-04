@@ -16,8 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-
+from dgame.views import redirect_index
 urlpatterns = [
     path('admin/', admin.site.urls),
 	path('utils/',include('dgame.routes.urls')),
+    path('', redirect_index),
 ]

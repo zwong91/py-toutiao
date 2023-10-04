@@ -1,7 +1,6 @@
 #encoding=utf-8
 import sys
-import pymysql
-pymysql.install_as_MySQLdb()
+import MySQLdb
 
 db_addr = "127.0.0.1"
 db_user = 'dgame'
