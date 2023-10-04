@@ -11,5 +11,5 @@ mgr = socketio.KombuManager(RABBITMQ)
 sio = socketio.Server(async_mode='eventlet', client_manager=mgr)
 
 
-# app对象是交给eventlet协程服务器使用对接的向
+# app对象是交给eventlet协程服务使用对接
 app = socketio.Middleware(sio)
